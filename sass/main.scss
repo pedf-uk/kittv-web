@@ -12,15 +12,15 @@ body {
 
 header {
 	padding: 4rem 0;
-	border-top: 5px solid;
-	border-image: linear-gradient(to right, #8FBCBB 0%, #88C0D0 33%, #81A1C1 66%, #5E81AC 100%) 5;
+	border-top: 8px solid;
+	border-image: linear-gradient(to right, #8FBCBB 0%, #88C0D0 33%, #81A1C1 66%, #5E81AC 100%) 1;
 
 	.wrap {
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
 		height: 6rem;
-		max-width: 1100px;
+		max-width: 1250px;
 	}
 
 	a.logo {
@@ -34,7 +34,7 @@ header {
 		display: flex;
 		flex-direction:column;
 		justify-content: space-between;
-		padding: 0.2rem 0;
+		padding: .3rem 0 .1rem 0;
 	}
 
 	nav {
@@ -45,13 +45,13 @@ header {
 			a {
 				text-decoration: none;
 				color: inherit;
-				padding: 1rem;
+				padding: .9rem;
 			}
 		}
 	}
 
 	nav.secondary {
-		font-size: .8rem;
+		font-size: .9rem;
 		color: #4C566A;
 
 		a:hover {
@@ -61,14 +61,16 @@ header {
 
 	nav.primary {
 		font-weight: bold;
+		font-size: 1.2em;
 
 		a::after {
 			content: "";
 			display: inline-block;
 			background: url("nav-arrow.svg") center center no-repeat;
-			width: 1rem;
-			height: .7rem;
-			margin-left: .5rem;
+			background-width: 100%;
+			width: .5em;
+			height: 50%;
+			margin-left: .4em;
 		}
 	}
 }
