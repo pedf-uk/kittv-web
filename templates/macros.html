@@ -1,0 +1,9 @@
+{% macro nav_list_items(items) %}
+	{% if items %}
+		<ul>
+			{% for item in items %}
+				<li><a href="{{ item.path }}">{{ item.name }}</a></li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+{% endmacro list_items %}

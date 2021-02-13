@@ -1,3 +1,4 @@
+{% import "macros.html" as macro %}
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -16,22 +17,10 @@
 			<a href="{{ config.base_url }}" class="logo"><img src="{{ get_url(path="logo.svg") }}" alt="Logo KITTV"></a>
 			<section>
 				<nav class="secondary">
-					{% if config.extra.nav_secondary %}
-						<ul>
-							{% for item in config.extra.nav_secondary %}
-								<li><a href="{{ item.path }}">{{ item.name }}</a></li>
-							{% endfor %}
-						</ul>
-					{% endif %}
+					{{ macro::nav_list_items(items=config.extra.nav_secondary) }}
 				</nav>
 				<nav class="primary">
-					{% if config.extra.nav_primary %}
-						<ul>
-							{% for item in config.extra.nav_primary %}
-								<li><a href="{{ item.path }}">{{ item.name }}</a></li>
-							{% endfor %}
-						</ul>
-					{% endif %}
+					{{ macro::nav_list_items(items=config.extra.nav_primary) }}
 				</nav>
 			</section>
 		</div>
