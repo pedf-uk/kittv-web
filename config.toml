@@ -18,3 +18,10 @@ nav_secondary = [
 	{path = "https://cuni.cz", name = "Univerzita Karlova"},
 	{path = "https://pedf.cuni.cz", name = "Pedagogická fakulta"}
 ]
+
+nav_rambotron = [
+	{path = "", name = "Harmonogram roku"},
+	{path = "", name = "Termíny přijímacího řízení"},
+	{path = "", name = "Témata závěrečných prací"},
+	{path = "", name = "Okruhy k SZZ"}
+]

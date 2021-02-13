@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{% block extra %}
+	<div class="rambotron">
+		<h1>O katedře</h1>
+		<p>Katedra informačních technologií a technické výchovy Pedagogické fakulty Univerzity Karlovy je báječné místo, kde můžete získat kvalitní vzdělání v oblasti ICT. Tento krásný web je toho důkazem. Srší to tu talentem, entusiazmem i odhodlaností. Jsme zastánci čistého kódu, svobodného softwaru a piva.</p>
+		<div class="links">
+			{{ macro::nav_list_items(items=config.extra.nav_rambotron) }}
+		</div>
+	</div>
+{% endblock extra %}
+
 {% block content %}
 	{{ section.content | safe }}
 {% endblock content %}
