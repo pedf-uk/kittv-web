@@ -1,4 +1,5 @@
 base_url = "https://it.pedf.cuni.cz"
+title = "KITTV"
 
 compile_sass = true
 highlight_code = false
