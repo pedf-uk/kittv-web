@@ -10,11 +10,33 @@
 
 {% macro list_posts(section) %}
 	{% for post in section.pages %}
-		<a href="{{ post.permalink }}">
-			<article>
-				<div class="title">{{ post.title }}</div>
-				<p>{{ post.summary | safe }}</p>
-				<div class="date">{{ post.date | date(format="%d.%m.%Y")}}</div>
+		<a href="
+			{% if post.extra.link %}
+				{{ post.extra.link }}
+			{% else %}
+				{{ post.permalink }}
+			{% endif %}
+		">
+			<article
+				{% if post.extra.color %}
+					style="border-color: {{ post.extra.color }}"
+				{% endif %}
+			>
+				<div class="title">
+					{% if post.extra.logo %}
+						<img src="{{ post.permalink ~ "../" ~ post.extra.logo }}" alt="{{ post.title }}">
+					{% else %}
+						{{ post.title }}
+					{% endif %}
+				</div>
+				{% if post.summary %}
+					{{ post.summary | safe }}
+				{% else %}
+					{{ post.content | safe }}
+				{% endif %}
+				{% if post.date %}
+					<div class="date">{{ post.date | date(format="%d.%m.%Y")}}</div>
+				{% endif %}
 			</article>
 		</a>
 	{% endfor %}

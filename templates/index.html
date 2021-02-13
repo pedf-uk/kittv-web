@@ -13,8 +13,14 @@
 {% block content %}
 	<section>
 		<h1 class="centering">Aktuality</h1>
-		<div class="blocks aktuality">
+		<div class="blocks">
 			{% set section = get_section(path="aktuality/_index.md") %}
+			{{ macro::list_posts(section=section) }}
+		</div>
+	</section>
+	<section>
+		<div class="websites blocks">
+			{% set section = get_section(path="externi_weby/_index.md") %}
 			{{ macro::list_posts(section=section) }}
 		</div>
 	</section>
