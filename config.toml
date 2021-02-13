@@ -7,3 +7,14 @@ build_search_index = false
 
 [extra]
 
+nav_primary = [
+	{path = "", name = "Katedra"},
+	{path = "", name = "Uchazeči"},
+	{path = "", name = "Studenti"},
+	{path = "", name = "Vědecká činnost"}
+]
+
+nav_secondary = [
+	{path = "https://cuni.cz", name = "Univerzita Karlova"},
+	{path = "https://pedf.cuni.cz", name = "Pedagogická fakulta"}
+]

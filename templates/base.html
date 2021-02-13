@@ -12,6 +12,29 @@
 </head>
 <body>
 	<header>
+		<div class="wrap">
+			<a href="{{ config.base_url }}" class="logo"><img src="{{ get_url(path="logo.svg") }}" alt="Logo KITTV"></a>
+			<section>
+				<nav class="secondary">
+					{% if config.extra.nav_secondary %}
+						<ul>
+							{% for item in config.extra.nav_secondary %}
+								<li><a href="{{ item.path }}">{{ item.name }}</a></li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</nav>
+				<nav class="primary">
+					{% if config.extra.nav_primary %}
+						<ul>
+							{% for item in config.extra.nav_primary %}
+								<li><a href="{{ item.path }}">{{ item.name }}</a></li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</nav>
+			</section>
+		</div>
 	</header>
 	<main>
 		{% block content %}{% endblock content %}
