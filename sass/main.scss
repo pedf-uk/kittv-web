@@ -1,9 +1,11 @@
 @import "minireset";
+@import "fonts";
 
 body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	font-family: "roboto", sans-serif;
 }
 
 header {
@@ -24,7 +26,7 @@ footer {
 	border-image: linear-gradient(to right, #BF616A 20%, #D08770 20%, #D08770 40%, #EBCB8B 40%, #EBCB8B 60%, #A3BE8C 60%, #A3BE8C 80%, #B48EAD 80%) 5;
 
 	p:nth-child(2) {
-		margin-top: .5rem;
+		margin-top: 1rem;
 		font-weight: bold;
 	}
 }
