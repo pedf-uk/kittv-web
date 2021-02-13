@@ -7,3 +7,15 @@
 		</ul>
 	{% endif %}
 {% endmacro list_items %}
+
+{% macro list_posts(section) %}
+	{% for post in section.pages %}
+		<a href="{{ post.permalink }}">
+			<article>
+				<div class="title">{{ post.title }}</div>
+				<p>{{ post.summary | safe }}</p>
+				<div class="date">{{ post.date | date(format="%d.%m.%Y")}}</div>
+			</article>
+		</a>
+	{% endfor %}
+{% endmacro list_posts %}

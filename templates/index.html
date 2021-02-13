@@ -11,5 +11,11 @@
 {% endblock extra %}
 
 {% block content %}
-	{{ section.content | safe }}
+	<section>
+		<h1 class="centering">Aktuality</h1>
+		<div class="blocks aktuality">
+			{% set section = get_section(path="aktuality/_index.md") %}
+			{{ macro::list_posts(section=section) }}
+		</div>
+	</section>
 {% endblock content %}
