@@ -3,6 +3,8 @@ title = "Oborová rada"
 weight = 13
 
 [extra]
+logo = "sorit.svg"
+color = "#8FBCBB"
 link = "https://sor.it.pedf.cuni.cz"
 +++
 
