@@ -18,7 +18,7 @@ body {
 header {
 	padding: 4rem 0;
 	border-top: 8px solid;
-	border-image: linear-gradient(to right, #8FBCBB 0%, #88C0D0 33%, #81A1C1 66%, #5E81AC 100%) 1;
+	border-image: linear-gradient(to right, #8FBCBB 25%, #88C0D0 25%,  #88C0D0 50%, #81A1C1 50%,  #81A1C1 75%, #5E81AC 75%, #5E81AC 100%) 1;
 
 	.wrap {
 		margin: 0 auto;
