@@ -8,6 +8,22 @@
 	{% endif %}
 {% endmacro list_items %}
 
+{% macro breadcrumbs(page) %}
+	<div class="breadcrumbs">
+		<div class="wrap">
+			<a href="{{ config.base_url }}" class="home"><img src="{{ get_url(path="home.svg") }}" alt="Home"></a>
+			<ul>
+				{% for ancestor in page.ancestors %}
+					{% if loop.first %}{% continue %}{% endif %}
+					{% set section = get_section(path=ancestor) %}
+					<li><a href="{{ section.permalink }}">{{ section.title }}</a></li>
+				{% endfor %}
+				<li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+			</ul>
+		</div>
+	</div>
+{% endmacro breadcrumbs %}
+
 {% macro list_posts(section) %}
 	{% for post in section.pages %}
 		<a href="

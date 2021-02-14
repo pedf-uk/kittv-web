@@ -1,16 +1,7 @@
 {% extends "base.html" %}
 
 {% block extra %}
-	<div class="breadcrumbs">
-		<div class="wrap">
-			<a href="{{ config.base_url }}" class="home"><img src="{{ get_url(path="home.svg") }}" alt="Home"></a>
-			<ul>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-				<li><a href="">Item</a></li>
-			</ul>
-		</div>
-	</div>
+	{{ macro::breadcrumbs(page=page) }}
 {% endblock %}
 
 {% block content %}
