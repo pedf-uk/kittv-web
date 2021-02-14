@@ -47,8 +47,37 @@ header {
 
 		ul {
 			display: flex;
+			position: relative;
 
 			a { padding: .9rem }
+			a:hover, li:hover { color: #5E81AC }
+
+			li:hover ul { display: grid }
+
+			ul {
+				grid-template-columns: auto auto;
+				display: none;
+				position: absolute;
+				left: 0;
+				top: 100%;
+				width: 100%;
+				margin-top: .9rem;
+				padding: 1rem;
+				background-color: #FFF;
+				border-top: 5px solid #5E81AC;
+				box-shadow: 0px 1px 9px #00000033;
+				font-size: 1rem;
+				font-weight: normal;
+				color: #2E3440;
+
+				a {
+					display: block;
+					padding: .5em;
+
+					&:hover { color: #5E81AC }
+				}
+
+			}
 		}
 	}
 
