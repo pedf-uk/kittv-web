@@ -12,8 +12,14 @@
 	{% if items %}
 		<ul>
 			{% for item in items %}
-				<li>
-					{% set section = get_section(path=item.path~"/_index.md") %}
+				{% set section = get_section(path=item.path~"/_index.md") %}
+				<li
+					{% if section.extra.color %}
+						style="--color: {{ section.extra.color }}"
+					{% else %}
+						style="--color: #5E81AC"
+					{% endif %}
+				>
 					<a href="{{ section.permalink }}">{{ section.title }}</a>
 					{% if section.subsections %}
 						<ul>
