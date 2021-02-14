@@ -217,6 +217,7 @@ div.rambotron {
 
 div.breadcrumbs {
 	border-top: 1px solid #D8DEE9;
+	font-size: .9em;
 
 	.wrap {
 		margin: 0 auto;
@@ -228,6 +229,8 @@ div.breadcrumbs {
 	a.home {
 		display: flex;
 		align-items: center;
+
+		img { height: 1.5em }
 	}
 
 	ul {
@@ -251,6 +254,8 @@ div.breadcrumbs {
 
 				&:hover { text-decoration: underline }
 			}
+
+			&:last-child { font-weight: bold }
 		}
 	}
 }
