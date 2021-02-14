@@ -6,7 +6,28 @@
 			{% endfor %}
 		</ul>
 	{% endif %}
-{% endmacro list_items %}
+{% endmacro %}
+
+{% macro nav_list_items_recursive(items) %}
+	{% if items %}
+		<ul>
+			{% for item in items %}
+				<li>
+					{% set section = get_section(path=item.path~"/_index.md") %}
+					<a href="{{ section.permalink }}">{{ section.title }}</a>
+					{% if section.subsections %}
+						<ul>
+							{% for subsection in section.subsections %}
+								{% set subsection = get_section(path=subsection) %}
+								<li><a href="{{ subsection.permalink }}">{{ subsection.title }}</a></li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+{% endmacro %}
 
 {% macro breadcrumbs(page) %}
 	<div class="breadcrumbs">
@@ -22,7 +43,7 @@
 			</ul>
 		</div>
 	</div>
-{% endmacro breadcrumbs %}
+{% endmacro %}
 
 {% macro list_posts(section) %}
 	{% for post in section.pages %}
@@ -56,4 +77,4 @@
 			</article>
 		</a>
 	{% endfor %}
-{% endmacro list_posts %}
+{% endmacro %}

@@ -8,10 +8,10 @@ build_search_index = false
 [extra]
 
 nav_primary = [
-	{path = "", name = "Katedra"},
-	{path = "", name = "Uchazeči"},
-	{path = "", name = "Studenti"},
-	{path = "", name = "Vědecká činnost"}
+	{path = "katedra", name = "Katedra"},
+	{path = "uchazeci", name = "Uchazeči"},
+	{path = "studenti", name = "Studenti"},
+	{path = "vedecka-cinnost", name = "Vědecká činnost"}
 ]
 
 nav_secondary = [
