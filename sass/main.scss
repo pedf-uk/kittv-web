@@ -133,6 +133,8 @@ main {
 		line-height: 1.5;
 		margin: 1em 0;
 	}
+	a { font-weight: bold }
+	a:hover { text-decoration: underline }
 
 	section {
 		margin-bottom: 5rem;
@@ -144,6 +146,9 @@ main {
 		grid-column-gap: 1rem;
 		grid-row-gap: 2rem;
 		align-items: stretch;
+
+		a { font-weight: normal }
+		a:hover { text-decoration: none }
 
 		article {
 			display: flex;
