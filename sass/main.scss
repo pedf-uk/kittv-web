@@ -71,10 +71,16 @@ header {
 				color: #2E3440;
 
 				a {
-					display: block;
+					display: flex;
+					align-items: center;
 					padding: .5em;
 
 					&:hover { color: var(--color) }
+					.icon {
+						color:  var(--color);
+						margin-right: .4em;
+						font-size: 1.5em;
+					}
 				}
 
 			}

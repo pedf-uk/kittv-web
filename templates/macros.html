@@ -25,7 +25,7 @@
 						<ul>
 							{% for subsection in section.subsections %}
 								{% set subsection = get_section(path=subsection) %}
-								<li><a href="{{ subsection.permalink }}">{{ subsection.title }}</a></li>
+								<li><a href="{{ subsection.permalink }}"><span class="icon">&clubs;</span>{{ subsection.title }}</a></li>
 							{% endfor %}
 						</ul>
 					{% endif %}
