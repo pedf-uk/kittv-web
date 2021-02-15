@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block extra %}
+	{{ macro::breadcrumbs(page=section) }}
+{% endblock %}
+
+{% block content %}
+	<main>
+		<section>
+			<h1>{{ section.title }}</h1>
+			{{ section.content | safe }}
+		</section>
+	</main>
+{% endblock content %}
