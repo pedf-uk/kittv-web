@@ -109,3 +109,34 @@
 		</a>
 	{% endfor %}
 {% endmacro %}
+
+{% macro list_people() %}
+	{% for page in section.pages %}
+		<article>
+			{% if page.extra.image %}
+				<img src="{{ page.permalink~page.extra.image }}" alt="{{ page.title }}">
+			{% else %}
+				<img src="{{ get_url(path="person.jpg") }}" alt="{{ page.title }}">
+			{% endif %}
+			<div class="info">
+				<div>
+					<div class="name"><a href="{{ page.permalink }}">{{ page.title }}</a></div>
+					{% if page.extra.email %}
+						<div class="role">{{ page.extra.role }}</div>
+					{% endif %}
+				</div>
+				<div class="other">
+					{% if page.extra.email %}
+						<div><a href="mailto:{{ page.extra.email }}">{{ page.extra.email }}</a></div>
+					{% endif %}
+					{% if page.extra.phone %}
+						<div><a href="tel:{{ page.extra.phone }}">{{ page.extra.phone }}</a></div>
+					{% endif %}
+					{% if page.extra.time %}
+						<div title="Konzultační hodiny">{{ page.extra.time | safe }}</div>
+					{% endif %}
+				</div>
+			</div>
+		</article>
+	{% endfor %}
+{% endmacro %}
