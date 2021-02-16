@@ -1,5 +1,5 @@
 +++
-title = "Opatření COVID-19"
+title = "☀ Opatření COVID-19"
 date = 2021-02-16
 +++
 
