@@ -64,6 +64,24 @@
 
 {% macro list_posts(section) %}
 	{% for post in section.pages %}
+		<article>
+			<div class="title">
+				<a href="{{ post.permalink }}">{{ post.title }}</a>
+			</div>
+			{% if post.summary %}
+				{{ post.summary | safe }}
+			{% else %}
+				{{ post.content | safe }}
+			{% endif %}
+			{% if post.date %}
+				<div class="date">{{ post.date | date(format="%d.%m.%Y")}}</div>
+			{% endif %}
+		</article>
+	{% endfor %}
+{% endmacro %}
+
+{% macro list_external_links(section) %}
+	{% for post in section.pages %}
 		<a href="
 			{% if post.extra.link %}
 				{{ post.extra.link }}
@@ -83,14 +101,7 @@
 						{{ post.title }}
 					{% endif %}
 				</div>
-				{% if post.summary %}
-					{{ post.summary | safe }}
-				{% else %}
-					{{ post.content | safe }}
-				{% endif %}
-				{% if post.date %}
-					<div class="date">{{ post.date | date(format="%d.%m.%Y")}}</div>
-				{% endif %}
+				{{ post.content | safe }}
 			</article>
 		</a>
 	{% endfor %}
