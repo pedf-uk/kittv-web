@@ -113,11 +113,7 @@
 {% macro list_people() %}
 	{% for page in section.pages %}
 		<article>
-			{% if page.extra.image %}
-				<img src="{{ page.permalink~page.extra.image }}" alt="{{ page.title }}">
-			{% else %}
-				<img src="{{ get_url(path="person.jpg") }}" alt="{{ page.title }}">
-			{% endif %}
+			{{ macro::profile_picture(person=page) }}
 			<div class="info">
 				<div>
 					<div class="name"><a href="{{ page.permalink }}">{{ page.title }}</a></div>
@@ -139,4 +135,18 @@
 			</div>
 		</article>
 	{% endfor %}
+{% endmacro %}
+
+{% macro profile_picture(person) %}
+	{% set_global img_found = 0 %}
+	{% for asset in person.assets %}
+		{% if asset is matching("img.(jpg|png)$") %}
+			{% set_global img_found = 1 %}
+				<img src="{{ resize_image(path=asset, width=128, height=128, op="fill") }}" alt="{{ person.title }}"></a>
+			{% break %}
+		{% endif %}
+	{% endfor %}
+	{% if not img_found == 1 %}
+		<img src="{{ get_url(path="placeholder-avatar.jpg") }}" alt="{{ person.title }}"></a>
+	{% endif %}
 {% endmacro %}
