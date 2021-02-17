@@ -1,32 +1,32 @@
 {% extends "base.html" %}
+
+{% block styles %}
+	<link rel="stylesheet" href="{{ get_url(path="bc_test/webit.css") }}">
+{% endblock styles %}
+
 {% block extra %}
-{{ macro::breadcrumbs(page=page) }}
-{% endblock %}
+	{{ macro::breadcrumbs(page=page) }}
+{% endblock extra %}
+
 
 {% block content %}
-<link rel="stylesheet" href="{{ get_url(path="bc_test/webit.css") | safe }}">
 <main>
-
-
-    <section id="testit">
-        <h1>{{ page.title }}</h1>
-        <form id="examFrom" action="#" method="post">
-            <header>Test sestává z 10 testových otázek po dvou bodech a 4 úloh po pěti bodech. Po odeslání se zvýrazní
-                správně a chybně zodpovězené otázky a vypíše procentuální úspěšnost řešení.
-            </header>
-            <fieldset id="questions"></fieldset>
-            <fieldset id="tasks"></fieldset>
-            <div id="results"></div>
-            <div class="footer"><input type="submit" value="Zkontrolovat odpovědi"></div>
-        </form>
-
-
-
-    </section>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <script src="{{ get_url(path="bc_test/app.js") }}"></script>
-
-
+	<section id="testit">
+		<h1>{{ page.title }}</h1>
+		<form id="examFrom" action="#" method="post">
+			<header>Test sestává z 10 testových otázek po dvou bodech a 4 úloh po pěti bodech. Po odeslání se zvýrazní
+				správně a chybně zodpovězené otázky a vypíše procentuální úspěšnost řešení.
+			</header>
+			<fieldset id="questions"></fieldset>
+			<fieldset id="tasks"></fieldset>
+			<div id="results"></div>
+			<div class="footer"><input type="submit" value="Zkontrolovat odpovědi"></div>
+		</form>
+	</section>
 </main>
 {% endblock content %}
+
+{% block javascript %}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script src="{{ get_url(path="bc_test/app.js") }}"></script>
+{% endblock javascript %}

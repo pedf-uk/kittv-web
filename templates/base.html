@@ -10,6 +10,7 @@
 		{%- endblock title -%}
 	</title>
 	<link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
+	{% block styles %}{% endblock styles %}
 	<link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path="favicon.ico") }}" />
 </head>
 <body>
@@ -32,5 +33,6 @@
 		<p>Magdalény Rettigové 4, 116 39, Praha 1</p>
 		<p>Praha UK PedF KITTV, {{ now() | date(format="%Y") }}</p>
 	</footer>
+	{% block javascript%}{% endblock %}
 </body>
 </html>
