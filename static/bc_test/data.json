@@ -1,0 +1,333 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "text": "Protokol pro přenos hypertextových dokumentů v Internetu označujeme:",
+      "image": null,
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "html",
+          "isCorrect": false
+        },
+        {
+          "id": 1,
+          "text": "http",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "url",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "www",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "text": "Text v šestnáctkovém kódování má podobu 4D4154454D4154494B41. Po zpětném dekódování dostaneme:",
+      "image": null,
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "INFORMATIK",
+          "isCorrect": false
+        },
+        {
+          "id": 1,
+          "text": "LOGISTICKY",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "ARITMETIKA",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "MATEMATIKA",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Součet dvou čísel vyjádřený ve dvojkové soustavě 110011 a 100001 je ve dvojkové soustavě roven:",
+      "image": null,
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "1100110",
+          "isCorrect": false
+        },
+        {
+          "id": 1,
+          "text": "1010100",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "1001100",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "1111000",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Jakou zkratkou označujeme optické rozpoznávání znaků?",
+      "image": null,
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "URL",
+          "isCorrect": false
+        },
+        {
+          "id": 1,
+          "text": "OCR",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "OZR",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "ORL",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Úhlopříčka obrazovky mobilního telefonu o délce 5\" (palců) je rovna:",
+      "image": null,
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "50 cm",
+          "isCorrect": false
+        },
+        {
+          "id": 1,
+          "text": "24,5 cm",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "17,78 cm",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "12,7 cm",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Senátora, který se účastnil se 17 senátory zasedání senátu se zeptali: \"Jak velká část senátu je dnes přítomna?\" Odpověděl: \"Dnes jsou zde jen dvě třetiny z třetiny celého senátu.\" Kolik senátorů je celkem v senátu?",
+      "image": null,
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "81",
+          "isCorrect": true
+        },
+        {
+          "id": 1,
+          "text": "51",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "68",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "76",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Před včerejškem byl podle kalendáře den, který předchází středě. Jaký den bude pozítří?",
+      "image": null,
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "sobota",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Určete celkový odpor na svorkách obvodu zapojeného podle schématu:",
+      "image": {
+
+        "svg": "obvod.svg"
+      },
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "2R",
+          "isCorrect": false
+        },
+        {
+          "id": 1,
+          "text": "3R",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "1/2R",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "3/2R",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Která z uvedených vzdáleností je nejdelší?",
+      "image": null,
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "tři sta milionů cm",
+          "isCorrect": true
+        },
+        {
+          "id": 1,
+          "text": "dvě miliardy mm",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "sto tisíc m",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "tisíc šest set km",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Elektrická energie 1 kWh je odebrána spotřebičem o odporu 20 Ω za dobu 30 minut. Čemu je roven proud?",
+      "image": null,
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "2 A",
+          "isCorrect": false
+        },
+        {
+          "id": 1,
+          "text": "4 A",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "10 A",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "20 A",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 10,
+      "text": "Krokujte algoritmus znázorněný následujícím ikonickým zápisem a určete jaká hodnota bude na konci programu vypsána.",
+      "image": {
+
+        "svg": "algoritmus.svg"
+      },
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "15",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Určete číslice K, L, M a N, různé od nuly, tak, aby z nich vzniklá čísla vyhovovala součtu čísel v desítkové soustavě podle vzoru:",
+      "image": {
+        "svg": "vzor.svg"
+      },
+      "prefix": "KLMN = ",
+      "answers": [
+        {
+          "id": 0,
+          "text": "1573",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Určete součet prvních osmi členů aritmetické posloupnosti, jestliže se součet prvních tří členů rovná 12 a součet prvních pěti členů je 30.",
+      "image": null,
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "72",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Zjistěte třímístný číselný kód k zámku pro který platí následující tvrzení o jednotlivých kombinacích:",
+      "image": {
+        "svg": "zamek.svg"
+      },
+      "prefix": null,
+      "answers": [
+        {
+          "id": 0,
+          "text": "042",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

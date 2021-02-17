@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="279px" height="288px" viewBox="0 0 279 288" enable-background="new 0 0 279 288" xml:space="preserve">
+<path fill="#F2F2F2" stroke="#000000" stroke-miterlimit="10" d="M260.5,259.5c0,6.627-5.373,12-12,12h-219c-6.627,0-12-5.373-12-12 v-228c0-6.627,5.373-12,12-12h219c6.627,0,12,5.373,12,12V259.5z"/>
+<rect x="74.667" y="53.669" fill="none" width="138.667" height="28.667"/>
+<rect x="17.5" y="72.5" fill="#E6E6E6" stroke="#000000" stroke-miterlimit="10" width="243" height="171"/>
+<rect x="44.5" y="99.5" fill="#F2F2F2" stroke="#000000" stroke-miterlimit="10" width="216" height="126"/>
+<rect x="71.5" y="126.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="189" height="27"/>
+<rect x="71.5" y="180.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="189" height="27"/>
+<rect x="17.5" y="45.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="243" height="27"/>
+<rect x="54" y="108" fill="none" width="216" height="18"/>
+<text transform="matrix(1 0 0 1 54 116.5918)"><tspan x="0" y="0" font-family="Arial" font-size="12">Když je </tspan><tspan x="42.686" y="0" fill="#0000FF" font-family="Arial" font-size="12">a</tspan><tspan x="49.359" y="0" font-family="Arial" font-size="12"> dělitelné třemi beze zbytku</tspan></text>
+<rect x="27" y="30.999" fill="none" width="225" height="14.001"/>
+<text transform="matrix(1 0 0 1 119.833 39.5908)" font-family="Arial" font-size="12">START</text>
+<rect x="27" y="54" fill="none" width="252" height="18"/>
+<text transform="matrix(1 0 0 1 27 62.5918)"><tspan x="0" y="0" font-family="Arial" font-size="12">Nastav </tspan><tspan x="40.682" y="0" fill="#0000FF" font-family="Arial" font-size="12">a</tspan><tspan x="47.355" y="0" font-family="Arial" font-size="12"> na </tspan><tspan x="67.371" y="0" font-family="Arial" font-size="12">0</tspan></text>
+<rect x="27" y="81" fill="none" width="216" height="18"/>
+<text transform="matrix(1 0 0 1 27 89.5918)" font-family="Arial" font-size="12">Opakuj 10 krát</text>
+<rect x="81" y="135" fill="none" width="216" height="18"/>
+<text transform="matrix(1 0 0 1 81 143.5918)"><tspan x="0" y="0" font-family="Arial" font-size="12">Zvyš </tspan><tspan x="28.664" y="0" fill="#0000FF" font-family="Arial" font-size="12">a</tspan><tspan x="35.338" y="0" font-family="Arial" font-size="12"> o 1</tspan></text>
+<rect x="81" y="189" fill="none" width="216" height="18"/>
+<text transform="matrix(1 0 0 1 81 197.5918)"><tspan x="0" y="0" font-family="Arial" font-size="12">Zvyš </tspan><tspan x="28.664" y="0" fill="#0000FF" font-family="Arial" font-size="12">a</tspan><tspan x="35.338" y="0" font-family="Arial" font-size="12"> o 2</tspan></text>
+<rect x="27" y="252" fill="none" width="225" height="18"/>
+<text transform="matrix(1 0 0 1 88.8047 260.5918)"><tspan x="0" y="0" font-family="Arial" font-size="12">Ukaž proměnnou </tspan><tspan x="94.717" y="0" fill="#0000FF" font-family="Arial" font-size="12">a</tspan><tspan x="101.391" y="0" font-family="Arial" font-size="12"> </tspan></text>
+<rect x="54" y="162" fill="none" width="216" height="18"/>
+<text transform="matrix(1 0 0 1 54 170.5918)" font-family="Arial" font-size="12">jinak</text>
+</svg>
