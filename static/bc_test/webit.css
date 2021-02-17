@@ -1,0 +1,108 @@
+#testit {
+    max-width: 800px;
+    margin: auto
+}
+#testit header {
+    border: thin black solid;
+    padding: 1em;
+    font-style: italic;
+}
+
+#testit .footer {
+    /*border-top: thin solid black;*/
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+#testit .footer input[type=submit] {
+    font-size: 1.2em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+#testit figure {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+#testit figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+#testit label {
+  padding-left: .5em;
+}
+
+#testit p.question {
+    font-weight: bold;
+    padding-top: 1em;
+    margin-top: 0;
+}
+
+#testit fieldset {
+    border: none;
+}
+
+#testit div.container {
+    display: flex;
+    border-bottom: dashed black thin;
+    padding-bottom: 1em;
+}
+
+#testit div.answer {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#testit div.answer.single {
+    text-align: right;
+}
+
+#testit div.correctAnswer, div.wrongAnswer {
+    font-weight: bold;
+}
+
+#testit div.correctAnswer {
+    color: green
+}
+
+#testit div.correctAnswer input {
+    color: inherit;
+    font-weight: inherit;
+    border-color: green;
+}
+
+#testit div.wrongAnswer {
+    color: red;
+}
+
+#testit div.wrongAnswer input {
+    color: inherit;
+    font-weight: inherit;
+    border-color: red;
+}
+
+#testit #results {
+    text-align: right;
+    font-size: 2em;
+    color: rgb(204,51,0);
+    font-family: cursive;
+    font-style: italic;
+    margin: 0.5em 0;
+    padding-right: 0.5em;
+}
+
+@media screen and (max-width: 500px) {
+    #testit div.container {
+        display: block
+    }
+
+    #testit div.answer {
+        flex-grow: 0;
+        text-align: left;
+        margin-left: 10%;
+    }
+}
