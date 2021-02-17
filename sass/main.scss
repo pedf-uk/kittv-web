@@ -207,52 +207,80 @@ main {
 		}
 	}
 
-	.people-list {
+	.people-profile, .people-list {
 		display: flex;
 		flex-direction: column;
 
-		article {
-			display: flex;
-			align-items: center;
-			height: 8em;
-			margin-bottom: 3em;
-			text-align: left;
+		.role { color: #81A1C1 }
 
+		.other {
+			display: flex;
+
+			div { margin-right: 2em }
+		}
+
+		.info {
 			a { font-weight: normal }
 			a:hover { text-decoration: underline }
+		}
+	}
 
-			img {
+	.people-profile .info {
+
+		text-align: center;
+
+		img {
+			border-radius: 50%;
+			width: 8em;
+			margin-top: 2em;
+		}
+
+		h1 {
+			margin: 1em 0 .5em 0;
+			font-size: 1.6rem;
+		}
+
+		.role {
+			font-weight: bold;
+		}
+
+		.other {
+			justify-content: center;
+			margin: 2rem 0 1rem 0;
+
+			div { margin: 0 1em }
+		}
+	}
+
+	.people-list article {
+		display: flex;
+		align-items: center;
+		height: 8em;
+		margin-bottom: 3em;
+		text-align: left;
+
+		img {
+			display: block;
+			height: 100%;
+			margin-right: 2.5em;
+			border-radius: 50%;
+		}
+
+		.info {
+			height: 70%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			.name a {
 				display: block;
-				height: 100%;
-				margin-right: 2.5em;
-				border-radius: 50%;
-			}
-
-			.info {
-				height: 70%;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-
-				.name a {
-					display: block;
-					font-weight: bold;
-					font-size: 1.5em;
-					margin-bottom: .3em;
-				}
-
-				.role { color: #81A1C1 }
-
-				.other {
-					display: flex;
-
-					div {
-						margin-right: 2em;
-					}
-				}
+				font-weight: bold;
+				font-size: 1.5em;
+				margin-bottom: .3em;
 			}
 		}
 	}
+
 
 	.centering {
 		text-align: center;

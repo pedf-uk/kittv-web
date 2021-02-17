@@ -6,8 +6,11 @@
 
 {% block content %}
 	<main>
-		<section>
-			<h1>{{ page.title }}</h1>
+		<section class="people-profile">
+			<div class="info">
+				{{ macro::profile_picture(profile=page) }}
+				{{ macro::print_profile() }}
+			</div>
 			{{ page.content | safe }}
 		</section>
 	</main>

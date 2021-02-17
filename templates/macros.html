@@ -113,40 +113,54 @@
 {% macro list_people() %}
 	{% for page in section.pages %}
 		<article>
-			{{ macro::profile_picture(person=page) }}
+			{{ macro::profile_picture(profile=page) }}
 			<div class="info">
 				<div>
 					<div class="name"><a href="{{ page.permalink }}">{{ page.title }}</a></div>
-					{% if page.extra.email %}
+					{% if page.extra.role %}
 						<div class="role">{{ page.extra.role }}</div>
 					{% endif %}
 				</div>
 				<div class="other">
-					{% if page.extra.email %}
-						<div><a href="mailto:{{ page.extra.email }}">{{ page.extra.email }}</a></div>
-					{% endif %}
-					{% if page.extra.phone %}
-						<div><a href="tel:{{ page.extra.phone }}">{{ page.extra.phone }}</a></div>
-					{% endif %}
-					{% if page.extra.time %}
-						<div title="Konzultační hodiny">{{ page.extra.time | safe }}</div>
-					{% endif %}
+					{{ macro::profile_info(profile=page) }}
 				</div>
 			</div>
 		</article>
 	{% endfor %}
 {% endmacro %}
 
-{% macro profile_picture(person) %}
+{% macro print_profile() %}
+	<h1>{{ page.title }}</h1>
+	{% if page.extra.role %}
+		<div class="role">{{ page.extra.role }}</div>
+	{% endif %}
+	<div class="other">
+		{{ macro::profile_info(profile=page) }}
+	</div>
+{% endmacro %}
+
+{% macro profile_picture(profile) %}
 	{% set_global img_found = 0 %}
-	{% for asset in person.assets %}
+	{% for asset in profile.assets %}
 		{% if asset is matching("img.(jpg|png)$") %}
 			{% set_global img_found = 1 %}
-				<img src="{{ resize_image(path=asset, width=128, height=128, op="fill") }}" alt="{{ person.title }}"></a>
+				<img src="{{ resize_image(path=asset, width=128, height=128, op="fill") }}" alt="{{ profile.title }}"></a>
 			{% break %}
 		{% endif %}
 	{% endfor %}
 	{% if not img_found == 1 %}
-		<img src="{{ get_url(path="placeholder-avatar.jpg") }}" alt="{{ person.title }}"></a>
+		<img src="{{ get_url(path="placeholder-avatar.jpg") }}" alt="{{ profile.title }}"></a>
+	{% endif %}
+{% endmacro %}
+
+{% macro profile_info(profile) %}
+	{% if profile.extra.email %}
+		<div><a href="mailto:{{ profile.extra.email }}">{{ profile.extra.email }}</a></div>
+	{% endif %}
+	{% if profile.extra.phone %}
+		<div><a href="tel:{{ profile.extra.phone }}">{{ profile.extra.phone }}</a></div>
+	{% endif %}
+	{% if profile.extra.time %}
+		<div title="Konzultační hodiny">{{ profile.extra.time | safe }}</div>
 	{% endif %}
 {% endmacro %}
