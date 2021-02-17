@@ -64,6 +64,9 @@
 
 {% macro list_posts(section) %}
 	{% for post in section.pages %}
+		{% if post.extra.expiration and post.extra.expiration | date(format="%s") | int + 86400 < now(timestamp=true) %}
+			{% continue %}
+		{% endif %}
 		<article>
 			<div class="title">
 				<a href="{{ post.permalink }}">{{ post.title }}</a>
