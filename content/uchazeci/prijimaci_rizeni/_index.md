@@ -8,15 +8,17 @@ magisterské studijní obory zaměřené na informační technologie v
 jednooborové, nebo dvouoborové variantě.
 
 
-## Bakalářské studium (3 roky)
+## [Bakalářské studium (3 roky)](bakalarske)
 
 -  Informační  technologie se zaměřením na vzdělávání
 -  Jednooborové studium *prezenční i kombinované studium*
 -  Dvouoborové studium *pouze prezenční studium*
+-  [Ukázka přijímacího testu k BC studiu](bakalarske/test)
 
-## 	Navazující magisterské studium (2 roky)
+## 	[Navazující magisterské studium (2 roky)](magisterske)
 
 -  Učitelství informačních a komunikačních technologií pro 2. stupeň základní školy a střední školy
+-  [Ukázka přijímacího testu k BC studiu](https://pedf.cuni.cz/PEDF-1495-version1-it_nmgr.pdf)
 
 ### Důležité odkazy
 -   [Obecné informace k přijímacímu řízení](https://pedf.cuni.cz/PEDF-1478.html) (web fakulty)
