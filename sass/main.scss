@@ -129,14 +129,12 @@ main {
 	h1 { font-size: 2em }
 	h2 { font-size: 1.6em }
 	h3 { font-size: 1.2em }
-	p {
-		line-height: 1.5;
-		margin: 1em 0;
-	}
 	ul {
 		list-style: disc;
 		margin-left: 1em;
 	}
+	p { margin: 1em 0 }
+	p, ul { line-height: 1.5 }
 	a { font-weight: bold }
 	a:hover { text-decoration: underline }
 
