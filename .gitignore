@@ -2,3 +2,4 @@ public
 static/processed_images
 *.swp
 zola.exe
+.idea
