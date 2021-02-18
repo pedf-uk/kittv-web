@@ -22,7 +22,7 @@ function createExam() {
         $.ajax({
             async: false,
             global: false,
-            url: "/bc_test/data.json",
+            url: "data.json",
             dataType: "json",
             success: function (data) {
                 exam = data;
@@ -64,7 +64,7 @@ function createExamItem(item) {
     text.innerText = item.text;
     container.appendChild(text);
 
-    var path = "/bc_test/images/";
+    var path = "";
 
     if (item.image !== null) {
         var figure = document.createElement("FIGURE");

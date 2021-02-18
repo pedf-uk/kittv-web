@@ -1,18 +1,18 @@
 {% extends "base.html" %}
 
 {% block styles %}
-	<link rel="stylesheet" href="{{ get_url(path="bc_test/webit.css") }}">
+	<link rel="stylesheet" href="webit.css">
 {% endblock styles %}
 
 {% block extra %}
-	{{ macro::breadcrumbs(page=page) }}
+	{{ macro::breadcrumbs(page=section) }}
 {% endblock extra %}
 
 
 {% block content %}
 <main>
 	<section id="testit">
-		<h1>{{ page.title }}</h1>
+		<h1>{{ section.title }}</h1>
 		<form id="examFrom" action="#" method="post">
 			<header>Test sestává z 10 testových otázek po dvou bodech a 4 úloh po pěti bodech. Po odeslání se zvýrazní
 				správně a chybně zodpovězené otázky a vypíše procentuální úspěšnost řešení.
@@ -28,5 +28,5 @@
 
 {% block javascript %}
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-	<script src="{{ get_url(path="bc_test/app.js") }}"></script>
+	<script src="app.js"></script>
 {% endblock javascript %}
