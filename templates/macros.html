@@ -110,22 +110,24 @@
 	{% endfor %}
 {% endmacro %}
 
-{% macro list_people() %}
+{% macro list_people(group) %}
 	{% for page in section.pages %}
-		<article>
-			{{ macro::profile_picture(profile=page) }}
-			<div class="info">
-				<div>
-					<div class="name"><a href="{{ page.permalink }}">{{ page.title }}</a></div>
-					{% if page.extra.role %}
-						<div class="role">{{ page.extra.role }}</div>
-					{% endif %}
+		{% if page.extra.group and page.extra.group == group %}
+			<article>
+				{{ macro::profile_picture(profile=page) }}
+				<div class="info">
+					<div>
+						<div class="name"><a href="{{ page.permalink }}">{{ page.title }}</a></div>
+						{% if page.extra.role %}
+							<div class="role">{{ page.extra.role }}</div>
+						{% endif %}
+					</div>
+					<div class="other">
+						{{ macro::profile_info(profile=page) }}
+					</div>
 				</div>
-				<div class="other">
-					{{ macro::profile_info(profile=page) }}
-				</div>
-			</div>
-		</article>
+			</article>
+		{% endif %}
 	{% endfor %}
 {% endmacro %}
 

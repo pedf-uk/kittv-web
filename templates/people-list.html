@@ -11,7 +11,12 @@
 			{{ section.content | safe }}
 		</section>
 		<section class="people-list">
-			{{ macro::list_people() }}
+			<h2>Vedení katedry</h2>
+			{{ macro::list_people(group="vedeni") }}
+			<h2>Vědecko-pedagogičtí pracovníci</h2>
+			{{ macro::list_people(group="ucitele") }}
+			<h2>Odborní pracovníci</h2>
+			{{ macro::list_people(group="odborni-pracovnici") }}
 		</section>
 	</main>
 {% endblock content %}
