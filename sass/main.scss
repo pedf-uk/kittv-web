@@ -295,9 +295,13 @@ main {
 		display: inline-block;
 		padding: 1rem 4rem;
 		margin-top: 2rem;
+		outline: none;
+		border: 0;
 		border-top: 5px solid #D8DEE9;
+		background: none;
 		text-transform: uppercase;
 		font-size: .9rem;
+		font-weight: bold;
 
 		&:hover {
 			text-decoration: none;

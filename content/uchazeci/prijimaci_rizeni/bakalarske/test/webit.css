@@ -11,12 +11,6 @@
     text-align: center;
 }
 
-#testit .footer input[type=submit] {
-    font-size: 1.2em;
-    padding: 0.5em;
-    border-radius: 0.5em;
-}
-
 #testit figure {
     width: 100%;
     text-align: center;
