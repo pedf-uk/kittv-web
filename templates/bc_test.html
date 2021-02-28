@@ -5,14 +5,14 @@
 {% endblock styles %}
 
 {% block extra %}
-	{{ macro::breadcrumbs(page=section) }}
+	{{ macro::breadcrumbs(page=page) }}
 {% endblock extra %}
 
 
 {% block content %}
 <main>
 	<section id="testit">
-		<h1>{{ section.title }}</h1>
+		<h1>{{ page.title }}</h1>
 		<form id="examFrom" action="#" method="post">
 			<header>Test sestává z 10 testových otázek po dvou bodech a 4 úloh po pěti bodech. Po odeslání se zvýrazní
 				správně a chybně zodpovězené otázky a vypíše procentuální úspěšnost řešení.
