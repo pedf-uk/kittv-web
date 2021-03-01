@@ -1,5 +1,6 @@
 +++
 title = "doc. RNDr. Miroslava Černochová, CSc."
+weight = 0
 
 [extra]
 group = "ucitele"

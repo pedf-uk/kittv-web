@@ -1,5 +1,6 @@
 +++
 title = "PaedDr. Eva Battistová"
+weight = 0
 
 [extra]
 group = "ucitele"
