@@ -34,7 +34,11 @@
 												&clubs;
 											{% endif %}
 										</span>
-										{{ subsection.title }}
+										{% if subsection.extra.short_title %}
+											{{ subsection.extra.short_title }}
+										{% else %}
+											{{ subsection.title }}
+										{% endif %}
 									</a>
 								</li>
 							{% endfor %}

@@ -1,5 +1,8 @@
 +++
 title = "Přijímací řízení pro rok 2021/2022"
+
+[extra]
+short_title = "Přijímací řízení"
 +++
 
 Na katedře informačních technologií a technické výchovy Pedagogické
