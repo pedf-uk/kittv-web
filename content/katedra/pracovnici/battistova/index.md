@@ -1,9 +1,9 @@
 +++
 title = "PaedDr. Eva Battistová"
-weight = 0
+weight = 4
 
 [extra]
-group = "ucitele"
+group = "vedeni"
 role = "Studijní referent, Garant elektronického zápisu pro KITTV"
 email = "eva.battistova@pedf.cuni.cz"
 phone = "+420 221 900 141"
