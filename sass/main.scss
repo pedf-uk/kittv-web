@@ -183,6 +183,7 @@ main {
 			}
 		}
 	}
+	.blocks.noshadow article { box-shadow: none }
 
 	.websites {
 		grid-template-columns: 1fr 1fr 1fr 1fr;

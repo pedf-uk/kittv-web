@@ -14,7 +14,7 @@
 	<main class="index">
 		<section>
 			<h1 class="centering">Aktuality</h1>
-			<div class="blocks">
+			<div class="blocks noshadow">
 				{% set section = get_section(path="aktuality/_index.md") %}
 				{{ macro::list_posts(section=section) }}
 			</div>
