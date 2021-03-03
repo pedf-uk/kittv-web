@@ -157,12 +157,18 @@
 
 {% macro profile_info(profile) %}
 	{% if profile.extra.email %}
-		<div><a href="mailto:{{ profile.extra.email }}">{{ profile.extra.email }}</a></div>
+		<div class="mail">
+			<a href="mailto:{{ profile.extra.email }}">{{ profile.extra.email }}</a>
+		</div>
 	{% endif %}
 	{% if profile.extra.phone %}
-		<div><a href="tel:{{ profile.extra.phone }}">{{ profile.extra.phone }}</a></div>
+		<div class="tel">
+			<a href="tel:{{ profile.extra.phone }}">{{ profile.extra.phone }}</a>
+		</div>
 	{% endif %}
 	{% if profile.extra.sis %}
-		<a href="https://is.cuni.cz/studium/rozvrhng/roz_ucitel_macro.php?fak=11410&ucitel={{ profile.extra.sis }}">Rozvrh</a>
+		<div class="cal">
+			<a href="https://is.cuni.cz/studium/rozvrhng/roz_ucitel_macro.php?fak=11410&ucitel={{ profile.extra.sis }}">Rozvrh</a>
+		</div>
 	{% endif %}
 {% endmacro %}

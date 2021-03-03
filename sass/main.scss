@@ -221,6 +221,20 @@ main {
 			a { font-weight: normal }
 			a:hover { text-decoration: underline }
 		}
+
+		.mail, .tel, .cal {
+			display: flex;
+			align-items: center;
+
+			&::before {
+				font-family: icomoon;
+				font-size: 1.2em;
+				margin-right: .4em;
+			}
+		}
+		.mail::before { content: "\e90e" }
+		.tel::before { content: "\e913" }
+		.cal::before { content: "\e905" }
 	}
 
 	.people-profile .info {
