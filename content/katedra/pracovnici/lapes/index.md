@@ -6,6 +6,6 @@ weight = 0
 group = "ucitele"
 email = "jakub.lapes@pedf.cuni.cz"
 phone = "+420 221 900 239"
-time = "Úterý 9:45 &ndash; 10:45"
+sis = "18014"
 +++
 

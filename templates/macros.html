@@ -162,7 +162,7 @@
 	{% if profile.extra.phone %}
 		<div><a href="tel:{{ profile.extra.phone }}">{{ profile.extra.phone }}</a></div>
 	{% endif %}
-	{% if profile.extra.time %}
-		<div title="Konzultační hodiny">{{ profile.extra.time | safe }}</div>
+	{% if profile.extra.sis %}
+		<a href="https://is.cuni.cz/studium/rozvrhng/roz_ucitel_macro.php?fak=11410&ucitel={{ profile.extra.sis }}">Rozvrh</a>
 	{% endif %}
 {% endmacro %}

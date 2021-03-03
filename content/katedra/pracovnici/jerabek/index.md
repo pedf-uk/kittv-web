@@ -6,7 +6,7 @@ weight = 0
 group = "ucitele"
 email = "tomas.jerabek@pedf.cuni.cz"
 phone = "+420 221 900 327"
-time = "Čtvrtek 13:00 &ndash; 14:00"
+sis = "21531"
 +++
 
 ## Vědecká činnost

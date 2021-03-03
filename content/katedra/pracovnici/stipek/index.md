@@ -7,6 +7,6 @@ group = "vedeni"
 role = "Vedoucí katedry"
 email = "jirka.stipek@gmail.com"
 phone = "+420 221 900 327"
-time = "Čtvrtek 10:30 &ndash; 11:30"
+sis = "02869"
 +++
 

@@ -7,6 +7,6 @@ group = "vedeni"
 role = "Zástupce vedoucího katedry"
 email = "josef.prochazka@pedf.cuni.cz"
 phone = "+420 221 900 327"
-time = "Pondělí 14:30 &ndash; 15:30"
+sis = "02868"
 +++
 

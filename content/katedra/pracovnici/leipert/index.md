@@ -6,6 +6,6 @@ weight = 0
 group = "ucitele"
 email = "jiri.leipert@pedf.cuni.cz"
 phone = "+420 221 900 235"
-time = "Středa 12:00 &ndash; 13:00"
+sis = "02772"
 +++
 
