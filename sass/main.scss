@@ -76,10 +76,8 @@ header {
 					padding: .5em;
 
 					&:hover { color: var(--color) }
-					.icon {
-						color:  var(--color);
+					[class^="icon-"], [class*=" icon-"] {
 						margin-right: .4em;
-						font-size: 1.5em;
 					}
 				}
 
@@ -100,15 +98,15 @@ header {
 		font-weight: bold;
 		font-size: 1.2em;
 
-		a::after {
-			content: "";
-			display: inline-block;
-			background: url("nav-arrow.svg") center center no-repeat;
-			background-width: 100%;
-			width: .5em;
-			height: 50%;
-			margin-left: .4em;
+		&>ul>li>a::after {
+			content: "\e921";
+			font-family: icomoon;
+			font-size: .8em;
+			margin-left: .5em;
+			color: #5E81AC;
+
 		}
+		&>ul>li>a:hover::after { color: inherit }
 	}
 }
 
@@ -381,16 +379,21 @@ div.breadcrumbs {
 		width: 100%;
 	}
 
-	a.home {
-		display: flex;
-		align-items: center;
+	a {
+		display: inline-block;
+		padding: 1rem;
 
-		img { height: 1.5em }
+		&.home {
+			display: flex; // vertical center
+			font-size: 1.5em;
+			color: #88c0d0;
+
+			&:hover { color: #000 }
+		}
 	}
 
 	ul {
 		display: flex;
-		margin-left: .9rem;
 
 		li {
 			display: flex;
@@ -403,14 +406,8 @@ div.breadcrumbs {
 				color: #D8DEE9;
 			}
 
-			a {
-				display: inline-block;
-				padding: 1rem;
-
-				&:hover { text-decoration: underline }
-			}
-
 			&:last-child { font-weight: bold }
+			a:hover { text-decoration: underline }
 		}
 	}
 }

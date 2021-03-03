@@ -27,13 +27,9 @@
 								{% set subsection = get_section(path=subsection) %}
 								<li>
 									<a href="{{ subsection.permalink }}">
-										<span class="icon">
 											{% if subsection.extra.icon %}
-												{{ subsection.extra.icon | safe }}
-											{% else %}
-												&clubs;
+												<span class="{{ subsection.extra.icon | safe }}"></span>
 											{% endif %}
-										</span>
 										{% if subsection.extra.short_title %}
 											{{ subsection.extra.short_title }}
 										{% else %}
@@ -53,7 +49,7 @@
 {% macro breadcrumbs(page) %}
 	<div class="breadcrumbs">
 		<div class="wrap">
-			<a href="{{ config.base_url }}" class="home"><img src="{{ get_url(path="home.svg") }}" alt="Home"></a>
+			<a href="{{ config.base_url }}" class="home"><span class="icon-home-8-line"></span></a>
 			<ul>
 				{% for ancestor in page.ancestors %}
 					{% if loop.first %}{% continue %}{% endif %}
