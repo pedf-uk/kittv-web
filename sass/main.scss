@@ -51,7 +51,6 @@ header {
 
 			a { padding: .9rem }
 			li:hover { color: var(--color) }
-
 			li:hover ul { display: grid }
 
 			ul {
@@ -75,12 +74,11 @@ header {
 					align-items: center;
 					padding: .5em;
 
-					&:hover { color: var(--color) }
 					[class^="icon-"], [class*=" icon-"] {
+						color: var(--color);
 						margin-right: .4em;
 					}
 				}
-
 			}
 		}
 	}
@@ -106,7 +104,7 @@ header {
 			color: #5E81AC;
 
 		}
-		&>ul>li>a:hover::after { color: inherit }
+		&>ul>li:hover>a::after { color: inherit }
 	}
 }
 
