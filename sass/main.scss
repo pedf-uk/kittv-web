@@ -20,10 +20,16 @@ header {
 	border-top: 8px solid;
 	border-image: linear-gradient(to right, #8FBCBB 25%, #88C0D0 25%,  #88C0D0 50%, #81A1C1 50%,  #81A1C1 75%, #5E81AC 75%, #5E81AC 100%) 1;
 
+	&.compact {
+		padding: 1.3rem 0;
+		.wrap { height: 4rem }
+	}
+
 	.wrap {
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		height: 6rem;
 		max-width: 1200px;
 		width: 100%;

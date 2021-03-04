@@ -15,19 +15,19 @@
 	<link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path="favicon.ico") }}" />
 </head>
 <body>
-	<header>
-		<div class="wrap">
-			<a href="{{ config.base_url }}" class="logo"><img src="{{ get_url(path="logo.svg") }}" alt="Logo KITTV"></a>
-			<section>
-				<nav class="secondary">
-					{{ macro::nav_list_items(items=config.extra.nav_secondary) }}
-				</nav>
+	{% block header %}
+		<header class="compact">
+			<div class="wrap">
+				<a href="{{ config.base_url }}" class="logo"><img src="{{ get_url(path="logo-plain.svg") }}" alt="Logo KITTV"></a>
 				<nav class="primary">
 					{{ macro::nav_list_items_recursive(items=config.extra.nav_primary) }}
 				</nav>
-			</section>
-		</div>
-	</header>
+				<nav class="secondary">
+					<span class="icon-search-line"></span>
+				</nav>
+			</div>
+		</header>
+	{% endblock header %}
 	{% block extra %}{% endblock extra %}
 	{% block content %}{% endblock content %}
 	<footer>

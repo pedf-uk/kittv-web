@@ -1,5 +1,21 @@
 {% extends "base.html" %}
 
+{% block header %}
+	<header>
+		<div class="wrap">
+			<a href="{{ config.base_url }}" class="logo"><img src="{{ get_url(path="logo.svg") }}" alt="Logo KITTV"></a>
+			<section>
+				<nav class="secondary">
+					{{ macro::nav_list_items(items=config.extra.nav_secondary) }}
+				</nav>
+				<nav class="primary">
+					{{ macro::nav_list_items_recursive(items=config.extra.nav_primary) }}
+				</nav>
+			</section>
+		</div>
+		</header>
+{% endblock header %}
+
 {% block extra %}
 	<div class="rambotron">
 		<h1>O katedře</h1>
