@@ -6,11 +6,9 @@
 
 {% block content %}
 	<main>
-		<section class="centering">
+		<section class="centering people-list">
 			<h1>{{ section.title }}</h1>
 			{{ section.content | safe }}
-		</section>
-		<section class="people-list">
 			<h2>Vedení katedry</h2>
 			{{ macro::list_people(group="vedeni") }}
 			<h2>Vědecko-pedagogičtí pracovníci</h2>
