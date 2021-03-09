@@ -7,7 +7,11 @@
 {% block content %}
 	<main>
 		<section>
-			<h1>{{ section.title }}</h1>
+			<h1>{% if section.extra.heading %}
+				{{ section.extra.heading }}
+			{% else %}
+				{{ section.title }}
+			{% endif %}</h1>
 			{{ section.content | safe }}
 		</section>
 	</main>

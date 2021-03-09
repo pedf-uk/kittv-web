@@ -29,12 +29,8 @@
 									<a href="{{ subsection.permalink }}">
 											{% if subsection.extra.icon %}
 												<span class="{{ subsection.extra.icon | safe }}"></span>
-											{% endif %}
-										{% if subsection.extra.short_title %}
-											{{ subsection.extra.short_title }}
-										{% else %}
+											{% endif %}									
 											{{ subsection.title }}
-										{% endif %}
 									</a>
 								</li>
 							{% endfor %}
