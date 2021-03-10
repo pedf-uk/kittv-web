@@ -3,14 +3,17 @@ title = "Bakalářské studium"
 +++
 
 ## Informační  technologie se zaměřením na vzdělávání
+
 - [Ukázka přijímacího testu k BC studiu](@/uchazeci/prijimaci_rizeni/bakalarske/test/index.md)
 
 ### Jednooborové studium
+
 - [Popis oboru v prezenční formě][OPB1 detail]
 - [Popis oboru v kombinované formě][OKB1 detail]
 - [Studijí plán jednooborového studia][OB1 plan]
 
 ### Dvouoborové studium (pouze prezenční studium)
+
 - Anglickým jazykem (maior / minor)
 - Matematikou (maior / minor)
 - Pedagogikou
