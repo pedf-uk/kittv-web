@@ -31,3 +31,10 @@ nav_rambotron = [
 	{path = "", name = "Témata závěrečných prací"},
 	{path = "", name = "Okruhy k SZZ"}
 ]
+
+nav_footer = [
+	{path = "", name = "Bakalářská studia"},
+	{path = "", name = "Magisterská studia"},
+	{path = "", name = "Harmonogram ak. roku"},
+	{path = "", name = "Formuláře"},
+]

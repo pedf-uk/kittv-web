@@ -31,6 +31,9 @@
 	{% block extra %}{% endblock extra %}
 	{% block content %}{% endblock content %}
 	<footer>
+		<nav>
+			{{ macro::nav_list_items(items=config.extra.nav_footer) }}
+		</nav>
 		<p>Magdalény Rettigové 4, 116 39, Praha 1</p>
 		<p>Praha UK PedF KITTV, {{ now() | date(format="%Y") }}</p>
 	</footer>

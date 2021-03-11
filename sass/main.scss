@@ -338,14 +338,35 @@ footer {
 	margin-top: auto;
 	padding: 3em;
 	text-align: center;
-	color: #ECEFF4;
+	color: #FFF;
 	background-color: #2E3440;
 	border-top: 5px solid;
 	border-image: linear-gradient(to right, #BF616A 20%, #D08770 20%, #D08770 40%, #EBCB8B 40%, #EBCB8B 60%, #A3BE8C 60%, #A3BE8C 80%, #B48EAD 80%) 5;
 
-	p:nth-child(2) {
-		margin-top: 1rem;
-		font-weight: bold;
+	p {
+		font-size: .9em;
+		color: #D8DEE9;
+	}
+	p:last-child { margin-top: .5em }
+
+	nav {
+		margin-bottom: 3em;
+		font-size: 1rem;
+
+		ul {
+			display: flex;
+			justify-content: center;
+
+			a { padding: 1em }
+			a:hover{ text-decoration: underline }
+			li::after {
+				content: "\007C";
+				color: #4C566A;
+			}
+			li:last-child::after {
+				display: none;
+			}
+		}
 	}
 }
 
