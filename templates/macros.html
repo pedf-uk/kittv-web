@@ -162,6 +162,11 @@
 			<a href="tel:{{ profile.extra.phone }}">{{ profile.extra.phone }}</a>
 		</div>
 	{% endif %}
+	{% if profile.extra.homepage %}
+		<div class="homepage">
+			<a href="{{ profile.extra.homepage }}">{{ profile.extra.homepage | replace(from="https://", to="") | replace(from="http://", to="") }}</a>
+		</div>
+	{% endif %}
 	{% if profile.extra.sis %}
 		<div class="cal">
 			<a href="https://is.cuni.cz/studium/rozvrhng/roz_ucitel_macro.php?fak=11410&ucitel={{ profile.extra.sis }}">Rozvrh</a>

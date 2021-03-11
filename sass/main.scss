@@ -228,7 +228,7 @@ main {
 			a:hover { text-decoration: underline }
 		}
 
-		.mail, .tel, .cal {
+		.mail, .tel, .cal, .homepage {
 			display: flex;
 			align-items: center;
 
@@ -241,6 +241,7 @@ main {
 		.mail::before { content: "\e90e" }
 		.tel::before { content: "\e913" }
 		.cal::before { content: "\e905" }
+		.homepage::before { content: "\e907" }
 	}
 
 	.people-profile .info {
@@ -271,7 +272,6 @@ main {
 	}
 
 	.people-list {
-
 
 		h1 { margin-bottom: 0 }
 		h2 {
