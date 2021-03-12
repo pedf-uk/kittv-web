@@ -138,8 +138,19 @@ main {
 	}
 	p { margin: 1em 0 }
 	p, ul { line-height: 1.5 }
-	a { font-weight: bold }
+	a {
+		font-weight: bold;
+		color: #5E81AC;
+	}
 	a:hover { text-decoration: underline }
+
+	a[rel~="noreferrer"]::after {
+		content: "\e907";
+		font-family: icomoon;
+		font-size: .8em;
+		font-weight: normal;
+		margin-left: .2em;
+	}
 
 	section {
 		margin-bottom: 5rem;
@@ -153,7 +164,10 @@ main {
 		align-items: stretch;
 		justify-items: center;
 
-		a { font-weight: normal }
+		a {
+			font-weight: normal;
+			color: inherit;
+		}
 		a:hover { text-decoration: none }
 
 		article {
@@ -224,7 +238,10 @@ main {
 		}
 
 		.info {
-			a { font-weight: normal }
+			a {
+				font-weight: normal;
+				color: inherit;
+			}
 			a:hover { text-decoration: underline }
 		}
 
@@ -322,6 +339,7 @@ main {
 		text-transform: uppercase;
 		font-size: .9rem;
 		font-weight: bold;
+		color: inherit;
 
 		&:hover {
 			text-decoration: none;
