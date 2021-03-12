@@ -164,10 +164,7 @@ main {
 		align-items: stretch;
 		justify-items: center;
 
-		a {
-			font-weight: normal;
-			color: inherit;
-		}
+		a { font-weight: normal }
 		a:hover { text-decoration: none }
 
 		article {
@@ -178,6 +175,7 @@ main {
 			padding: 1em;
 			border-top: 5px solid #5E81AC;
 			font-size: .85em;
+			color: #2E3440;
 
 			a { font-weight: bold }
 			a:hover { text-decoration: underline }
