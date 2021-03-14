@@ -20,7 +20,7 @@
 			<div class="wrap">
 				<a href="{{ config.base_url }}" class="logo"><img src="{{ get_url(path="logo-plain.svg") }}" alt="Logo KITTV"></a>
 				<nav class="primary">
-					{{ macro::nav_list_items_recursive(items=config.extra.nav_primary) }}
+					{{ macro::nav_list_items_main(items=config.extra.nav_primary) }}
 				</nav>
 				<nav class="secondary">
 					<span class="icon-search-line"></span>

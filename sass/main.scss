@@ -57,12 +57,13 @@ header {
 
 			a { padding: .9rem }
 			li:hover { color: var(--color) }
-			li:hover ul { display: grid }
+			li:hover div { display: grid }
 
-			ul {
-				grid-template-columns: auto auto;
+			li>div {
 				display: none;
 				position: absolute;
+				grid-template-columns: 1fr 1fr;
+				column-gap: 1em;
 				left: 0;
 				top: 100%;
 				width: 100%;
@@ -75,14 +76,25 @@ header {
 				font-weight: normal;
 				color: #2E3440;
 
-				a {
-					display: flex;
-					align-items: center;
+				.title {
+					margin-bottom: 1em;
 					padding: .5em;
+					font-weight: bold;
+					color: var(--color);
+				}
 
-					[class^="icon-"], [class*=" icon-"] {
-						color: var(--color);
-						margin-right: .4em;
+				ul {
+					flex-direction: column;
+
+					a {
+						display: flex;
+						align-items: center;
+						padding: .5em;
+
+						[class^="icon-"], [class*=" icon-"] {
+							color: var(--color);
+							margin-right: .5em;
+						}
 					}
 				}
 			}

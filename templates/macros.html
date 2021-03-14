@@ -8,7 +8,7 @@
 	{% endif %}
 {% endmacro %}
 
-{% macro nav_list_items_recursive(items) %}
+{% macro nav_list_items_main(items) %}
 	{% if items %}
 		<ul>
 			{% for item in items %}
@@ -22,19 +22,42 @@
 				>
 					<a href="{{ section.permalink }}">{{ section.title }}</a>
 					{% if section.subsections %}
-						<ul>
-							{% for subsection in section.subsections %}
-								{% set subsection = get_section(path=subsection) %}
-								<li>
-									<a href="{{ subsection.permalink }}">
-											{% if subsection.extra.icon %}
-												<span class="{{ subsection.extra.icon | safe }}"></span>
-											{% endif %}									
-											{{ subsection.title }}
-									</a>
-								</li>
-							{% endfor %}
-						</ul>
+						<div>
+							{% if section.extra.nav_title_left and section.extra.nav_title_right %}
+								<div class="title">{{ section.extra.nav_title_left }}</div>
+								<div class="title">{{ section.extra.nav_title_right }}</div>
+							{% endif %}
+							<ul>
+								{% for subsection in section.subsections %}
+									{% set subsection = get_section(path=subsection) %}
+									{% if not subsection.extra.nav_right %}
+										<li>
+											<a href="{{ subsection.permalink }}">
+												{% if subsection.extra.icon %}
+													<span class="{{ subsection.extra.icon | safe }}"></span>
+												{% endif %}
+												{{ subsection.title }}
+											</a>
+										</li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+							<ul>
+								{% for subsection in section.subsections %}
+									{% set subsection = get_section(path=subsection) %}
+									{% if subsection.extra.nav_right %}
+										<li>
+											<a href="{{ subsection.permalink }}">
+												{% if subsection.extra.icon %}
+													<span class="{{ subsection.extra.icon | safe }}"></span>
+												{% endif %}
+												{{ subsection.title }}
+											</a>
+										</li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+						</div>
 					{% endif %}
 				</li>
 			{% endfor %}
