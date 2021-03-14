@@ -120,10 +120,8 @@ main {
 	margin: 0 auto;
 	padding: 1rem;
 
-	&.index {
-		max-width: 1200px;
-		h1 { margin: 2em 0 1em 0 }
-	}
+	&.fullwidth, &.index { max-width: 1200px }
+	&.index h1 { margin: 2em 0 1em 0 }
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: bold;
@@ -288,39 +286,49 @@ main {
 
 	.people-list {
 
-		h1 { margin-bottom: 0 }
+		h1 { margin-bottom: -1em }
 		h2 {
-			margin: 3rem 0;
+			margin: 5rem 0 4rem 0;;
 			font-size: 1.4rem;
 			text-align: center;
 			color: #4C566A;
 		}
 
+		.group {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			row-gap: 4rem;
+			column-gap: 2rem;
+		}
+
 		article {
 			display: flex;
-			align-items: center;
-			height: 8em;
-			margin-bottom: 3em;
+			align-items: flex-start;
 			text-align: left;
+			padding-top: 2em;
+			border-top: 5px solid #D8DEE9;
 
 			img {
-				display: block;
-				height: 100%;
+				width: 8rem;
 				margin-right: 2.5em;
 				border-radius: 50%;
 			}
 
 			.info {
-				height: 70%;
 				display: flex;
 				flex-direction: column;
-				justify-content: space-between;
 
 				.name a {
 					display: block;
 					font-weight: bold;
-					font-size: 1.5em;
+					font-size: 1.3em;
 					margin-bottom: .3em;
+				}
+				.other {
+					flex-direction: column;
+					margin-top: 1em;
+
+					div { margin-bottom: .5em }
 				}
 			}
 		}
