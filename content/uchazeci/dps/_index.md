@@ -1,8 +1,8 @@
 +++
-title = "Bakalářské studium"
-weight = 1
+title = "Studium v oblasti pg. věd (DPS)"
+weight = 3
 [extra]
-icon = "icon-award-fill"
+icon = "icon-stack-line"
 +++
 
 ## Informační  technologie se zaměřením na vzdělávání
