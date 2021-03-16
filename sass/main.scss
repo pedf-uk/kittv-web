@@ -490,3 +490,18 @@ div.breadcrumbs {
 		}
 	}
 }
+
+table {
+	th {
+		padding: 1em;
+		text-align: left;
+		background-color: #D8DEE9;
+	}
+	td {
+		padding: .25em 1em;
+		border-bottom: 1px solid #D8DEE9;
+	}
+	border: 1px solid #D8DEE9;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
