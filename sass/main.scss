@@ -1,5 +1,8 @@
 @import "minireset";
 @import "fonts";
+$light-blue: #D8DEE9;
+$rambotron-blue: #5E81AC;
+$xdark-blue: #2E3440;
 
 a {
 	text-decoration: none;
@@ -18,7 +21,7 @@ body {
 header {
 	padding: 4rem 0;
 	border-top: 8px solid;
-	border-image: linear-gradient(to right, #8FBCBB 25%, #88C0D0 25%,  #88C0D0 50%, #81A1C1 50%,  #81A1C1 75%, #5E81AC 75%, #5E81AC 100%) 1;
+	border-image: linear-gradient(to right, #8FBCBB 25%, #88C0D0 25%,  #88C0D0 50%, #81A1C1 50%,  #81A1C1 75%, $rambotron-blue 75%, $rambotron-blue 100%) 1;
 
 	&.compact {
 		padding: 1.3rem 0;
@@ -119,7 +122,7 @@ header {
 			font-family: icomoon;
 			font-size: .8em;
 			margin-left: .5em;
-			color: #5E81AC;
+			color: $rambotron-blue;
 
 		}
 		&>ul>li:hover>a::after { color: inherit }
@@ -150,7 +153,7 @@ main {
 	p, ul { line-height: 1.5 }
 	a {
 		font-weight: bold;
-		color: #5E81AC;
+		color: $rambotron-blue;
 	}
 	a:hover { text-decoration: underline }
 
@@ -183,7 +186,7 @@ main {
 			max-width: 50em;
 			height: 100%;
 			padding: 1em;
-			border-top: 5px solid #5E81AC;
+			border-top: 5px solid $rambotron-blue;
 			font-size: .85em;
 			color: #2E3440;
 
@@ -237,7 +240,7 @@ main {
 		display: flex;
 		flex-direction: column;
 
-		.role { color: #81A1C1 }
+		.role { color: #81a1c1 }
 
 		.other {
 			display: flex;
@@ -318,7 +321,7 @@ main {
 			align-items: flex-start;
 			text-align: left;
 			padding-top: 2em;
-			border-top: 5px solid #D8DEE9;
+			border-top: 5px solid $light-blue;
 
 			img {
 				width: 8rem;
@@ -352,7 +355,7 @@ main {
 		margin-top: 2rem;
 		outline: none;
 		border: 0;
-		border-top: 5px solid #D8DEE9;
+		border-top: 5px solid $light-blue;
 		background: none;
 		text-transform: uppercase;
 		font-size: .9rem;
@@ -381,7 +384,7 @@ footer {
 
 	p {
 		font-size: .9em;
-		color: #D8DEE9;
+		color: $light-blue;
 	}
 	p:last-child { margin-top: .5em }
 
@@ -410,7 +413,7 @@ div.rambotron {
 	width: 100%;
 	text-align: center;
 	color: #ECEFF4;
-	background: linear-gradient(rgba(94, 129, 172, 0.95), rgba(94, 129, 172, 0.95)), url("rambotron.jpg") center center no-repeat;
+	background: linear-gradient(rgba($rambotron-blue, 0.95), rgba($rambotron-blue, 0.95)), url("rambotron.jpg") center center no-repeat;
 	background-size: cover;
 
 	h1 {
@@ -448,7 +451,7 @@ div.rambotron {
 }
 
 div.breadcrumbs {
-	border-top: 1px solid #D8DEE9;
+	border-top: 1px solid $light-blue;
 	font-size: .9em;
 
 	.wrap {
@@ -482,7 +485,7 @@ div.breadcrumbs {
 				content: "\203A";
 				margin: 0 1em;
 				font-weight: bold;
-				color: #D8DEE9;
+				color: $light-blue;
 			}
 
 			&:last-child { font-weight: bold }
@@ -495,13 +498,13 @@ table {
 	th {
 		padding: 1em;
 		text-align: left;
-		background-color: #D8DEE9;
+		background-color: $light-blue;
 	}
 	td {
 		padding: .25em 1em;
-		border-bottom: 1px solid #D8DEE9;
+		border-bottom: 1px solid $light-blue;
 	}
-	border: 1px solid #D8DEE9;
+	border: 1px solid $light-blue;
 	border-collapse: collapse;
     border-spacing: 0;
 }
