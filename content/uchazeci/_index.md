@@ -30,5 +30,5 @@ Cílem studijního programu je poskytnout jeho absolventům ucelené magistersk�
 - Dvouoborové studium **pouze v prezenční formě**
 - [Souhrnné informace o navazujícím magisterském studiu][NMgr]
 
-[Bc]: @/uchazeci/prijimaci_rizeni/bakalarske/_index.md
-[NMgr]: @/uchazeci/prijimaci_rizeni/magisterske/_index.md
+[Bc]: @/uchazeci/bakalarske/_index.md
+[NMgr]: @/uchazeci/magisterske/_index.md

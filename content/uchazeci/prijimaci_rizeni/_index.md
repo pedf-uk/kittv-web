@@ -1,7 +1,9 @@
 +++
-title = "Přijímací řízení"
+title = "Aktuální informace"
 [extra]
 heading = "Přijímací řízení pro rok 2021/2022"
+nav_right = true
+icon = "icon-information-line"
 +++
 
 ## Důležité odkazy

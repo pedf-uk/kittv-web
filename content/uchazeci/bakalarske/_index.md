@@ -1,10 +1,12 @@
 +++
 title = "Bakalářské studium"
+[extra]
+icon = "icon-award-fill"
 +++
 
 ## Informační  technologie se zaměřením na vzdělávání
 
-- [Ukázka přijímacího testu k BC studiu](@/uchazeci/prijimaci_rizeni/bakalarske/test/index.md)
+- [Ukázka přijímacího testu k BC studiu](@/uchazeci/bakalarske/test/index.md)
 
 ### Jednooborové studium
 
