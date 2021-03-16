@@ -3,6 +3,8 @@ title = "Uchazeči"
 
 [extra]
 color = "#A3BE8C"
+nav_title_left = "Studijní programy"
+nav_title_right = "Přijímací řízení"
 heading = "Souhrnné informace pro uchazeče o studium"
 
 +++
