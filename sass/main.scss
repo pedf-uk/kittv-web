@@ -60,10 +60,15 @@ header {
 
 			a { padding: .9rem }
 			li:hover { color: var(--color) }
-			li:hover div { display: grid }
 
+			li:hover>div {
+				visibility: visible;
+				transform: translate(0);
+				opacity: 1;
+				transition: all .1s ease-out;
+			}
 			li>div {
-				display: none;
+				display: grid;
 				position: absolute;
 				grid-template-columns: 1fr 1fr;
 				column-gap: 1em;
@@ -78,6 +83,9 @@ header {
 				font-size: 1rem;
 				font-weight: normal;
 				color: #2E3440;
+				visibility: hidden;
+				transform: translate(0, -1em);
+				opacity: 0;
 
 				.title {
 					margin-bottom: 1em;
