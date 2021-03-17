@@ -5,7 +5,7 @@ weight = 4
 icon = "icon-psychotherapy-line"
 +++
 
-## Kompletní nabídka zájmových programů vyučovaných na katedře IT
+## Nabídka zájmových programů vyučovaných na katedře IT
 
 | Název programu                               | Rozsah | Cílová skupina |Forma      |
 | -------------------------------------------- | ------:|:--------------:| --------- |
