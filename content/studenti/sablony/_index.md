@@ -7,8 +7,8 @@ icon = "icon-psychotherapy-line"
 
 ## Seznam zájmových programů vyučovaných na katedře IT
 
-| Název programu                               | Rozsah | Garant kurzu                             | Online podpora |
-| -------------------------------------------- | ------:| ----------------------------------------- | --------- |
+| Název programu                               | Rozsah | Garant kurzu                              | Online podpora  |
+| -------------------------------------------- | ------:| ----------------------------------------- | --------------- |
 | Vzdělávací technologie v MŠ                  | 10 hod | [PhDr. Jakub Lapeš][lapes]                | [moodle][M2071] |
 | Edukační robotika pro 1. stupeň ZŠ           | 12 hod | [PhDr. Jakub Lapeš][lapes]                | [moodle][M2072] |
 | Edukační robotika pro 2. stupeň ZŠ           | 12 hod | [PhDr. Daniel Tocháček][tochacek]         | [moodle][M2073] |

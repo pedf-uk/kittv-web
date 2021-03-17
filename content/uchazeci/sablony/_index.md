@@ -8,7 +8,7 @@ icon = "icon-psychotherapy-line"
 
 ## Nabídka zájmových programů vyučovaných na katedře IT
 
-| Název programu                               | Rozsah | Cílová skupina |Forma      |
+| Název programu                               | Rozsah | Cílová skupina | Forma     |
 | -------------------------------------------- | ------:|:--------------:| --------- |
 | Vzdělávací technologie v MŠ                  | 10 hod | učitelé MŠ     | Prezenční |
 | Edukační robotika pro 1. stupeň ZŠ           | 12 hod | učitelé ZŠ     | Prezenční |
