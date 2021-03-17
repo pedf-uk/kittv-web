@@ -2,6 +2,7 @@
 title = "Zájmové programy CŽV"
 weight = 4
 [extra]
+heading = "Zájmové programy CŽV (šablony)"
 icon = "icon-psychotherapy-line"
 +++
 
