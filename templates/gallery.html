@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block extra %}
+	{{ macro::breadcrumbs(page=page) }}
+{% endblock %}
+
+{% block content %}
+	<main>
+		<section class="centering">
+			<h1>{% if page.extra.heading %}
+				{{ page.extra.heading }}
+			{% else %}
+				{{ page.title }}
+			{% endif %}</h1>
+			{{ page.content | safe }}
+			{{ macro::gallery(page=page) }}
+		</section>
+	</main>
+{% endblock content %}
