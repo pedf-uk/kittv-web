@@ -329,7 +329,7 @@ main {
 			align-items: flex-start;
 			text-align: left;
 			padding-top: 2em;
-			border-top: 5px solid $light-blue;
+			border-top: 5px solid var(--color);
 
 			img {
 				width: 8rem;
@@ -347,6 +347,7 @@ main {
 					font-size: 1.3em;
 					margin-bottom: .3em;
 				}
+				.role { color: var(--color) }
 				.other {
 					flex-direction: column;
 					margin-top: 1em;

@@ -133,7 +133,13 @@
 	<div class="group">
 		{% for page in section.pages %}
 			{% if page.extra.group and page.extra.group == group %}
-				<article>
+				<article
+					 {% if page.extra.color %}
+						style="--color: {{ page.extra.color }}"
+					 {% else %}
+						style="--color: #81A1C1"
+					 {% endif %}
+				>
 					{{ macro::profile_picture(profile=page) }}
 					<div class="info">
 						<div>

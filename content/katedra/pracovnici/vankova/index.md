@@ -4,6 +4,7 @@ weight = 3
 
 [extra]
 group = "vedeni"
+color = "#B48EAD"
 role = "Tajemnice"
 email = "petra.vankova@pedf.cuni.cz"
 phone = "+420 221 900 140"

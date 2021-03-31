@@ -4,6 +4,7 @@ weight = 1
 
 [extra]
 group = "vedeni"
+color = "#B48EAD"
 role = "Vedoucí katedry"
 email = "jirka.stipek@gmail.com"
 phone = "+420 221 900 327"
