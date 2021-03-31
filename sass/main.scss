@@ -19,7 +19,7 @@ body {
 }
 
 header {
-	padding: 4rem 0;
+	padding: 3rem 0;
 	border-top: 8px solid;
 	border-image: linear-gradient(to right, #8FBCBB 25%, #88C0D0 25%,  #88C0D0 50%, #81A1C1 50%,  #81A1C1 75%, $rambotron-blue 75%, $rambotron-blue 100%) 1;
 
@@ -384,7 +384,7 @@ main {
 
 footer {
 	margin-top: auto;
-	padding: 3em;
+	padding: 3em 1em 2em 1em;
 	text-align: center;
 	color: #FFF;
 	background-color: #2E3440;
@@ -398,7 +398,7 @@ footer {
 	p:last-child { margin-top: .5em }
 
 	nav {
-		margin-bottom: 3em;
+		margin-bottom: 2em;
 		font-size: 1rem;
 
 		ul {
