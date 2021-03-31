@@ -464,21 +464,23 @@ footer {
 		ul {
 			display: flex;
 			justify-content: center;
+			flex-wrap: wrap;
 
-			a { padding: 1em }
+			a {
+				padding: .5em 1em;
+				display: inline-block;
+			}
 			a:hover{ text-decoration: underline }
 			li::after {
 				content: "\007C";
 				color: #4C566A;
 			}
-			li:last-child::after {
-				display: none;
-			}
+			li:last-child::after { display: none }
 		}
 	}
 }
 
-div.rambotron {
+.rambotron {
 	width: 100%;
 	text-align: center;
 	color: #ECEFF4;
@@ -494,6 +496,7 @@ div.rambotron {
 	p {
 		max-width: 40em;
 		margin: 0 auto;
+		padding: 0 1em;
 		line-height: 1.5;
 		font-size: .9rem;
 	}
@@ -505,6 +508,7 @@ div.rambotron {
 		ul {
 			display: flex;
 			justify-content: center;
+			flex-wrap: wrap;
 
 			a {
 				display: block;
@@ -519,7 +523,7 @@ div.rambotron {
 	}
 }
 
-div.breadcrumbs {
+.breadcrumbs {
 	border-top: 1px solid $light-blue;
 	font-size: .9em;
 
@@ -576,4 +580,21 @@ table {
 		border: 1px solid $light-blue;
 		border-collapse: collapse;
 		border-spacing: 0;
+}
+
+
+@media screen and (max-width: 950px){
+	main .blocks { grid-template-columns: 1fr }
+	main .websites { grid-template-columns: 1fr 1fr 1fr }
+	main .people-list .group { grid-template-columns: 1fr }
+}
+
+@media screen and (max-width: 640px){
+	main .websites { grid-template-columns: 1fr 1fr }
+	.rambotron {
+		.links ul {
+			flex-direction: column;
+			a { margin: 0 }
+		}
+	}
 }
