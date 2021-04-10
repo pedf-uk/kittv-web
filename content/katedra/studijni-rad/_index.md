@@ -3,5 +3,5 @@ title = "Studijní řád"
 
 [extra]
 nav_right = true
-icon = "icon-file-paper-2-line"
+icon = "ri-file-paper-2-line"
 +++

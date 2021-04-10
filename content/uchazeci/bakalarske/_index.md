@@ -2,7 +2,7 @@
 title = "Bakalářské studium"
 weight = 1
 [extra]
-icon = "icon-award-fill"
+icon = "ri-psychotherapy-line"
 +++
 
 ## Informační  technologie se zaměřením na vzdělávání

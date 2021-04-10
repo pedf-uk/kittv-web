@@ -3,7 +3,7 @@ title = "Navazující magisterské studium"
 weight = 2
 [extra]
 color = "#A3BE8C"
-icon = "icon-nurse-fill"
+icon = "ri-artboard-line"
 +++
 
 

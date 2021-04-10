@@ -3,7 +3,7 @@ title = "Zájmové programy CŽV"
 weight = 4
 [extra]
 heading = "Zájmové programy CŽV (šablony)"
-icon = "icon-psychotherapy-line"
+icon = "ri-brush-3-line"
 +++
 
 ## Nabídka zájmových programů vyučovaných na katedře IT

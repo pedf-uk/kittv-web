@@ -102,7 +102,7 @@ header {
 						align-items: center;
 						padding: .5em;
 
-						[class^="icon-"], [class*=" icon-"] {
+						[class^="ri-"], [class*=" ri-"] {
 							color: var(--color);
 							margin-right: .5em;
 						}
@@ -126,8 +126,8 @@ header {
 		font-size: 1.2em;
 
 		&>ul>li>a::after {
-			content: "\e921";
-			font-family: icomoon;
+			content: "\ea4e";
+			font-family: remixicon;
 			font-size: .8em;
 			margin-left: .5em;
 			color: $rambotron-blue;
@@ -166,8 +166,8 @@ main {
 	a:hover { text-decoration: underline }
 
 	a[rel~="noreferrer"]::after {
-		content: "\e907";
-		font-family: icomoon;
+		content: "\ecaf";
+		font-family: remixicon;
 		font-size: .8em;
 		font-weight: normal;
 		margin-left: .2em;
@@ -269,15 +269,15 @@ main {
 			align-items: center;
 
 			&::before {
-				font-family: icomoon;
+				font-family: remixicon;
 				font-size: 1.2em;
 				margin-right: .4em;
 			}
 		}
-		.mail::before { content: "\e90e" }
-		.tel::before { content: "\e913" }
-		.cal::before { content: "\e905" }
-		.homepage::before { content: "\e907" }
+		.mail::before { content: "\eef6" }
+		.tel::before { content: "\efec" }
+		.cal::before { content: "\eb24" }
+		.homepage::before { content: "\ecaf" }
 	}
 
 	.people-profile .info {

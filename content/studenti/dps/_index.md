@@ -2,7 +2,7 @@
 title = "Studium v oblasti pg. věd (DPS)"
 weight = 3
 [extra]
-icon = "icon-stack-line"
+icon = "ri-nurse-fill"
 +++
 
 ## Studium ke splnění kvalifikačních předpokladů

@@ -9,8 +9,8 @@
 			{{ config.title }}
 		{%- endblock title -%}
 	</title>
-	<link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
-	<link rel="stylesheet" href="{{ get_url(path="icons.css") | safe }}" type="text/css">
+	<link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}" type="text/css">
+	<link rel="stylesheet" href="{{ get_url(path="icons/remixicon.css") | safe }}" type="text/css">
 	{% block styles %}{% endblock styles %}
 	<link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path="favicon.ico") }}" />
 </head>

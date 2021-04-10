@@ -2,7 +2,7 @@
 title = "Zájmové programy CŽV"
 weight = 4
 [extra]
-icon = "icon-psychotherapy-line"
+icon = "ri-brush-3-line"
 +++
 
 ## Seznam zájmových programů vyučovaných na katedře IT
