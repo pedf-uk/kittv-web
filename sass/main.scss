@@ -47,6 +47,7 @@ header {
 
 	a.logo {
 		height: 100%;
+		margin: 0 1em;
 
 		img { height: inherit; }
 	}
@@ -63,7 +64,6 @@ header {
 
 		ul {
 			display: flex;
-			position: relative;
 
 			a {
 				display: flex;
@@ -83,9 +83,9 @@ header {
 				@include top-border(var(--color));
 				@include shadow;
 				display: grid;
-				position: absolute;
 				grid-template-columns: 1fr 1fr;
 				column-gap: 1em;
+				position: absolute;
 				left: 0;
 				top: 100%;
 				width: 100%;
@@ -127,6 +127,7 @@ header {
 	}
 
 	nav.primary {
+		position: relative;
 		font-weight: bold;
 		font-size: 1.2em;
 
@@ -584,6 +585,32 @@ table {
 
 
 @media screen and (max-width: 950px){
+	header { padding: 2em 0 0 0 }
+	header .wrap {
+		flex-direction: column;
+		align-items: flex-start;
+		height: auto;
+
+		.logo { height: 4em }
+
+		section {
+			height: auto;
+			width: 100%;
+			padding: 0;
+		}
+
+		nav.secondary { display: none }
+		nav.primary {
+			margin-top: 2em;
+			padding: 1em;
+			box-shadow: 0px 0px 20px #00000029;
+			font-size: 1em;
+
+			ul { justify-content: space-between }
+			ul>li>div { margin-top: 0 }
+		}
+	}
+
 	main .blocks { grid-template-columns: 1fr }
 	main .websites { grid-template-columns: 1fr 1fr 1fr }
 	main .people-list .group { grid-template-columns: 1fr }
