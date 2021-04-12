@@ -211,7 +211,7 @@
 	<div class="gallery">
 		{% for asset in page.assets %}
 			{% if asset is matching("[.](jpg|png)$") %}
-				<img src="{{ resize_image(path=asset, width=240, height=240, op="fill") }}" alt="{{ asset }}">
+				<img src="{{ resize_image(path=asset, width=300, height=200, op="fill") }}" alt="{{ asset }}">
 			{% endif %}
 		{% endfor %}
 	</div>
