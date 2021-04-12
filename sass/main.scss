@@ -68,6 +68,10 @@ header {
 			a { padding: .9rem }
 			li:hover { color: var(--color) }
 
+			&:hover>li>div {
+				visibility: hidden;
+				transition: none;
+			}
 			li:hover>div {
 				visibility: visible;
 				transform: translate(0);
@@ -93,6 +97,7 @@ header {
 				visibility: hidden;
 				transform: translate(0, -1em);
 				opacity: 0;
+				transition: all .1s ease-out .5s;
 
 				.title {
 					margin-bottom: 1em;
