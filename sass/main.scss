@@ -1,5 +1,12 @@
 @import "minireset";
 @import "fonts";
+
+@mixin top-border($color: $rambotron-blue) { border-top: 5px solid $color }
+@mixin shadow { box-shadow: 0px 1px 9px #00000033 }
+
+$width-full: 1200px;
+$width-thin: 900px;
+
 $light-blue: #D8DEE9;
 $rambotron-blue: #5E81AC;
 $xdark-blue: #2E3440;
@@ -21,7 +28,7 @@ body {
 header {
 	padding: 3rem 0;
 	border-top: 8px solid;
-	border-image: linear-gradient(to right, #8FBCBB 25%, #88C0D0 25%,  #88C0D0 50%, #81A1C1 50%,  #81A1C1 75%, $rambotron-blue 75%, $rambotron-blue 100%) 1;
+	border-image: linear-gradient(to right, #8FBCBB 25%, #88C0D0 25%,  #88C0D0 50%, #81A1C1 50%,  #81A1C1 75%, #5E81AC 75%, #5E81AC 100%) 1;
 
 	&.compact {
 		padding: 1.3rem 0;
@@ -34,7 +41,7 @@ header {
 		justify-content: space-between;
 		align-items: center;
 		height: 6rem;
-		max-width: 1200px;
+		max-width: $width-full;
 		width: 100%;
 	}
 
@@ -68,6 +75,8 @@ header {
 				transition: all .1s ease-out;
 			}
 			li>div {
+				@include top-border(var(--color));
+				@include shadow;
 				display: grid;
 				position: absolute;
 				grid-template-columns: 1fr 1fr;
@@ -78,8 +87,6 @@ header {
 				margin-top: .9rem;
 				padding: 1rem;
 				background-color: #FFF;
-				border-top: 5px solid var(--color);
-				box-shadow: 0px 1px 9px #00000033;
 				font-size: 1rem;
 				font-weight: normal;
 				color: #2E3440;
@@ -138,7 +145,7 @@ header {
 }
 
 main {
-	max-width: 900px;
+	max-width: $width-thin;;
 	width: 100%;
 	margin: 0 auto;
 	padding: 1rem;
@@ -189,21 +196,19 @@ main {
 		a:hover { text-decoration: none }
 
 		article {
+			@include top-border;
 			display: flex;
 			flex-direction: column;
 			max-width: 50em;
 			height: 100%;
 			padding: 1em;
-			border-top: 5px solid $rambotron-blue;
 			font-size: .85em;
 			color: #2E3440;
 
 			a { font-weight: bold }
 			a:hover { text-decoration: underline }
 
-			&:hover {
-				box-shadow: 0px 1px 9px #00000033;
-			}
+			&:hover { @include shadow }
 
 			.title {
 				font-weight: bold;
@@ -325,11 +330,11 @@ main {
 		}
 
 		article {
+			@include top-border(var(--color));
 			display: flex;
 			align-items: flex-start;
 			text-align: left;
 			padding-top: 2em;
-			border-top: 5px solid var(--color);
 
 			img {
 				width: 8rem;
@@ -359,12 +364,12 @@ main {
 	}
 
 	.button {
+		border: 0;
+		@include top-border($light-blue);
 		display: inline-block;
 		padding: 1rem 4rem;
 		margin-top: 2rem;
 		outline: none;
-		border: 0;
-		border-top: 5px solid $light-blue;
 		background: none;
 		text-transform: uppercase;
 		font-size: .9rem;
@@ -372,8 +377,8 @@ main {
 		color: inherit;
 
 		&:hover {
+			@include shadow;
 			text-decoration: none;
-			box-shadow: 0px 1px 9px #00000033;
 		}
 	}
 
@@ -466,7 +471,7 @@ div.breadcrumbs {
 	.wrap {
 		margin: 0 auto;
 		display: flex;
-		max-width: 1200px;
+		max-width: $width-full;
 		width: 100%;
 	}
 
