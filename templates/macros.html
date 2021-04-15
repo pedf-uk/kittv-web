@@ -20,8 +20,8 @@
 						style="--color: #5E81AC"
 					{% endif %}
 				>
-					<a href="{{ section.permalink }}">{{ section.title }}</a>
 					{% if section.subsections %}
+						<a href="{{ section.permalink }}" class="rolldown">{{ section.title }}</a>
 						<div>
 							{% if section.extra.nav_title_left and section.extra.nav_title_right %}
 								<div class="title">{{ section.extra.nav_title_left }}</div>
@@ -58,6 +58,8 @@
 								{% endfor %}
 							</ul>
 						</div>
+					{% else %}
+						<a href="{{ section.permalink }}">{{ section.title }}</a>
 					{% endif %}
 				</li>
 			{% endfor %}

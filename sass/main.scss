@@ -137,7 +137,7 @@ header {
 		font-weight: bold;
 		font-size: 1.2em;
 
-		&>ul>li>a::after {
+		&>ul>li>a.rolldown::after {
 			content: "\ea4e";
 			font-family: remixicon;
 			font-size: .8em;
