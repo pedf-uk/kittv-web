@@ -171,17 +171,14 @@
 {% endmacro %}
 
 {% macro profile_picture(profile) %}
-	{% set_global img_found = 0 %}
+	{% set_global img = "../static/placeholder-avatar.jpg" %}
 	{% for asset in profile.assets %}
 		{% if asset is matching("img.(jpg|png)$") %}
-			{% set_global img_found = 1 %}
-				<img src="{{ resize_image(path=asset, width=128, height=128, op="fill") }}" alt="{{ profile.title }}"></a>
+			{% set_global img = asset %}
 			{% break %}
 		{% endif %}
 	{% endfor %}
-	{% if not img_found == 1 %}
-		<img src="{{ get_url(path="placeholder-avatar.jpg") }}" alt="{{ profile.title }}"></a>
-	{% endif %}
+	<img src="{{ resize_image(path=img, width=128, height=128, op="fill") }}" alt="{{ profile.title }}"></a>
 {% endmacro %}
 
 {% macro profile_info(profile) %}
@@ -221,17 +218,14 @@
 	<div class="gallery index">
 		{% for gallery in section.pages %}
 			<a href="{{ gallery.permalink }}">
-				{% set_global img_found = 0 %}
+				{% set_global img = "../static/placeholder-avatar.jpg" %}
 				{% for asset in gallery.assets %}
 					{% if asset is matching("[.](jpg|png)$") %}
-						{% set_global img_found = 1 %}
-							<img src="{{ resize_image(path=asset, width=300, height=200, op="fill") }}" alt="">
+						{% set_global img = asset %}
 						{% break %}
 					{% endif %}
 				{% endfor %}
-				{% if not img_found == 1 %}
-					<img src="{{ get_url(path="placeholder-avatar.jpg") }}" alt="{{ gallery.title }}">
-				{% endif %}
+				<img src="{{ resize_image(path=img, width=300, height=200, op="fill") }}" alt="{{ gallery.title }}">
 
 				<div class="description">
 					{% if gallery.description %}
