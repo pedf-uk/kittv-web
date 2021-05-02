@@ -374,6 +374,29 @@ main {
 
 		img:hover { box-shadow: 0px 1px 9px #00000088 }
 	}
+	.gallery.index {
+		a {
+			position: relative;
+			color: #fff;
+		}
+		.description {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			padding: .7rem;
+			background-color: rgba(46, 52, 64, 0.85);
+			text-align: left;
+			font-weight: normal;
+			font-size: .85rem;
+
+			.date {
+				margin-top: .5em;
+				text-align: right;
+				color: #ccc;
+			}
+		}
+	}
 
 	.button {
 		border: 0;

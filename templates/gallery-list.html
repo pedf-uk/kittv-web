@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block styles %}
+	<link rel="stylesheet" href="{{ get_url(path="fancybox/jquery.fancybox.min.css") }}">
+{% endblock styles %}
+
+{% block extra %}
+	{{ macro::breadcrumbs(page=section) }}
+{% endblock %}
+
+{% block content %}
+	<main class="fullwidth">
+		<section class="centering">
+			<h1>{% if section.extra.heading %}
+				{{ section.extra.heading }}
+			{% else %}
+				{{ section.title }}
+			{% endif %}</h1>
+			{{ macro::gallery_list() }}
+		</section>
+	</main>
+{% endblock content %}
+
+{% block javascript %}
+	<script src="{{ get_url(path="lib/jquery-3.6.0.min.js") }}"></script>
+	<script src="{{ get_url(path="fancybox/jquery.fancybox.min.js") }}"></script>
+{% endblock %}
