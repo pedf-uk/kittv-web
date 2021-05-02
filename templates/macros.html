@@ -227,12 +227,13 @@
 				{% endfor %}
 				<img src="{{ resize_image(path=img, width=300, height=200, op="fill") }}" alt="{{ gallery.title }}">
 
-				<div class="description">
+				<div class="info">
+					<div class="title">{{ gallery.title }}</div>
+
 					{% if gallery.description %}
-						{{ gallery.description }}
-					{% else %}
-						{{ gallery.title }}
+						<div class="description">{{ gallery.description }}</div>
 					{% endif %}
+
 					<div class="date">2021-05-02</div>
 				</div>
 			</a>
