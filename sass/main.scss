@@ -73,11 +73,6 @@ header {
 			}
 			li:hover { color: var(--color) }
 
-			// rolldown
-			&:hover>li>div {
-				visibility: bhidden;
-				transition: none;
-			}
 			li:hover>div {
 				visibility: visible;
 				transform: translate(0);
@@ -102,7 +97,6 @@ header {
 				visibility: hidden;
 				transform: translate(0, -1em);
 				opacity: 0;
-				transition: all .1s ease-out .5s;
 				z-index: 1;
 
 				.title {
