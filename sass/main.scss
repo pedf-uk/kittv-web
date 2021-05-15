@@ -368,8 +368,8 @@ main {
 		row-gap: 1em;
 
 		img { display: block }
-		a:hover img { box-shadow: 0px 1px 9px #00000088 }
 	}
+	.gallery:not(.index) a:hover img { box-shadow: 0px 1px 9px #00000088 }
 	.gallery.index {
 		a {
 			position: relative;
