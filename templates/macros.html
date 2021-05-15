@@ -218,13 +218,17 @@
 	<div class="gallery index">
 		{% for gallery in section.pages %}
 			<a href="{{ gallery.permalink }}">
-				{% set_global img = "../static/placeholder-avatar.jpg" %}
-				{% for asset in gallery.assets %}
-					{% if asset is matching("[.](jpg|png)$") %}
-						{% set_global img = asset %}
-						{% break %}
-					{% endif %}
-				{% endfor %}
+				{% if gallery.extra.thumbnail %}
+					{% set_global img = "." ~ gallery.path ~ gallery.extra.thumbnail %}
+				{% else %}
+					{% set_global img = "../static/placeholder-avatar.jpg" %}
+					{% for asset in gallery.assets %}
+						{% if asset is matching("[.](jpg|png)$") %}
+							{% set_global img = asset %}
+							{% break %}
+						{% endif %}
+					{% endfor %}
+				{% endif %}
 				<img src="{{ resize_image(path=img, width=300, height=200, op="fill") }}" alt="{{ gallery.title }}">
 
 				<div class="info">
