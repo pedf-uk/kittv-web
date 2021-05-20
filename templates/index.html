@@ -12,6 +12,14 @@
 					{{ macro::nav_list_items_main(items=config.extra.nav_primary) }}
 				</nav>
 			</section>
+			<nav class="mobile">
+				<div class="buttons">
+					<i class="ri-menu-3-line" id="mobile-nav-button"></i>
+				</div>
+				<div class="floating" id="mobile-nav">
+					{{ macro::nav_list_items_main(items=config.extra.nav_primary) }}
+				</div>
+			</nav>
 		</div>
 		</header>
 {% endblock header %}

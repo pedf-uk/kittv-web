@@ -23,7 +23,7 @@
 					{{ macro::nav_list_items_main(items=config.extra.nav_primary) }}
 				</nav>
 				<nav class="secondary">
-					<span class="icon-search-line"></span>
+					<i class="ri-search-line"></i>
 				</nav>
 			</div>
 		</header>
@@ -37,6 +37,14 @@
 		<p>Magdalény Rettigové 4, 116 39, Praha 1</p>
 		<p>Praha UK PedF KITTV, {{ now() | date(format="%Y") }}</p>
 	</footer>
+	<script>
+		document.getElementById("mobile-nav-button").addEventListener("click", function(){
+			this.classList.toggle("ri-menu-3-line");
+			this.classList.toggle("ri-close-line");
+			document.getElementById("mobile-nav").classList.toggle("visible");
+			document.body.classList.toggle("hidden");
+		});
+	</script>
 	{% block javascript %}{% endblock %}
 </body>
 </html>

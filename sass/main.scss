@@ -16,6 +16,13 @@ a {
 	color: inherit;
 }
 
+// hide content for the mobile navigation
+body.hidden>*:not(header) { opacity: 0 }
+body>*:not(header) {
+	transition: opacity .2s ease-out;
+	opacity: initial;
+}
+
 body {
 	min-height: 100vh;
 	display: flex;
@@ -26,6 +33,7 @@ body {
 }
 
 header {
+	position: relative;
 	padding: 3rem 0;
 	border-top: 8px solid;
 	border-image: linear-gradient(to right, #8FBCBB 25%, #88C0D0 25%,  #88C0D0 50%, #81A1C1 50%,  #81A1C1 75%, #5E81AC 75%, #5E81AC 100%) 1;
@@ -36,20 +44,23 @@ header {
 	}
 
 	.wrap {
-		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		height: 6rem;
+		height: 5rem;
 		max-width: $width-full;
 		width: 100%;
+		margin: 0 auto;
+		padding: 0 1rem;
 	}
 
 	a.logo {
 		height: 100%;
-		margin: 0 1em;
 
-		img { height: inherit; }
+		img {
+			height: 100%;
+			max-width: none;
+		}
 	}
 
 	section {
@@ -57,7 +68,6 @@ header {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		padding: .3rem 0 .1rem 0;
 	}
 
 	nav {
@@ -66,53 +76,28 @@ header {
 			display: flex;
 
 			a {
-				display: flex;
+				display: flex; // rolldown arrow alignment
 				align-items: center;
 				padding: .9em;
 				white-space: nowrap;
 			}
-			li:hover { color: var(--color) }
 
-			li:hover>div {
-				visibility: visible;
-				transform: translate(0);
-				opacity: 1;
-				transition: all .1s ease-out;
+			li:hover>a { color: var(--color) }
+
+			// rolldown arrow
+			li>a.rolldown::after {
+				content: "\ea4e";
+				font-family: remixicon;
+				font-size: .8em;
+				margin-left: .5em;
+				color: $rambotron-blue;
 			}
-			li>div {
-				@include top-border(var(--color));
-				@include shadow;
-				display: grid;
-				grid-template-columns: 1fr 1fr;
-				column-gap: 1em;
-				position: absolute;
-				left: 0;
-				top: 100%;
-				width: 100%;
-				padding: 1rem;
-				background-color: #FFF;
-				font-size: 1rem;
-				font-weight: normal;
-				color: #2E3440;
-				visibility: hidden;
-				transform: translate(0, -1em);
-				opacity: 0;
-				z-index: 1;
+			li:hover>a::after { color: inherit }
 
-				.title {
-					margin-bottom: 1em;
-					padding: .5em;
-					font-weight: bold;
-					color: var(--color);
-				}
-
-				// columns
-				ul { flex-direction: column }
-				ul a { padding: .5em }
-				ul a [class^="ri-"], ul a [class*=" ri-"] {
-					color: var(--color);
-					margin-right: .5em;
-				}
+			// icons
+			[class^="ri-"], [class*=" ri-"] {
+				color: var(--color);
+				margin-right: .5em;
 			}
 		}
 	}
@@ -121,9 +106,7 @@ header {
 		font-size: .9rem;
 		color: #4C566A;
 
-		a:hover {
-			text-decoration: underline;
-		}
+		a:hover { text-decoration: underline }
 	}
 
 	nav.primary {
@@ -131,20 +114,100 @@ header {
 		font-weight: bold;
 		font-size: 1.2em;
 
-		&>ul>li>a.rolldown::after {
-			content: "\ea4e";
-			font-family: remixicon;
-			font-size: .8em;
-			margin-left: .5em;
-			color: $rambotron-blue;
-
+		// rolldown
+		li:hover>div {
+			visibility: visible;
+			transform: translate(0);
+			opacity: 1;
+			transition: all .1s ease-out;
 		}
-		&>ul>li:hover>a::after { color: inherit }
+		li>div {
+			@include top-border(var(--color));
+			@include shadow;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			column-gap: 1em;
+			position: absolute;
+			left: 0;
+			top: 100%;
+			width: 100%;
+			padding: 1rem;
+			background-color: #FFF;
+			font-size: 1rem;
+			font-weight: normal;
+			color: #2E3440;
+			visibility: hidden;
+			transform: translate(0, -1em);
+			opacity: 0;
+			z-index: 1;
+
+			.title {
+				margin-bottom: 1em;
+				padding: .5em;
+				font-weight: bold;
+				color: var(--color);
+			}
+
+			ul { flex-direction: column }
+			ul a { padding: .5em }
+		}
+	}
+
+	nav.mobile {
+		display: none;
+
+		.floating.visible {
+			visibility: visible;
+			opacity: 1;
+		}
+
+		.buttons {
+			display: flex;
+			justify-content: flex-end;
+			font-size: 2rem;
+
+			&>* {
+				margin-left: .5em;
+				cursor: pointer;
+			}
+		}
+
+		.floating {
+			visibility: hidden;
+			position: absolute;
+			top: 100%;
+			right: 0;
+			width: 100%;
+			padding: 2em 1em;
+			background-color: #fff;
+			z-index: 1;
+			opacity: 0;
+			transition: all .2s ease-out;
+
+			ul {
+				display: flex;
+				flex-direction: column;
+				font-size: 1.2rem;
+
+				li>a {
+					display: block;
+					padding: 1em 0 .5em 0;
+				}
+
+				div.title { display: none }
+
+				ul {
+					margin-left: 1em;
+
+					li>a { padding: .5em }
+				}
+			}
+		}
 	}
 }
 
 main {
-	max-width: $width-thin;;
+	max-width: $width-thin;
 	width: 100%;
 	margin: 0 auto;
 	padding: 1rem;
@@ -585,13 +648,12 @@ table {
 
 
 @media screen and (max-width: 950px){
-	header { padding: 2em 0 0 0 }
+	header { padding: 1rem 0 }
 	header .wrap {
-		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 		height: auto;
 
-		.logo { height: 4em }
+		.logo { height: 3.5rem }
 
 		section {
 			height: auto;
@@ -599,22 +661,8 @@ table {
 			padding: 0;
 		}
 
-		nav.secondary { display: none }
-		nav.primary {
-			margin-top: 2em;
-			box-shadow: 0px 0px 20px #00000029;
-			font-size: 1em;
-
-			&>ul {
-				justify-content: space-between;
-				padding: 0 .5em;
-
-				&>li { flex-grow: 1 }
-				&>li>a { justify-content: center }
-			}
-			&>ul>li>a { padding: 1.5em .5em }
-			&>ul>li>div a { white-space: initial } // line-break in rolldown
-		}
+		nav.secondary, nav.primary { display: none }
+		nav.mobile { display: initial }
 	}
 
 	main .blocks { grid-template-columns: 1fr }
