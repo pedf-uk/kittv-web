@@ -178,7 +178,8 @@
 			{% break %}
 		{% endif %}
 	{% endfor %}
-	<img src="{{ resize_image(path=img, width=128, height=128, op="fill") }}" alt="{{ profile.title }}"></a>
+	{% set image = resize_image(path=img, width=128, height=128, op="fill") %}
+	<img src="{{ image.url }}" alt="{{ profile.title }}"></a>
 {% endmacro %}
 
 {% macro profile_info(profile) %}
@@ -208,7 +209,8 @@
 	<div class="gallery">
 		{% for asset in page.assets %}
 			{% if asset is matching("[.](jpg|png)$") %}
-				<a data-fancybox="{{ page.title }}" href="{{ get_url(path=asset) }}"><img src="{{ resize_image(path=asset, width=300, height=200, op="fill") }}" alt="{{ asset }}"></a>
+				{% set image = resize_image(path=asset, width=300, height=200, op="fill") %}
+				<a data-fancybox="{{ page.title }}" href="{{ get_url(path=asset) }}"><img src="{{ image.url }}" alt="{{ asset }}"></a>
 			{% endif %}
 		{% endfor %}
 	</div>
@@ -229,7 +231,8 @@
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				<img src="{{ resize_image(path=img, width=300, height=200, op="fill") }}" alt="{{ gallery.title }}">
+				{% set image = resize_image(path=img, width=300, height=200, op="fill") %}
+				<img src="{{ image.url }}" alt="{{ gallery.title }}">
 
 				<div class="info">
 					<div class="title">{{ gallery.title }}</div>
