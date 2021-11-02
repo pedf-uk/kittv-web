@@ -315,8 +315,6 @@ main {
 
 		.other {
 			display: flex;
-
-			div { margin-right: 2em }
 		}
 
 		.info {
@@ -366,7 +364,7 @@ main {
 			justify-content: center;
 			margin: 2rem 0 1rem 0;
 
-			div { margin: 0 1em }
+			div { margin: 0 1rem 1rem 1rem }
 		}
 	}
 
@@ -374,7 +372,7 @@ main {
 
 		h1 { margin-bottom: -1em }
 		h2 {
-			margin: 5rem 0 4rem 0;;
+			margin: 5rem 0 4rem 0;
 			font-size: 1.4rem;
 			text-align: center;
 			color: #4C566A;
@@ -415,7 +413,7 @@ main {
 					flex-direction: column;
 					margin-top: 1em;
 
-					div { margin-bottom: .5em }
+					div { margin-bottom: .5rem }
 				}
 			}
 		}
@@ -672,10 +670,20 @@ table {
 
 @media screen and (max-width: 640px){
 	main .websites { grid-template-columns: 1fr 1fr }
+	main .people-profile .info .other { flex-direction: column }
+	main .people-list article {
+		flex-direction: column;
+		align-items: center;
+
+		img { margin: 0 }
+		.name { margin-top: 2rem }
+		.role { text-align: center }
+	}
 	.rambotron {
 		.links ul {
 			flex-direction: column;
 			a { margin: 0 }
 		}
 	}
+	.breadcrumbs { display: none }
 }
