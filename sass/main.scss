@@ -427,7 +427,10 @@ main {
 		column-gap: 1em;
 		row-gap: 1em;
 
-		img { display: block }
+		img {
+			display: block;
+			width: 100%;
+		}
 	}
 	.gallery:not(.index) a:hover img { box-shadow: 0px 1px 9px #00000088 }
 	.gallery.index {
@@ -664,6 +667,7 @@ table {
 	main .blocks { grid-template-columns: 1fr }
 	main .websites { grid-template-columns: 1fr 1fr 1fr }
 	main .people-list .group { grid-template-columns: 1fr }
+	main .gallery { grid-template-columns: 1fr 1fr }
 }
 
 @media screen and (max-width: 640px){
