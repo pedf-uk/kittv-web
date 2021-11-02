@@ -17,11 +17,7 @@ a {
 }
 
 // hide content for the mobile navigation
-body.hidden>*:not(header) { opacity: 0 }
-body>*:not(header) {
-	transition: opacity .2s ease-out;
-	opacity: initial;
-}
+body.hidden>*:not(header) { display: none }
 
 body {
 	min-height: 100vh;
