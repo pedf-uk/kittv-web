@@ -6,8 +6,7 @@ weight = 1
 group = "vedeni"
 color = "#B48EAD"
 role = "Vedoucí katedry"
-email = "jirka.stipek@gmail.com"
+email = "jiri.stipek@pedf.cuni.cz"
 phone = "+420 221 900 327"
 sis = "02869"
 +++
-
