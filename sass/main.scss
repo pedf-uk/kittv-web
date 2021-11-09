@@ -479,6 +479,11 @@ main {
 		}
 	}
 
+	.map {
+		width: 100%;
+		height: 30em;
+	}
+
 	.button {
 		border: 0;
 		@include top-border($light-blue);
