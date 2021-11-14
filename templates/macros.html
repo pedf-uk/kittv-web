@@ -178,7 +178,7 @@
 			{% break %}
 		{% endif %}
 	{% endfor %}
-	{% set image = resize_image(path=img, width=128, height=128, op="fill") %}
+	{% set image = resize_image(path=img, width=256, height=256, op="fill", quality=85) %}
 	<img src="{{ image.url }}" alt="{{ profile.title }}"></a>
 {% endmacro %}
 
