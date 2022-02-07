@@ -1,0 +1,20 @@
+{
+	"simple site": {
+		"scope": "markdown",
+		"prefix": "+++",
+		"body": "+++\ntitle = \"${TM_FILENAME/.md//}$1\" \n\n[extra]\nheading = \"$2\"\n+++",
+		"description": "A basic snippet for zola md header"
+	}, 
+	"site in nav": {
+		"scope": "markdown",
+		"prefix": "+++",
+		"body": "+++\ntitle = \"${TM_FILENAME/.md//}\" \n\n[extra]\nheading = \"$2\"\nnav_right = true\nicon = \"$3\"\ncolor = \"#8FBCBB\"\n+++",
+		"description": "A snippet for zola md header with icon and color"
+	}, 
+	"site in main menu": {
+		"scope": "markdown",
+		"prefix": "+++",
+		"body": "+++\ntitle = \"${TM_FILENAME/.md//}\" \n\n[extra]\nheading = \"$2\"\nnav_right = true\nnav_title_left = \"$3\"\nnav_title_right = \"$4\"\nicon = \"$5\"\ncolor = \"#8FBCBB\"\n+++",
+		"description": "A snippet for zola md header with main menu columns"
+	}
+}
