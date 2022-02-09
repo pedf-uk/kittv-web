@@ -1,7 +1,7 @@
 +++
 title = "Aktuální informace"
 [extra]
-heading = "Přijímací řízení pro rok 2021/2022"
+heading = "Přijímací řízení pro rok 2022/2023"
 nav_right = true
 icon = "ri-calendar-todo-line"
 +++
