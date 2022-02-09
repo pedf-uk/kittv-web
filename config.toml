@@ -27,10 +27,10 @@ nav_secondary = [
 ]
 
 nav_rambotron = [
-	{path = "", name = "Harmonogram roku"},
-	{path = "", name = "Termíny přijímacího řízení"},
-	{path = "", name = "Témata závěrečných prací"},
-	{path = "", name = "Okruhy k SZZ"}
+	{path = "https://pedf.cuni.cz/PEDF-606.html", name = "Harmonogram roku"},
+	{path = "/uchazeci/prijimaci_rizeni/", name = "Termíny přijímacího řízení"},
+	{path = "/studenti/zav_prace/", name = "Témata závěrečných prací"},
+	{path = "/studenti/szz/", name = "Okruhy k SZZ"}
 ]
 
 nav_footer = [
