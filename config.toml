@@ -34,8 +34,8 @@ nav_rambotron = [
 ]
 
 nav_footer = [
-	{path = "", name = "Bakalářská studia"},
-	{path = "", name = "Magisterská studia"},
-	{path = "", name = "Harmonogram ak. roku"},
-	{path = "", name = "Formuláře"},
+	{path = "/katedra/sidlo-pracoviste/", name = "Sídlo pracoviště"},
+	{path = "/katedra/pracovnici/", name = "Pracovníci"},
+	{path = "/katedra/ssp/", name = "Studenti se spec. potřebami"},
+	{path = "/pristupnost/", name = "Prohlášení o přístupnosti"},
 ]
