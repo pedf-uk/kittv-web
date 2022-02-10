@@ -24,3 +24,8 @@ Pro vygenerování statického obsahu (pro nasazení na web server) je třeba sp
 - [Zola](https://www.getzola.org/documentation/) (generátor)
 - [Tera](https://tera.netlify.app/docs/) (template engine)
 - [CommonMark](https://commonmark.org/help/) (markdown syntax)
+
+## Odkazy na použité technologie
+- [Zola](https://github.com/getzola/zola/releases/) (releases in GitHub)
+- [Remix Icon](https://remixicon.com)
+- [Remix Icon](https://github.com/Remix-Design/RemixIcon) (GitHub)
