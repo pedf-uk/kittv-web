@@ -6,7 +6,7 @@ nav_right = true
 icon = "ri-skull-line"
 +++
 
-## Poučení o bezpečnosti práce v učebnách KITTV PedF UK 
+## Poučení o bezpečnosti práce v učebnách KITTV PedF UK
 
 1.  Před vstupem do učeben je každý posluchač povinen seznámit se s
     vyvěšenými *[Pravidly pro práci v PC učebnách
