@@ -6,7 +6,8 @@ nav_right = true
 icon = "ri-node-tree"
 +++
 
-# Pravidla provozu počítačové sítě katedry informačních technologií a technické výchovy PedF UK
+## Pravidla provozu počítačové sítě katedry informačních technologií a technické výchovy PedF UK
+
 ### 1. Základní ustanovení
 
 1.  Počítačová síť Katedry informačních technologií a technické výchovy
