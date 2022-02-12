@@ -179,9 +179,8 @@ icon = "ri-node-tree"
     podpisem Registračního formuláře, čímž berou na vědomí postihy,
     které vyplývají z nedodržení pravidel.
 
-  ----------------------------------- -----------------------------------
-        V Praze dne 30. 9. 2007       
+V Praze dne 30. 9. 2007
 
-  Doc.PhDr. Vladimír Rambousek, CSc.\           Filip Svoboda\
-            vedoucí katedry                     za správu sítě
-  ----------------------------------- -----------------------------------
+  Doc.PhDr. Vladimír Rambousek, CSc.\ vedoucí katedry
+
+  Filip Svoboda\ za správu sítě
