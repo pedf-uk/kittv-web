@@ -10,7 +10,7 @@ icon = "ri-skull-line"
 
 1.  Před vstupem do učeben je každý posluchač povinen seznámit se s
     vyvěšenými *[Pravidly pro práci v PC učebnách
-    KITTV](http://it.pedf.cuni.cz/index.php?menu=76)* i s jejich
+    KITTV](@/katedra/pravidla-pro-praci/_index.md)* i s jejich
     doplňky. Jejich dodržování je pro všechny posluchače závazné.
 2.  Posluchači mají v době výuky přístup do učeben jen v doprovodu,
     resp. za přítomnosti učitele. V době samostatné práce studentů v
