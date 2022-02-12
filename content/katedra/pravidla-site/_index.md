@@ -7,24 +7,7 @@ icon = "ri-node-tree"
 +++
 
 # Pravidla provozu počítačové sítě katedry informačních technologií a technické výchovy PedF UK
-
-  ----------------------------------- -----------------------------------
-  **Obsah:**                          [1. Základní ustanovení](#zaklad)\
-                                      [2. Přístup do sítě a
-                                      identita](#pristup)\
-                                      [3. Přístupová práva](#prava)\
-                                      [4. Používání počítačové sítě
-                                      KITTV](#pouzsite)\
-                                      [5. Ochrana soukromí a zveřejňování
-                                      informací](#ochrana)\
-                                      [6. Postihy za nedodržování
-                                      pravidel provozu počítačové
-                                      sítě](#postihy)\
-                                      [7. Závěrečná ustanovení](#zaver)
-
-  ----------------------------------- -----------------------------------
-
-### []{#zaklad}1. Základní ustanovení
+### 1. Základní ustanovení
 
 1.  Počítačová síť Katedry informačních technologií a technické výchovy
     Pedagogické fakulty Univerzity Karlovy v Praze (dále jen KITTV) je
@@ -44,7 +27,7 @@ icon = "ri-node-tree"
 5.  Pro každé zařízení v počítačové síti určuje vedoucí katedry osobu
     zodpovědnou za provoz tohoto zařízení -- správce zařízení.
 
-### []{#pristup}2. Přístup do sítě a identita
+### 2. Přístup do sítě a identita
 
 1.  Počítačovou síť mohou využívat pouze oprávnění uživatelé.
     Oprávněnými uživateli jsou uživatelé určení vedoucím katedry, kteří
@@ -80,7 +63,7 @@ icon = "ri-node-tree"
     platným indexem či studentským průkazem. Jakýkoli vyučující či
     správce sítě může požadovat takovéto ověření identity.
 
-### []{#prava}3. Přístupová práva
+### 3. Přístupová práva
 
 1.  Přístupová práva uživatele jsou přidělena správcem počítačové sítě.
     Uživatel se nesmí žádnými prostředky pokoušet získat přístupová
@@ -93,7 +76,7 @@ icon = "ri-node-tree"
 3.  Ukončením studia či ukončením pracovního poměru uživatele na fakultě
     jeho přístupová práva zanikají.
 
-### []{#pouzsite}4. Používání počítačové sítě KITTV
+### 4. Používání počítačové sítě KITTV
 
 1.  Uživatel smí používat počítačovou síť pouze pro vzdělávací, vědecké,
     výzkumné, vývojové, umělecké a jiné akademické účely nebo úkoly
@@ -143,7 +126,7 @@ icon = "ri-node-tree"
     sítě či zařízení) pro toto zařízení a obecné zásady protipožární
     ochrany a ochrany zdraví při práci.
 
-### []{#ochrana}5. Ochrana soukromí a zveřejňování informací
+### 5. Ochrana soukromí a zveřejňování informací
 
 1.  Pro používání elektronické pošty a konferencí platí stejná pravidla
     jako pro používání listovní korespondence. Uživatel je povinen dbát
@@ -175,7 +158,7 @@ icon = "ri-node-tree"
     monitorována, přičemž takto získané informace mají důvěrný
     charakter.
 
-### []{#postihy}6. Postihy za nedodržování pravidel provozu počítačové sítě
+### 6. Postihy za nedodržování pravidel provozu počítačové sítě
 
 1.  Zjištěné méně závažné porušení pravidel provozu počítačové sítě dává
     správci sítě nebo jím pověřené osobě právo uživatele napomenout.
@@ -189,7 +172,7 @@ icon = "ri-node-tree"
     komisi fakulty. Případná trestně právní odpovědnost není postupem
     popsaným v čl. 6, odst. 7 omezena ani vyloučena.
 
-### []{#zaver}7. Závěrečná ustanovení
+### 7. Závěrečná ustanovení
 
 1.  K dodržování zásad stanovených těmito pravidly se uživatelé zavazují
     podpisem Registračního formuláře, čímž berou na vědomí postihy,
