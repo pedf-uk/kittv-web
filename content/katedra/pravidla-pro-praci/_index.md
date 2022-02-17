@@ -3,7 +3,7 @@ title = "Pravidla pro práci v učebnách"
 
 [extra]
 nav_right = true
-icon = "ri-door-open-fill"
+icon = "ri-door-open-line"
 +++
 
 ## PRAVIDLA PRO PRÁCI v počítačových učebnách katedry informačních technologií a technické výchovy PedF UK
