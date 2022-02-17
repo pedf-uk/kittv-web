@@ -1,0 +1,11 @@
+Database management system
+
+(gci -r -i *.html).name | foreach{$md=$_.md+"\"+$_.page+".md";pandoc -f markdown -s $_.name -o $rtf}
+
+gci -r -i *.html | foreach{$md=$_.directoryname+"\"+$_.basename+".md";pandoc -f markdown -s $_.name -o $md}
+
+
+for %F in (*.html) do pandoc %F > %F~n.md
+
+
+Get-ChildItem . -Filter *.html | Foreach-Object { pandoc --from html --to markdown $_ -o $_.Name.Replace('.html', '.md')}
