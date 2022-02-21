@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block extra %}
+	{{ macro::breadcrumbs(page=section) }}
+{% endblock %}
+
+{% block content %}
+	<main>
+		<section>
+			<h1>{% if section.extra.heading %}
+				{{ section.extra.heading }}
+			{% else %}
+				{{ section.title }}
+			{% endif %}</h1>
+
+			<div class="blocks columns-2 noshadow">
+				{{ macro::list_posts(section=section, include_expired=true) }}
+			</div>
+
+			{{ section.content | safe }}
+		</section>
+	</main>
+{% endblock content %}

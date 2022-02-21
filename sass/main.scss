@@ -307,6 +307,10 @@ main {
 		}
 	}
 
+	.columns-2 {
+		grid-template-columns: 1fr 1fr;
+	}
+
 	.people-profile, .people-list {
 		display: flex;
 		flex-direction: column;
@@ -669,6 +673,7 @@ table {
 
 	main .blocks { grid-template-columns: 1fr }
 	main .websites { grid-template-columns: 1fr 1fr 1fr }
+	main .columns-2 { grid-template-columns: 1fr }
 	main .people-list .group { grid-template-columns: 1fr }
 	main .gallery { grid-template-columns: 1fr 1fr }
 }

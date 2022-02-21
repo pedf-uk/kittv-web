@@ -83,9 +83,10 @@
 	</div>
 {% endmacro %}
 
-{% macro list_posts(section) %}
+{% macro list_posts(section, include_expired=false) %}
 	{% for post in section.pages %}
-		{% if post.extra.expiration and post.extra.expiration | date(format="%s") | int + 86400 < now(timestamp=true) %}
+
+		{% if include_expired==false and post.extra.expiration and post.extra.expiration | date(format="%s") | int + 86400 < now(timestamp=true) %}
 			{% continue %}
 		{% endif %}
 		<article>
