@@ -1,0 +1,40 @@
++++
+title = "Závěrečné práce"
+[extra]
+heading = "Zadávání bakalářských a diplomových prací"
+nav_right = true
+icon = "ri-file-copy-2-line"
++++
+
+## Opatření děkana a náležitosti závěrečných prací
+
+[Opatření děkana č. 2/2022][opad202202] Podrobnosti pro vypisování závěrečných prací ve sdruženém studiu pro studenty Pedagogické fakulty Univerzity Karlovy
+
+[Opatření děkana č. 38/2020][opad202038] o podrobnostech závěrečné práce
+
+- [Příloha č. 1][opad202038p1] - Šablona bakalářská práce
+- [Příloha č. 2][opad202038p2] - Šablona diplomová práce
+- [Příloha č. 3][opad202038p3] - Šablona rigorózní práce
+
+## Vypsaná témata závěrečných prací
+
+- [Témata bakalářských prací][temataBP]
+- [Témata diplomových prací][temataDP]
+
+## Formuláře pro zadání závěrečné práce
+
+- [Formulář pro zadání bakalářské práce][zadaniBP]
+- [Formulář pro zadání diplomové práce][zadaniDP]
+
+
+[opad202202]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/opad_c._22022_podrobnosti_pro_vypisovani_zaverecnych_praci_ve_sdruzenem_studiu_pro_studenty.pdf
+[opad202038]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/opad_k_podrobnostem_zaverecne_prace_2020.pdf
+[opad202038p1]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_1_bakalarska_prace.docx
+[opad202038p2]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_2_diplomova_prace.docx
+[opad202038p3]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_3_rigorozni_prace.docx
+
+[temataBP]: https://drive.google.com/file/d/1IQ1ejPpgvwedJPn6pCYU1RdhVYp8Cwy3/view?usp=sharing
+[temataDP]: https://drive.google.com/file/d/1aBnMS7kUnrx2GA5hWZA0ddtztDceOK-N/view?usp=sharing
+
+[zadaniBP]: https://bit.do/bprace
+[zadaniDP]: https://bit.do/dprace
