@@ -3,6 +3,8 @@ title = "Vědecká činnost"
 
 [extra]
 color = "#8FBCBB"
+nav_title_left = "Obecné informace"
+nav_title_right = "Granty a projekty"
 +++
 
 Katedra informačních technologií a technické výchovy vyvíjí v kontextu s
@@ -10,22 +12,18 @@ charakterem své odborné orientace vědeckou, resp. vědeckovýzkumnou a
 vývojovou činnost adekvátně poslání univerzitního vědeckopedagogického
 pracoviště.
 
-## Zaměření vědecké činnosti katedry
-
 Vědecké a vývojové aktivity katedry informačních technologií a technické
 výchovy jsou dlouhodobě orientovány řešením univerzitních, resortních,
 národních a mezinárodních vědeckovýzkumných grantů, úkolů a projektů.
 
+[Zaměření vědecké činnosti katedry podrobně](/vedecka-cinnost/zamereni/)
+
 ## **Problematika projektů a grantů řešených na katedře**
 
-Na katedře bylo v posledních 10 letech řešeno 9 mezinárodních projektů a
-dalších 6 mezinárodních projektů bylo řešeno za účasti pracovníků
-katedry informačních technologií a technické výchovy.
+Vědeckovýzkumné projekty a granty řešené na katedře se dotýkají především problematiky přípravy učitelů s využitím a pro využití ICT, proměn vzdělávání v kontextu rozvoje ICT, možností využití ICT ve výuce a v učení virtuálních vzdělávacích systémů a prostředí a dalších témat souvisejících s výukou předmětů zaměřených do oclasti ICT.
 
-V období posledních 10 let bylo na katedře řešeno též 13 domácích
-vědeckovýzkumných a vývojových projektů a grantů a dalších 6 domácích
-projektů a grantů bylo řešeno za účasti pracovníků katedry informačních
-technologií a technické výchovy.
+[Problematika projektů a grantů řešených na katedře podrobně](/vedecka-cinnost/problematika/)
+
 
 ### [Přehled domácích projektů](index.php?menu=144)
 
@@ -57,13 +55,13 @@ garantovali.
 
 - [Závěrečná zpráva VVZ](download/VVZ_zaverecna-zprava.pdf)
 
-### [Evropský sociální fond](index.php?menu=224)
+### [Evropský sociální fond](esf/)
 
 Pracovníci katedry se podílejí na řešení 3 projektů podporovaných
 [Evropským sociálním fondem](http://www.esfcr.cz/) (ESF) jako řešitelé
 (manažeři) nebo spoluřešitelé.
 
-### [Rozvojové a transformační projekty MŠMT ČR](index.php?menu=225)
+### [Rozvojové a transformační projekty MŠMT ČR](projekty-msmt/)
 
 Pracovníci katedry se účastnili jako garanti nebo členové řešitelského
 týmu realizace 14 rozvojových a transformačních projektů MŠMT ČR
