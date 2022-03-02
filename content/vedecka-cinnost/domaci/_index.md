@@ -7,10 +7,14 @@ nav_right = true
 icon = "ri-home-2-fill"
 color = "#8FBCBB"
 +++
+### Projekty a granty
+ - [GAČR](gacr) - Grantová agentura České republiky
+ - [GAUK](gauk) - Grantová agentura UK
+ - [FRVŠ](frvs) - Fond rozvoje vysokých škol
+ - [ESF](esf) -  Evropské strukturální a investiční fondy
 
+### Projekty MŠMT
+ - [Rozvojové a transformační projekty MŠMT](../projekty-msmt/)  
+ - [Rezortní výzkum MŠMT ČR](rv-msmt) 
 
- - [GAČR](gacr)
- - [GAUK](gauk)
- - [FRVŠ](frvs)
- - [Rezortní výzkum MŠMT ČR](rvmsmt)      
- - [Další domácí projekty](ddp)	
+ ###  [Další domácí projekty](dalsi)	    

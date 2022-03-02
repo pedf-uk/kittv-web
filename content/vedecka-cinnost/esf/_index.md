@@ -1,6 +1,6 @@
 +++
 title = "Projekty ESF" 
-weight = 2
+weight = 4
 [extra]
 heading = "Projekty ESF"
 nav_right = true
