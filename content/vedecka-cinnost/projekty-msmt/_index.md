@@ -1,6 +1,6 @@
 +++
 title = "Projekty MŠMT" 
-weight= 2
+weight= 1
 
 [extra]
 heading = "Rozvojové a transformační projekty MŠMT"

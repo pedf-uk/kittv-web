@@ -1,8 +1,11 @@
 +++
-title = "ESF" 
-
+title = "Projekty ESF" 
+weight = 2
 [extra]
 heading = "Projekty ESF"
+nav_right = true
+icon = "ri-money-euro-circle-line"
+
 +++
 ![ESF logo](logo-eu.jpg)
 
@@ -82,42 +85,37 @@ Manažer projektu:	doc. PaedDr. Radka Wildová, CSc.
 Řešitelé za KITTV:	doc. PhDr. Vladimír Rambousek, CSc., PhDr. Jiří Štípek, Mgr. Miloš Prokýšek  
 Odkazy:	[cteme.eu](http://www.cteme.eu)
  	 
-2006 – 2008 Program Iniciativy Společenství EQUAL
-Název projektu:	
-Deep-laid regiony
+### 2006 – 2008 Program Iniciativy Společenství EQUAL
+Název projektu:	Deep-laid regiony
 
-Typ projektu:	ESF
-Garance projektu:	SOUTR - Střední odborné učiliště tradičních řemesel, spol. s r. o., Brno
-Manažer projektu:	Ing. Antonín Horák
-Garant PedF UK:	doc. Ing. František Mošna, CSc.
+Typ projektu: ESF  
+Garance projektu:	SOUTR - Střední odborné učiliště tradičních řemesel, spol. s r. o., Brno  
+Manažer projektu:	Ing. Antonín Horák  
+Garant PedF UK:	doc. Ing. František Mošna, CSc.  
  	 
-2005 - 2007 ESF RLZ Opatření 3.1 Rozvoj počátečního vzdělávání jako základu celoživotního učení a z hlediska potřeb trhu práce a ekonomiky znalostí
-Název záměru:	Rozvoj výuky přírodovědných a technických předmětů s ohledem na specifika velkoměsta - kombinované kurzy s online podporou pro učitele a žáky
-Žadatel:	Univerzita Karlova v Praze, MFF
-Kontaktní osoba za PedF UK:	doc. RNDr. Miroslava Černochová, CSc.
-Stručná anotace:	
+### 2005 - 2007 ESF RLZ Opatření 3.1 Rozvoj počátečního vzdělávání jako základu celoživotního učení a z hlediska potřeb trhu práce a ekonomiky znalostí
+Název záměru:	Rozvoj výuky přírodovědných a technických předmětů s ohledem na specifika velkoměsta - kombinované kurzy s online podporou pro učitele a žáky  
+Žadatel:	Univerzita Karlova v Praze, MFF  
+Kontaktní osoba za PedF UK:	doc. RNDr. Miroslava Černochová, CSc.  
+#### Stručná anotace:	
 Projekt řeší kritický nedostatek kurzů dalšího vzdělávání pro učitele přírodovědných a technických předmětů a zároveň nedostatečnou motivaci žáků vyšších ročníků základní školy a studentů nižších ročníků středních škol ke studiu a dalšímu vzdělávání v těchto oborech.
-V průběhu projektu bude vytvořeno 5 kombinovaných kurzů ve dvou variantách - učitelské a žákovské, s výraznou online podporou, důrazem na mezipředmětové vazby a respektem ke specifikům velkoměsta. Kurzy se zaměřují na rozvoj klíčových kompetencí učitelů i žáků, týmovou práci a inovativní přístup k výuce i učení se. V těchto kurzech bude proškoleno celkem 110 účastníků v týmech tvořených učitelem a 1-2 žáky/studenty z téže školy.
+V průběhu projektu bude vytvořeno 5 kombinovaných kurzů ve dvou variantách - učitelské a žákovské, s výraznou online podporou, důrazem na mezipředmětové vazby a respektem ke specifikům velkoměsta. Kurzy se zaměřují na rozvoj klíčových kompetencí učitelů i žáků, týmovou práci a inovativní přístup k výuce i učení se. V těchto kurzech bude proškoleno celkem 110 účastníků v týmech tvořených učitelem a 1-2 žáky/studenty z téže školy.  
 Výsledky jejich týmové práce budou publikovány a zpřístupněny učitelské veřejnosti. V zájmu udržitelnosti navrhovaného řešení budou vytvořené kurzy akreditovány pro DVPP MŠMT a poskytnuty zúčastněným školám. Zájemci z řad učitelů těchto škol budou v rámci projektu proškoleni jako budoucí lektoři.
 
 Projekt je spolufinancován Evropským sociálním fondem, státním rozpočtem České republiky a rozpočtem hl.m.Prahy.
-
-Podrobná anotace:	http://userweb.pedf.cuni.cz/rozvoj/Projekt_WWW2.htm
-Odkazy:	http://userweb.pedf.cuni.cz/rozvoj/Projekt_WWW2.htm
-http://userweb.pedf.cuni.cz/rozvoj/Projekt_WWW2.htm
  	 
-2006 - 2008 ESF RLZ Opatření 3.1 Rozvoj počátečního vzdělávání jako základu celoživotního učení a z hlediska potřeb trhu práce a ekonomiky znalostí	 
-Název záměru:	Podpora tvorby a zavedení školních vzdělávacích programů s komponentou ekonomické gramotnosti
-Žadatel:	Univerzita Karlova v Praze, PedF
-Kontaktní osoba za PedF UK:	Ing. Jaroslav Novák, Ph.D.
+### 2006 - 2008 ESF RLZ Opatření 3.1 Rozvoj počátečního vzdělávání jako základu celoživotního učení a z hlediska potřeb trhu práce a ekonomiky znalostí	 
+Název záměru:	Podpora tvorby a zavedení školních vzdělávacích programů s komponentou ekonomické gramotnosti  
+Žadatel:	Univerzita Karlova v Praze, PedF  
+Kontaktní osoba za PedF UK:	Ing. Jaroslav Novák, Ph.D.  
  	 
-2006 - 2008 ESF JPD3 Opatření 3.1 Rozvoj počátečního vzdělávání jako základu celoživotního učení a z hlediska potřeb trhu práce a ekonomiky znalostí
-Název záměru:	Ekogramotnost pro udržitelný rozvoj v Praze
-Nositel:	KEV
-Kontaktní osoba za PedF UK:	PhDr. Václav Pumpr
-Řešitelé za KITTV:	Ing. Jaroslav Novák, Ph.D., doc. PhDr. Vladimír Rambousek, CSc..
+### 2006 - 2008 ESF JPD3 Opatření 3.1 Rozvoj počátečního vzdělávání jako základu celoživotního učení a z hlediska potřeb trhu práce a ekonomiky znalostí
+Název záměru:	Ekogramotnost pro udržitelný rozvoj v Praze 
+Nositel:	KEV  
+Kontaktní osoba za PedF UK:	PhDr. Václav Pumpr  
+Řešitelé za KITTV:	Ing. Jaroslav Novák, Ph.D., doc. PhDr. Vladimír Rambousek, CSc..  
  	 
-2006 - 2008 ESF JPD3 Opatření 3.1 Rozvoj počátečního vzdělávání jako základu celoživotního učení a z hlediska potřeb trhu práce a ekonomiky znalostí
-Název:	Transformace výuky ICT v rámci strukturovaných studií na UK PedF, příprava kombinované formy výuky kurzů a zpracování distančních a elektronických opor výuky
-Nositel:	UK v Praze, PedF UK
-Kontaktní osoba:	Ing. Jaroslav Novák, Ph.D.
+###  2006 - 2008 ESF JPD3 Opatření 3.1 Rozvoj počátečního vzdělávání jako základu celoživotního učení a z hlediska potřeb trhu práce a ekonomiky znalostí
+Název:	Transformace výuky ICT v rámci strukturovaných studií na UK PedF, příprava kombinované formy výuky kurzů a zpracování distančních a elektronických opor výuky  
+Nositel:	UK v Praze, PedF UK  
+Kontaktní osoba:	Ing. Jaroslav Novák, Ph.D.  

@@ -22,38 +22,40 @@ národních a mezinárodních vědeckovýzkumných grantů, úkolů a projektů.
 
 Vědeckovýzkumné projekty a granty řešené na katedře se dotýkají především problematiky přípravy učitelů s využitím a pro využití ICT, proměn vzdělávání v kontextu rozvoje ICT, možností využití ICT ve výuce a v učení virtuálních vzdělávacích systémů a prostředí a dalších témat souvisejících s výukou předmětů zaměřených do oclasti ICT.
 
-[Problematika projektů a grantů řešených na katedře podrobně](/vedecka-cinnost/problematika/)
+[Problematika projektů a grantů řešených na katedře podrobně](problematika/)
 
+## **Přehled projektů řešených na katedře**
+
+<div class="blocks"><div>
 
 ### [Přehled domácích projektů](index.php?menu=144)
 
- -   [GAČR](index.php?menu=210)   
- -   [GAUK](index.php?menu=211)   
- -   [FRVŠ](index.php?menu=209)   
- -   [Rezortní výzkum MŠMT ČR](index.php?menu=212)      
- -   [Další domácí projekty](index.php?menu=213)
+ - [GAČR](index.php?menu=210)   
+ - [GAUK](index.php?menu=211)   
+ - [FRVŠ](index.php?menu=209)   
+ - [Rezortní výzkum MŠMT ČR](index.php?menu=212)      
+ - [Další domácí projekty](index.php?menu=213)				
 
+</div><div>
 
 ### [Přehled mezinárodních projektů](index.php?menu=145) 
-                                  
+
  -   [5. rámcový program EU](index.php?menu=214)       
  -   [6. rámcový program EU](index.php?menu=215)       
- -   [COMENIUS](index.php?menu=216) 
- -   [SOCRATES](index.php?menu=216) 
- -   [GRUNDTVIG](index.php?menu=216) 
+ -   [COMENIUS, SOCRATES, GRUNDTVIG](index.php?menu=216) 
  -   [EU IST Call 4](index.php?menu=217)        
  -   [SITES](index.php?menu=218)   
  -   [TEMPUS](index.php?menu=219)  
  -   [Další mezinárodní projekty](index.php?menu=220) 
 
-### [Výzkumný záměr](index.php?menu=206)
+</div></div>     
+
+### [Výzkumný záměr](domaci/vvz)
 
 Pracovníci katedry se významnou měrou podíleli v letech 1999 -2004 na
 řešení výzkumného záměru fakulty MSM 114100003 Vzdělávání pro život v
 informační společnosti a řešení 3 tematických okruhů výzkumného záměru
 garantovali.
-
-- [Závěrečná zpráva VVZ](download/VVZ_zaverecna-zprava.pdf)
 
 ### [Evropský sociální fond](esf/)
 
