@@ -12,6 +12,8 @@ icon = "ri-file-paper-2-line"
 
 [Středisko informačních technologií](https://sit.pedf.cuni.cz/)
 
+[Podpora elektronického vzdělávání na UK](https://dl.cuni.cz/)
+
 [Důsledky podvodného jednání](@/katedra/dpj.md)
 
 [GDPR](https://cuni.cz/UK-9056.html)
