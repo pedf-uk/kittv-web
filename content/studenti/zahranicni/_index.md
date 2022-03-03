@@ -1,6 +1,6 @@
 +++
 title = "Zahraniční studia" 
-weight = 2
+weight = 4
 
 [extra]
 heading = "Možnosti zahraničního studia pro studenty a doktorandy KITTV a přijímání zahraničních studentů"

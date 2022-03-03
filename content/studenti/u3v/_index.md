@@ -1,6 +1,6 @@
 +++
-title = "Studium v oblasti pg. věd (DPS)"
-weight = 3
+title = "Univerzita třetího věku (U3V)"
+weight = 6
 [extra]
 icon = "ri-nurse-fill"
 +++
@@ -11,7 +11,7 @@ icon = "ri-nurse-fill"
 
 ### Učitelství odborných předmětů, Učitelství praktického vyučování, Učitelství odborného výcviku
 
-**Vzdělávací programy  pro získání odborné kvalifikace** (dříve
+**Vzdělávací programy pro získání odborné kvalifikace** (dříve
 doplňující pedagogické studium) jsou zabezpečovány fakultou podle § 9,
 odst. 2, 3, 5 zákona č. 563/2004 Sb., v aktuálním znění a podle vyhlášky
 č. 317/2005 Sb.
