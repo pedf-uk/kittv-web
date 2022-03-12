@@ -8,15 +8,21 @@ icon = "ri-file-paper-2-line"
 
 [Úřední deska fakulty](https://pedf.cuni.cz/PEDF-71.html)
 
-[Studijní oddělení](https://pedf.cuni.cz/PEDF-220.html)
+[Studijní oddělení fakulty](https://pedf.cuni.cz/PEDF-220.html)
 
-[Středisko informačních technologií](https://sit.pedf.cuni.cz/)
+[Středisko informačních technologií fakulty](https://sit.pedf.cuni.cz/)
 
 [Centrální autentizační služba UK](https://ldapuser.cuni.cz/)
 
 [Podpora elektronického vzdělávání na UK](https://dl.cuni.cz/)
 
 [WhoIs UK](https://is.cuni.cz/webapps/whois2)
+
+[Koleje a menzy UK](https://kam.cuni.cz/)
+
+[Studentské spolky UK](https://cuni.cz/UK-8518.html)
+
+[Klub Alumni UK](https://cuni.cz/UK-16.html)
 
 [Rekreace UK](https://rekreace.cuni.cz/)
 
