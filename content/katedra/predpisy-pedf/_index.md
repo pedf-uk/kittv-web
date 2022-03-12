@@ -12,7 +12,13 @@ icon = "ri-file-paper-2-line"
 
 [Středisko informačních technologií](https://sit.pedf.cuni.cz/)
 
+[Centrální autentizační služba UK](https://ldapuser.cuni.cz/)
+
 [Podpora elektronického vzdělávání na UK](https://dl.cuni.cz/)
+
+[WhoIs UK](https://is.cuni.cz/webapps/whois2)
+
+[Rekreace UK](https://rekreace.cuni.cz/)
 
 [Důsledky podvodného jednání](@/katedra/dpj.md)
 
