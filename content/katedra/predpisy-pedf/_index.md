@@ -16,6 +16,8 @@ icon = "ri-file-paper-2-line"
 
 [Podpora elektronického vzdělávání na UK](https://dl.cuni.cz/)
 
+[UK Point](https://ukpoint.cuni.cz/)
+
 [WhoIs UK](https://is.cuni.cz/webapps/whois2)
 
 [Koleje a menzy UK](https://kam.cuni.cz/)
