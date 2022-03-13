@@ -22,14 +22,14 @@ icon = "ri-file-paper-2-line"
 
 ### Univerzita
 
-- [Centrální autentizační služba UK](https://ldapuser.cuni.cz/)
-- [Podpora elektronického vzdělávání na UK](https://dl.cuni.cz/)
+- [Centrální autentizační služba](https://ldapuser.cuni.cz/)
+- [Podpora elektronického vzdělávání](https://dl.cuni.cz/)
 - [UK Point](https://ukpoint.cuni.cz/)
-- [WhoIs UK](https://is.cuni.cz/webapps/whois2)
-- [Koleje a menzy UK](https://kam.cuni.cz/)
-- [Studentské spolky UK](https://cuni.cz/UK-8518.html)  
-- [Klub Alumni UK](https://cuni.cz/UK-16.html)
-- [Rekreace UK](https://rekreace.cuni.cz/)
+- [Kdo je kdo (WhoIs)](https://is.cuni.cz/webapps/whois2)
+- [Koleje a menzy](https://kam.cuni.cz/)
+- [Studentské spolky](https://cuni.cz/UK-8518.html)  
+- [Klub Alumni (absolventi)](https://cuni.cz/UK-16.html)
+- [Rekreace](https://rekreace.cuni.cz/)
 - [GDPR](https://cuni.cz/UK-9056.html)
 
 </div></div>
