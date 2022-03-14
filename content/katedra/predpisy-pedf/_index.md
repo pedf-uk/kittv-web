@@ -14,6 +14,7 @@ icon = "ri-file-paper-2-line"
 - [Studijní oddělení](https://pedf.cuni.cz/PEDF-220.html)
 - [Středisko informačních technologií](https://sit.pedf.cuni.cz/)
 - [Knihovna/studovna](http://knihovna.pedf.cuni.cz/)
+- [Cloudové úložiště](https://owncloud.cesnet.cz/)
 - [Sdílení velkých souborů](https://filesender.cesnet.cz/)
 - [Akademický senát](https://pedf.cuni.cz/PEDF-561.html)
 - [Věda a výzkum](https://pedf.cuni.cz/PEDF-188.html)
