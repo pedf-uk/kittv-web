@@ -8,12 +8,9 @@ icon = "ri-earth-fill"
 color = "#8FBCBB"
 +++
 
-### [Přehled mezinárodních projektů](index.php?menu=145) 
-
- -   [5. rámcový program EU](108)       
- -   [6. rámcový program EU](109)       
- -   [COMENIUS, SOCRATES, GRUNDTVIG](110) 
- -   [EU IST Call 4](114)        
- -   [SITES](112)   
- -   [TEMPUS](113)  
- -   [Další mezinárodní projekty](116) 
+ -   [5. rámcový program EU](5rp-eu)       
+ -   [6. rámcový program EU](6rp-eu)       
+ -   [COMENIUS, SOCRATES, GRUNDTVIG](comenius-socrates-grundvig/)     
+ -   [SITES](sites)   
+ -   [TEMPUS](tempus)  
+ -   [Další mezinárodní projekty](dalsi) 

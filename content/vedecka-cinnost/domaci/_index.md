@@ -11,10 +11,10 @@ color = "#8FBCBB"
  - [GAČR](gacr) - Grantová agentura České republiky
  - [GAUK](gauk) - Grantová agentura UK
  - [FRVŠ](frvs) - Fond rozvoje vysokých škol
- - [ESF](esf) -  Evropské strukturální a investiční fondy
+ - [ESF](../esf/) -  Evropské strukturální a investiční fondy
 
 ### Projekty MŠMT
  - [Rozvojové a transformační projekty MŠMT](../projekty-msmt/)  
- - [Rezortní výzkum MŠMT ČR](rv-msmt) 
+ - [Rezortní výzkum MŠMT ČR](rvmsmt) 
 
  ###  [Další domácí projekty](dalsi)	    

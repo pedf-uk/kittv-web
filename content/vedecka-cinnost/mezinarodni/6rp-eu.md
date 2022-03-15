@@ -9,17 +9,12 @@ title = "6. rámcový program EU"
   Partner za ČR:                       DZS MŠMT                                                                                   
   Řešitelé:                            doc. RNDr. Miroslava Černochová, CSc., Ing. Bořivoj Brdička, Ph.D., Mgr. Daniel Tocháček   
   ------------------------------------ ------------------------------------------------------------------------------------------ ---
-
-  --------- -----------------------------
-  Odkazy:   <http://calibrate.eun.org/>
-  --------- -----------------------------
-
-  ---------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------- ---
-  **2004 FP6- SCHOOL-FORESIGHT SAS6-CT-2003-508865**                                                                                                                                                             
+  **2004 FP6- SCHOOL-FORESIGHT SAS6-CT-2003-508865**   
+ 
   Název úkolu:                                         School Foresight                                                                                                                                         
   Hlavní řešitel:                                      Q-Plan S.A., Atény, Řecko                                                                                                                                
   Řešitelský tým z KITTV:                              RNDr. Miroslava Černochová, CSc., Ing. Irena Fialová, Mgr. David Mudrák a studenti PedF UK (Martin Vocílka, Filip Dvořák, Karel Bukovský, Filip Rendl)   
-  ---------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------- ---
+  ------------------------------------ ------------------------------------------------------------------------------------------ ---
 
 EU investovala nemalé finanční částky na ICT projekty s cílem integrovat
 do škol inovativní přístupy do výuky a učení. Cílem projektu EU
@@ -39,8 +34,3 @@ návštěvníkům vyzkoušet si technologie použité ve vybraných projektech. 
 domácích projektů byl vybrán projekt vzdálené laboratoře RNDr. Františka
 Lustiga, CSc. z MFF UK v Praze integrující videokonferenční zařízení pro
 dálkové ovládání robota postaveného ze stavebnice LEGO.
-
-  -------- ---------------------------------------------
-  Odkaz:   <http://www.gfxs.cz/schoolforesight>
-           <http://www.school-foresight.org/intro.asp>
-  -------- ---------------------------------------------

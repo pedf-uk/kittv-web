@@ -32,11 +32,6 @@ vzdělávání), informačních a komunikačních technologií, občanské vých
 a dalších předmětů humanitního základu na základních a středních
 školách.
 
-### Výstupy projektu:
-
--   **webové stránky s výsledky projektu**, s materiály a se zdroji k
-    této problematice <http://www.image-identity.eu>
-
 ### Řešitelé projektu:
 
 Koordinátorem projektu je **Roehampton University, Londýn, Velká

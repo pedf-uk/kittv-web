@@ -41,4 +41,4 @@ ještě ZŠ Korunovační v Praze, ZŠ Vrchlického v Liberci a ZŠ Hodkovice.
 Výsledky projektu byly průběžně sledovány, kontrolovány a obhajovány
 před komisí EU v Bruselu, Barceloně a Luxemburgu.
 
-Odkaz: <http://www.school-plus.org/>
+Odkaz: <https://schoolsplus.org/>
