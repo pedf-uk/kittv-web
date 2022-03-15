@@ -16,6 +16,7 @@ icon = "ri-file-paper-2-line"
 - [Knihovna/studovna](http://knihovna.pedf.cuni.cz/)
 - [Cloudové úložiště](https://owncloud.cesnet.cz/)
 - [Sdílení velkých souborů](https://filesender.cesnet.cz/)
+- [Citace PRO](https://www.citacepro.com/)
 - [Akademický senát](https://pedf.cuni.cz/PEDF-561.html)
 - [Věda a výzkum](https://pedf.cuni.cz/PEDF-188.html)
 - [Důsledky podvodného jednání](@/katedra/dpj.md)
