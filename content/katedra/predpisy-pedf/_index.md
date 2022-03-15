@@ -29,6 +29,7 @@ icon = "ri-file-paper-2-line"
 - [Podpora elektronického vzdělávání](https://dl.cuni.cz/)
 - [UK Point](https://ukpoint.cuni.cz/)
 - [Kdo je kdo (WhoIs)](https://is.cuni.cz/webapps/whois2)
+- [Portál elektronických zdrojů](https://ezdroje.cuni.cz/)
 - [Koleje a menzy](https://kam.cuni.cz/)
 - [Studentské spolky](https://cuni.cz/UK-8518.html)  
 - [Klub Alumni (absolventi)](https://cuni.cz/UK-16.html)
