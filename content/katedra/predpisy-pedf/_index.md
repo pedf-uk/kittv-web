@@ -1,5 +1,5 @@
 +++
-title = "Důležité informace a předpisy"
+title = "Důležité informace"
 
 [extra]
 nav_right = true
