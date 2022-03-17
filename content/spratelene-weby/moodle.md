@@ -9,4 +9,3 @@ link = "https://moodle.it.pedf.cuni.cz/"
 +++
 
 Moodle je nejpopulárnější LMS, ve kterém na naší katedře probíhá výuka.
-

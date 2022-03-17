@@ -9,4 +9,3 @@ link = "https://sit.pedf.cuni.cz/wi-fi/eduroam/"
 +++
 
 Akademická síť a Wi-Fi zdarma pro všechny členy akademické obce.
-

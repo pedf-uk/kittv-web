@@ -9,4 +9,3 @@ link = "https://microlab.space"
 +++
 
 Spolek našich studentů, kteří se pravidelně schází a pracují na technických projektech.
-

@@ -9,4 +9,3 @@ link = "https://kolbaba.pedf.cuni.cz"
 +++
 
 Fakultní poštovní server pro zaměstnance i studenty naší fakulty.
-

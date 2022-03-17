@@ -9,4 +9,3 @@ link = "https://onthehub.com"
 +++
 
 OnTheHub nabízí studentům KITTV zdarma licence na proprietární software.
-
