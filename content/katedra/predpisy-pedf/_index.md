@@ -18,7 +18,7 @@ icon = "ri-file-paper-2-line"
 - [Sdílení velkých souborů](https://filesender.cesnet.cz/)
 - [Citace PRO](https://www.citacepro.com/)
 - [Akademický senát](https://pedf.cuni.cz/PEDF-561.html)
-- [Věda a výzkum](https://pedf.cuni.cz/PEDF-188.html)
+- [Věda a výzkum, granty, projekty](https://pedf.cuni.cz/PEDF-188.html)
 - [Důsledky podvodného jednání](@/katedra/dpj.md)
 
 </div><div>
