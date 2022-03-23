@@ -10,4 +10,4 @@ Maškarní ples...
 
 <!-- more -->
 
-Právě přichází pan ředitel v masce lva, obchodní zástupce v masce slona, účetní v masce princezny a správce sítě v masce 255.255.255.0.
+Právě přichází pan ředitel v masce lva, obchodní zástupce v masce slona, účetní v masce princezny a správce sítě v masce 255.255.255.0:-)
