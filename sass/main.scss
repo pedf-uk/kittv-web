@@ -257,6 +257,7 @@ main {
 			@include top-border;
 			display: flex;
 			flex-direction: column;
+			width: 100%;
 			max-width: 50em;
 			height: 100%;
 			padding: 1em;
