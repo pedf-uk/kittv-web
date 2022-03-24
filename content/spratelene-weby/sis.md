@@ -9,4 +9,3 @@ link = "https://is.cuni.cz/studium/index.php"
 +++
 
 Studijní informanční systém UK, jehož zákoutí jsou stále neprobádaná.
-
