@@ -1,6 +1,6 @@
 +++
 title = "Zájmové programy CŽV"
-weight = 4
+weight = 3
 [extra]
 heading = "Zájmové programy CŽV (šablony)"
 icon = "ri-brush-3-line"

@@ -35,9 +35,6 @@ učitelé s 15 a více lety praxe.
 
 ### Výstupy projektu:
 
-**webové stránky s výsledky projektu**, s materiály a se zdroji k této
-problematice <http://www.2agepro.psy.lmu.de>
-
 publikace -- ČERNOCHOVÁ, M., PROKÝŠEK, M. 2AgePro: Models of
 Professional Knowledge Transfer Between Two Generations of Teachers --
 Junior and Senior Teachers, sborník ATEE 2010 Winter Conference

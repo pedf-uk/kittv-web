@@ -8,5 +8,4 @@ color = "#5E81AC"
 link = "https://sit.pedf.cuni.cz/wi-fi/eduroam/"
 +++
 
-Akademická síť a WiFi zdarma pro všechny členy akademické obce.
-
+Akademická síť a Wi-Fi zdarma pro všechny členy akademické obce.

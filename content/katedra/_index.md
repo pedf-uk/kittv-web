@@ -8,6 +8,8 @@ nav_title_right = "Pravidla a předpisy"
 heading = "Katedra informačních technologií a technické výchovy"
 +++
 
+#### [EN](https://pedf.cuni.cz/PEDFEN-145.html?cat=prac&org=1575)
+
 ## Základní charakteristika:
 
 Katedra informačních technologií a technické výchovy je
@@ -139,7 +141,7 @@ formy:
 ### Informační a metodická podpora
 
 -   zabezpečení funkce a rozvoje serveru Učitelský spomocník na adrese
-    <http://spomocnik.rvp.cz/>, pojímaného jako informační portál určený
+    <https://spomocnik.rvp.cz/>, pojímaného jako informační portál určený
     učitelům a studentům učitelství, usilující o podporu funkčního
     využívání digitálních technologií ve výuce a zkvalitnění informačně
     technologické výchovy na školách

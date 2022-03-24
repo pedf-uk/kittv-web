@@ -1,6 +1,6 @@
 +++
 title = "Zájmové programy CŽV"
-weight = 4
+weight = 5
 [extra]
 icon = "ri-brush-3-line"
 +++

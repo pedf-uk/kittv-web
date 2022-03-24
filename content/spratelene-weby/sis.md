@@ -8,5 +8,4 @@ color = "#EBCB8B"
 link = "https://is.cuni.cz/studium/index.php"
 +++
 
-Spolek našich studentů, kteří se pravidelně schází a pracují na technických projektech.
-
+Studijní informanční systém UK, jehož zákoutí jsou stále neprobádaná.
