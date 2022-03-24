@@ -1,5 +1,6 @@
 +++
 title = "Pravidla pro práci v síti"
+weight = 3
 
 [extra]
 nav_right = true
