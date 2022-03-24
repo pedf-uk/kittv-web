@@ -1,5 +1,6 @@
 +++
 title = "Bezpečnost práce"
+weight = 1
 
 [extra]
 nav_right = true
