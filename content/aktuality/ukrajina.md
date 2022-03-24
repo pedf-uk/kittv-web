@@ -1,5 +1,5 @@
 +++
-title = "Univerzita Karlova k válce na Ukrajině"
+title = "Univerzita Karlova k válce na Ukrajině​​ 🕊"
 date = 2022-03-03
 +++
 
