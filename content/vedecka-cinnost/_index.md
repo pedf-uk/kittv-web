@@ -30,23 +30,23 @@ Vědeckovýzkumné projekty a granty řešené na katedře se dotýkají předev
 
 ### [Přehled domácích projektů](index.php?menu=144)
 
- - [GAČR](index.php?menu=210)   
- - [GAUK](index.php?menu=211)   
- - [FRVŠ](index.php?menu=209)   
- - [Rezortní výzkum MŠMT ČR](index.php?menu=212)      
- - [Další domácí projekty](index.php?menu=213)				
+ - [GAČR](domaci/gacr)   
+ - [GAUK](domaci/gauk)   
+ - [FRVŠ](domaci/frvs)   
+ - [Rezortní výzkum MŠMT ČR](domaci/rvmsmt)      
+ - [Další domácí projekty](domaci/dalsi)				
 
 </div><div>
 
 ### [Přehled mezinárodních projektů](index.php?menu=145) 
 
- -   [5. rámcový program EU](index.php?menu=214)       
- -   [6. rámcový program EU](index.php?menu=215)       
- -   [COMENIUS, SOCRATES, GRUNDTVIG](index.php?menu=216) 
- -   [EU IST Call 4](index.php?menu=217)        
- -   [SITES](index.php?menu=218)   
- -   [TEMPUS](index.php?menu=219)  
- -   [Další mezinárodní projekty](index.php?menu=220) 
+ -   [5. rámcový program EU](mezinarodni/5rp-eu)       
+ -   [6. rámcový program EU](mezinarodni/6rp-eu)       
+ -   [COMENIUS, SOCRATES, GRUNDTVIG](mezinarodni/comenius-socrates-grundvig/) 
+ -   [EU IST Call 4](mezinarodni/fp6-ist)        
+ -   [SITES](mezinarodni/sites)   
+ -   [TEMPUS](mezinarodni/tempus)  
+
 
 </div></div>     
 
