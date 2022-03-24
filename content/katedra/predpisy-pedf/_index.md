@@ -1,5 +1,6 @@
 +++
 title = "Důležité informace"
+weight = 4
 
 [extra]
 nav_right = true

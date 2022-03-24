@@ -1,5 +1,6 @@
 +++
 title = "Pravidla pro práci v učebnách"
+weight = 2
 
 [extra]
 nav_right = true

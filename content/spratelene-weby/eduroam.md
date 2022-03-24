@@ -4,7 +4,7 @@ weight = 3
 
 [extra]
 logo = "eduroam.svg"
-color = "#5E81AC"
+color = "#097191"
 link = "https://sit.pedf.cuni.cz/wi-fi/eduroam/"
 +++
 
