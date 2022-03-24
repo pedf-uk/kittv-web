@@ -182,7 +182,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     algoritmů užívaných v počítačové grafice; rastrové (bitmapové)
     formáty, vektorové formáty, metaformáty; úprava a konverze
     grafických souborů.
-28. **TVORBA A ZPRACOVÁNÍ GRAFIKY ** --  technické a programové vybavení
+28. **TVORBA A ZPRACOVÁNÍ GRAFIKY** --  technické a programové vybavení
     pro tvorbu a zpracování grafiky; získávání grafických dat,
     světlocitlivé snímací prvky, skenery, digitální foto; programy pro
     tvorbu a zpracování grafiky, monitory, projektory; tisk, tiskárny.
