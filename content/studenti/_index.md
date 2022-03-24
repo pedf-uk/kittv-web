@@ -14,8 +14,6 @@ Katedra informačních technologií a technické výchovy se ve své pedagogick�
 
 - [Navazující magisterské studium](@/studenti/magisterske/_index.md)
 
-- [Společný základ](@/studenti/uz/_index.md)
-
 - [Zahraniční studia](@/studenti/zahranicni/_index.md)
 
 - [Zájmové programy CŽV](@/studenti/zajmove-programy-czv/_index.md)
