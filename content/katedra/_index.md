@@ -93,9 +93,6 @@ formy:
 -   příprava studentů v tříletém bakalářském studijním oboru Informační
     technologie se zaměřením na vzdělávání ve studijním programu B 7507
     Specializace v pedagogice v prezenční i kombinované formě
--   příprava studentů v tříletém bakalářském studijním oboru Technická a
-    informační výchova se zaměřením na vzdělávání ve studijním programu
-    B 7507 Specializace v pedagogice v prezenční i kombinované formě
 
 ### Magisterské studijní obory
 
@@ -103,10 +100,6 @@ formy:
     oboru Učitelství VVP pro ZŠ a SŠ - Informační a komunikační
     technologie ve studijním programu N 7504 Učitelství pro střední
     školy v prezenční i kombinované formě
--   příprava studentů v dvouletém navazujícím magisterském studijním
-    oboru Učitelství VVP pro ZŠ a SŠ -Technická a informační výchova ve
-    studijním programu N 7504 Učitelství pro střední školy v prezenční
-    formě
 
 ### Všeobecná a profesně zaměřená příprava
 
@@ -123,14 +116,8 @@ formy:
 
 ### Celoživotní vzdělávání
 
--   studium pro rozšíření odborné kvalifikace - Učitelství VVP pro
-    základní školy a střední školy - Informační a komunikační
-    technologie
--   studium pro získání odborné kvalifikace -- studium v oblasti
-    pedagogických věd - Učitelství odborných předmětů, Učitelství
-    praktického vyučování a Učitelství odborného výcviku
--   zabezpečení testovacího střediska pro ECDL testování v rámci systému
-    European Computer Driving Licence
+- **Zájmové programy CŽV**, aktuálně vypsané kurzy naleznete na stránkách [centra celoživotního vzdělávání Pedagogické fakulty UK][sablony]
+- **Univerzita třetího věku (U3V)**, katedra nabízí jednosemestrální praktický kurz U3V. Program je koncipován tak, že se účastníci prakticky seznamují s principy fungování a využívání online kancelářských služeb a osobní agendy služeb seniora.
 
 ### Doktorský studijní program
 
@@ -145,3 +132,5 @@ formy:
     učitelům a studentům učitelství, usilující o podporu funkčního
     využívání digitálních technologií ve výuce a zkvalitnění informačně
     technologické výchovy na školách
+
+[sablony]: https://pages.pedf.cuni.cz/czv/zajmove-kurzy/nabidka-zajmovych-programu/
