@@ -1,8 +1,13 @@
 +++
 title = "Studenti se speciálními potřebami" 
+weight=3
 
 [extra]
 heading = ""
+nav_right = true
+nav_title_right = "Studenti se speciálními potřebami"
+icon = "ri-shield-cross-line"
+color = "#8FBCBB"
 +++
 
 Kontaktní osobou pro studenty se speciálními potřebami na katedře ITTV

@@ -36,6 +36,6 @@ nav_rambotron = [
 nav_footer = [
 	{path = "/katedra/sidlo-pracoviste/", name = "Sídlo pracoviště"},
 	{path = "/katedra/pracovnici/", name = "Pracovníci"},
-	{path = "/katedra/ssp/", name = "Studenti se spec. potřebami"},
+	{path = "/studenti/ssp/", name = "Studenti se spec. potřebami"},
 	{path = "/pristupnost/", name = "Prohlášení o přístupnosti"},
 ]
