@@ -17,3 +17,13 @@ Absolventi studijního programu Učitelství informačních a komunikačních te
 ### Studijní plány
 
 Aktuální informace o studiu a studijní plány jsou dostupné v [Karolince na webu fakulty][karolinka]
+
+[karolinka]: https://pedf.cuni.cz/PEDF-216.html
+
+[NIT]: https://pedf.cuni.cz/PEDF-2361.html
+[ON1IT20]: https://pedf.cuni.cz/PEDF-2361-version1-n_it_plnyplan_gr3.pdf
+[ON2IT20MA]: https://pedf.cuni.cz/PEDF-2361-version1-n_it_maior_gr.pdf
+[ON2IT20MI]: https://pedf.cuni.cz/PEDF-2361-version1-n_it_minor_gr.pdf
+
+[NITKS]: https://pedf.cuni.cz/PEDF-2385.html
+[OKN1IT20]: https://pedf.cuni.cz/PEDF-2385-version1-n_it_plnyplan_ks_gr3.pdf

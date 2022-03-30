@@ -43,12 +43,3 @@ Absolvent bakalářského studijního oboru Informační technologie se zaměře
 
 [BITKS]: https://pedf.cuni.cz/PEDF-2316.html
 [OKB1IT20]: https://pedf.cuni.cz/PEDF-2316-version1-b_it_plnyplan_ks_gr.pdf
-
-[NIT]: https://pedf.cuni.cz/PEDF-2361.html
-[ON1IT20]: https://pedf.cuni.cz/PEDF-2361-version1-n_it_plnyplan_gr3.pdf
-[ON2IT20MA]: https://pedf.cuni.cz/PEDF-2361-version1-n_it_maior_gr.pdf
-[ON2IT20MI]: https://pedf.cuni.cz/PEDF-2361-version1-n_it_minor_gr.pdf
-
-[NITKS]: https://pedf.cuni.cz/PEDF-2385.html
-[OKN1IT20]: https://pedf.cuni.cz/PEDF-2385-version1-n_it_plnyplan_ks_gr3.pdf
-
