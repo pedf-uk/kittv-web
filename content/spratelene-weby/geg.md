@@ -3,7 +3,7 @@ title = "GEG ČR"
 weight = 10
 
 [extra]
-logo = "gegfest.svg"
+logo = "geg.svg"
 color = "#8F9493"
 link = "https://www.gegcr.cz/"
 +++
