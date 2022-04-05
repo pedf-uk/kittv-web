@@ -12,4 +12,4 @@ Připravujeme oslavu Velikonoc, a to večírkem ve *čtvrtek 14.&nbsp;dubna od&n
 
 DC Manta se nachází na adrese *Zborovská 22/1053*, kousek od tramvajové zastávky *Arbesovo náměstí*. Večírek je tradičně pořádan naši [studentskou oborovou radou](https://sor.it.pedf.cuni.cz).
 
-![](letacek.png)
+![Velikonoce - pozvánka](letacek.png)
