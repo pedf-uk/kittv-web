@@ -34,6 +34,7 @@ icon = "ri-file-paper-2-line"
 - [Koleje a menzy](https://kam.cuni.cz/)
 - [Studentské spolky](https://cuni.cz/UK-8518.html)  
 - [Klub Alumni (absolventi)](https://cuni.cz/UK-16.html)
+- [Knihkupectví Karolinum](https://cupress.cuni.cz/ink2_ext/)
 - [Rekreace](https://rekreace.cuni.cz/)
 - [GDPR](https://cuni.cz/UK-9056.html)
 
