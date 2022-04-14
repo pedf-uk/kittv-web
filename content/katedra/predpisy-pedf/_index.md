@@ -1,5 +1,5 @@
 +++
-title = "Důležité informace"
+title = "Užitečné odkazy"
 weight = 4
 
 [extra]
