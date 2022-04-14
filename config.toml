@@ -1,4 +1,4 @@
-base_url = "https://it.pedf.cuni.cz"
+base_url = "https://it.pedf.cuni.cz/"
 title = "KITTV"
 
 compile_sass = true
@@ -18,7 +18,7 @@ nav_primary = [
 	{path = "katedra", name = "Katedra"},
 	{path = "uchazeci", name = "Uchazeči"},
 	{path = "studenti", name = "Studenti"},
-	{path = "vedecka-cinnost", name = "Vědecká činnost"}
+	{path = "vedecka-cinnost", name = "Věda"}
 ]
 
 nav_secondary = [
