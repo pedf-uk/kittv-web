@@ -1,5 +1,5 @@
 +++
-title = "Vědecká činnost"
+title = "Věda"
 
 [extra]
 color = "#8FBCBB"
