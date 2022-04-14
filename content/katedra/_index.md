@@ -5,7 +5,7 @@ title = "Katedra"
 color = "#B48EAD"
 nav_title_left = "O katedře"
 nav_title_right = "Důležité informace"
-heading = "Katedra informačních technologií a technické výchovy"
+heading = "Katedra informačních technologií a technické výchovy (KITTV)"
 +++
 
 #### [EN](https://pedf.cuni.cz/PEDFEN-145.html?cat=prac&org=1575)
