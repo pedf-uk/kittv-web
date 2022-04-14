@@ -21,6 +21,7 @@ icon = "ri-file-paper-2-line"
 - [Akademický senát](https://pedf.cuni.cz/PEDF-561.html)
 - [Věda a výzkum, granty, projekty](https://pedf.cuni.cz/PEDF-188.html)
 - [Důsledky podvodného jednání](@/katedra/dpj.md)
+- [HELPDESK SIS](https://helpdesksis.pedf.cuni.cz/)
 
 </div><div>
 
