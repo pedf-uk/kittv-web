@@ -29,7 +29,9 @@ podrobný studijní plán s měřitelnými a kontrolovatelnými výsledky.
 
 Bližší podrobnosti na stránkách agentury Socrates - [http://socrates.cz/](http://socrates.cz/).
 
- Katedra KITTV přijímá pouze zahraniční studenty schopné absolvovat výuku v českém jazyce. 
+[Portál Erasmus UK](https://is.cuni.cz/webapps/)
+
+Katedra KITTV přijímá pouze zahraniční studenty schopné absolvovat výuku v českém jazyce. 
 Vyjimku tvoří doktorandi s individuálním učebním plánem, kteří mohou výuku absolvovat v angličtině, němčině či španělštině. 
 
 ## Socrates Comenius 2.2B 
