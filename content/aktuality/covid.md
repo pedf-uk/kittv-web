@@ -1,6 +1,9 @@
 +++
 title = "☀ Opatření COVID-19"
 date = 2021-02-16
+
+[extra]
+expiration = 2022-04-13
 +++
 
 Aktuálně platné informace o změnách ve výuce v souvislosti s pandemií sledujte na [webu univerzity][1], [stránkách fakulty][2] nebo na [facebooku][3].
