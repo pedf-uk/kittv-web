@@ -5,6 +5,7 @@ title = "Věda"
 color = "#8FBCBB"
 nav_title_left = "Obecné informace"
 nav_title_right = "Granty a projekty"
+heading= "Vědecká činnost"
 +++
 
 Katedra informačních technologií a technické výchovy vyvíjí v kontextu s
