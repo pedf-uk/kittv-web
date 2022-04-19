@@ -36,7 +36,18 @@ header {
 
 	&.compact {
 		padding: 1.3rem 0;
+
 		.wrap { height: 4rem }
+		nav.primary {
+			li>div {
+				left: 50%;
+				right: auto;
+				transform: translate(-50%, -1em);
+			}
+			li:hover>div {
+				transform: translate(-50%, 0);
+			}
+		}
 	}
 
 	.wrap {
