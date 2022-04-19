@@ -124,9 +124,9 @@ header {
 			grid-template-columns: 1fr 1fr;
 			column-gap: 1em;
 			position: absolute;
-			left: 0;
+			right: 0;
 			top: 100%;
-			width: 100%;
+			min-width: 100%;
 			padding: 1rem;
 			background-color: #FFF;
 			font-size: 1rem;
