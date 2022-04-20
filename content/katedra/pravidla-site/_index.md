@@ -20,7 +20,7 @@ icon = "ri-node-tree"
 3.  Pravidla provozu počítačové sítě KITTV PedF UK v Praze vymezují
     základní práva a povinnosti provozovatelů prostředků výpočetní
     techniky KITTV. Tato pravidla jsou závazná pro všechny uživatele
-    počítačové sítě a jsou platná pro lokální počítačovou síť **KITTV**.
+    počítačové sítě a jsou platná pro lokální počítačovou síť KITTV.
     Každý uživatel sítě musí zároveň plně respektovat pravidla
     počítačové sítě PedF UK.
 4.  Termínem správce počítačové sítě (dále jen správce) se rozumí
