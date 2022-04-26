@@ -1,10 +1,12 @@
 base_url = "https://it.pedf.cuni.cz/"
 title = "KITTV"
 
+default_language = "cs"
 compile_sass = true
 highlight_code = false
 build_search_index = false
 
+feed_filename = "atom.xml"
 
 [markdown]
 
