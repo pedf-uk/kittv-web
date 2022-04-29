@@ -503,8 +503,9 @@ main {
 	.button {
 		border: 0;
 		@include top-border($light-blue);
-		display: inline-block;
-		padding: 1rem 4rem;
+		display: inline-flex;
+		align-items: center;
+		padding: 1rem 2rem;
 		margin-top: 2rem;
 		outline: none;
 		background: none;
@@ -516,6 +517,11 @@ main {
 		&:hover {
 			@include shadow;
 			text-decoration: none;
+		}
+
+		&>i {
+			font-size: 1.4em;
+			margin-right: .5em;
 		}
 	}
 

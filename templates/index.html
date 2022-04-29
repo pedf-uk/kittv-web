@@ -43,7 +43,8 @@
 				{{ macro::list_posts(section=section) }}
 			</div>
 			<div class="centering">
-				<a href="aktuality" class="button">Starší příspěvky</a>
+				<a href="{{ get_url(path="@/aktuality/_index.md") }}" class="button"><i class="ri-archive-line"></i> Starší příspěvky</a>
+				<a href="{{ get_url(path="aktuality/atom.xml") }}" class="button"><i class="ri-rss-line"></i> RSS</a>
 			</div>
 		</section>
 		<section>
