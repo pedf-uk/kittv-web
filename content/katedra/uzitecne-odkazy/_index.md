@@ -22,6 +22,7 @@ icon = "ri-file-paper-2-line"
 - [Věda a výzkum, granty, projekty](https://pedf.cuni.cz/PEDF-188.html)
 - [Důsledky podvodného jednání](@/katedra/dpj.md)
 - [HELPDESK SIS](https://helpdesksis.pedf.cuni.cz/)
+- [Vydavatelství](https://vydavatelstvi.pedf.cuni.cz/)
 
 </div><div>
 
