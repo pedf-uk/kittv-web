@@ -42,3 +42,11 @@ icon = "ri-file-paper-2-line"
 - [GDPR](https://cuni.cz/UK-9056.html)
 
 </div></div>
+
+<div class="blocks"><div>
+
+### Jiné
+
+- [Spomocník - digitální technologie ve vzdělávání](https://spomocnik.rvp.cz/)
+
+</div></div>
