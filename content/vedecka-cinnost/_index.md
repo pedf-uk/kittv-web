@@ -29,7 +29,7 @@ Vědeckovýzkumné projekty a granty řešené na katedře se dotýkají předev
 
 <div class="blocks"><div>
 
-### [Přehled domácích projektů](index.php?menu=144)
+### Přehled domácích projektů
 
  - [GAČR](domaci/gacr)   
  - [GAUK](domaci/gauk)   
@@ -39,7 +39,7 @@ Vědeckovýzkumné projekty a granty řešené na katedře se dotýkají předev
 
 </div><div>
 
-### [Přehled mezinárodních projektů](index.php?menu=145) 
+### Přehled mezinárodních projektů
 
  -   [5. rámcový program EU](mezinarodni/5rp-eu)       
  -   [6. rámcový program EU](mezinarodni/6rp-eu)       
