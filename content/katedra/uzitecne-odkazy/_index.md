@@ -23,6 +23,7 @@ icon = "ri-file-paper-2-line"
 - [Důsledky podvodného jednání](@/katedra/dpj.md)
 - [HELPDESK SIS](https://helpdesksis.pedf.cuni.cz/)
 - [Vydavatelství](https://vydavatelstvi.pedf.cuni.cz/)
+- [Technicko-provozní oddělení](https://pages.pedf.cuni.cz/tpo/)
 
 </div><div>
 
