@@ -1,6 +1,6 @@
 +++
 title = "Studenti se speciálními potřebami" 
-weight=3
+weight=4
 
 [extra]
 heading = ""
