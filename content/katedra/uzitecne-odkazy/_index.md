@@ -24,6 +24,7 @@ icon = "ri-file-paper-2-line"
 - [Vydavatelství](https://vydavatelstvi.pedf.cuni.cz/)
 - [Ohlašování akcí](https://akce.pedf.cuni.cz/)
 - [Chci ucit!](https://chciucit.pedf.cuni.cz/)
+- [PedInf](https://page.pedf.cuni.cz/pedinfo)
 
 </div><div>
 
