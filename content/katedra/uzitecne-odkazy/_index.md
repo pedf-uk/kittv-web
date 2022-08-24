@@ -23,7 +23,7 @@ icon = "ri-file-paper-2-line"
 - [HELPDESK SIS](https://helpdesksis.pedf.cuni.cz/)
 - [Vydavatelství](https://vydavatelstvi.pedf.cuni.cz/)
 - [Ohlašování akcí](https://akce.pedf.cuni.cz/)
-- [Chci ucit!](https://chciucit.pedf.cuni.cz/)
+- [Chci učit!](https://chciucit.pedf.cuni.cz/)
 - [PedInfo](https://pages.pedf.cuni.cz/pedinfo/)
 
 </div><div>
