@@ -6,6 +6,6 @@ weight = 0
 group = "ucitele"
 email = "ondrej.neumajer@pedf.cuni.cz"
 sis = "09688"
-homepage = "https://ondrej.neumajer.cz/"
+homepage = "https://ondrej.neumajer.cz"
 +++
 
