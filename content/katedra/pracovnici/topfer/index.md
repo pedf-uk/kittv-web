@@ -6,5 +6,6 @@ weight = 0
 group = "ucitele"
 email = "pavel.topfer@pedf.cuni.cz"
 sis = "62820"
+homepage = "https://ksvi.mff.cuni.cz/~topfer/"
 +++
 
