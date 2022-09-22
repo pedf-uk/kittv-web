@@ -1,5 +1,5 @@
 base_url = "https://it.pedf.cuni.cz/"
-title = "KITTV"
+title = "Katedra informačních technologií a technické výchovy"
 
 default_language = "cs"
 compile_sass = true

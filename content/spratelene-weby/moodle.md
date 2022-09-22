@@ -4,7 +4,7 @@ weight = 1
 
 [extra]
 logo = "moodle.svg"
-color = "#D08770"
+color = "#f98012"
 link = "https://moodle.it.pedf.cuni.cz/"
 +++
 
