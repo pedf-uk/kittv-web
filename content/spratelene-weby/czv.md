@@ -4,7 +4,7 @@ weight = 2
 
 [extra]
 logo = "czv.svg"
-color = "#D08770"
+color = "#D73648"
 link = "/uchazeci/zajmove-programy-czv/"
 +++
 
