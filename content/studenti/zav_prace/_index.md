@@ -33,8 +33,8 @@ icon = "ri-file-copy-2-line"
 [opad202038p2]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_2_diplomova_prace.docx
 [opad202038p3]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_3_rigorozni_prace.docx
 
-[temataBP]: https://drive.google.com/file/d/1IQ1ejPpgvwedJPn6pCYU1RdhVYp8Cwy3/view?usp=sharing
-[temataDP]: https://drive.google.com/file/d/1aBnMS7kUnrx2GA5hWZA0ddtztDceOK-N/view?usp=sharing
+[temataBP]: https://drive.google.com/file/d/1vljhOgeIRvbM6r-G599LlN8tMl6641GT/view?usp=sharing
+[temataDP]: https://drive.google.com/file/d/1keiAuGfH2gK3_j1FwLKNbtvjB5wbSraU/view?usp=sharing
 
 [zadaniBP]: https://bit.do/bprace
 [zadaniDP]: https://bit.do/dprace
