@@ -1,6 +1,6 @@
 +++
 title = "Učebny KITTV"
-description = "Učebny KITTV před rekonstrukcí"
+description = ""
 date = 2021-05-06
 +++
 

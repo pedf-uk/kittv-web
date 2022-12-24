@@ -1,5 +1,5 @@
 +++
 title = "Historie"
-description = "Počátky katedry"
+description = ""
 date = 1999-12-15
 +++
