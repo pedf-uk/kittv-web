@@ -1,5 +1,5 @@
 base_url = "https://it.pedf.cuni.cz/"
-title = "KITTV"
+title = "Katedra informačních technologií a technické výchovy"
 
 default_language = "cs"
 compile_sass = true
@@ -32,7 +32,8 @@ nav_rambotron = [
 	{path = "https://pedf.cuni.cz/PEDF-606.html", name = "Harmonogram roku"},
 	{path = "/uchazeci/prijimaci_rizeni/", name = "Termíny přijímacího řízení"},
 	{path = "/studenti/zav_prace/", name = "Témata závěrečných prací"},
-	{path = "/studenti/szz/", name = "Okruhy k SZZ"}
+	{path = "/studenti/szz/", name = "Okruhy k SZZ"},
+	{path = "/uchazeci/zajmove-programy-czv/", name = "Kurzy pro učitele"}
 ]
 
 nav_footer = [

@@ -20,9 +20,11 @@ icon = "ri-file-paper-2-line"
 - [Citace PRO](https://www.citacepro.com/)
 - [Akademický senát](https://pedf.cuni.cz/PEDF-561.html)
 - [Věda a výzkum, granty, projekty](https://pedf.cuni.cz/PEDF-188.html)
-- [Důsledky podvodného jednání](@/katedra/dpj.md)
 - [HELPDESK SIS](https://helpdesksis.pedf.cuni.cz/)
 - [Vydavatelství](https://vydavatelstvi.pedf.cuni.cz/)
+- [Ohlašování akcí](https://akce.pedf.cuni.cz/)
+- [Chci učit!](https://chciucit.pedf.cuni.cz/)
+- [PedInfo](https://pages.pedf.cuni.cz/pedinfo/)
 
 </div><div>
 
@@ -35,7 +37,8 @@ icon = "ri-file-paper-2-line"
 - [Portál elektronických zdrojů](https://ezdroje.cuni.cz/)
 - [Koleje a menzy](https://kam.cuni.cz/)
 - [Webové aplikace UK (Erasmus, Ubytovací a sociální stipendia, GAUK)](https://is.cuni.cz/webapps/)
-- [Studentské spolky](https://cuni.cz/UK-8518.html)  
+- [Studentské spolky](https://cuni.cz/UK-8518.html)
+- [Forum (magazín UK)](https://www.ukforum.cz/)  
 - [Klub Alumni (absolventi)](https://cuni.cz/UK-16.html)
 - [Knihkupectví Karolinum](https://cupress.cuni.cz/ink2_ext/)
 - [Rekreace](https://rekreace.cuni.cz/)

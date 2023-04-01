@@ -38,8 +38,8 @@ Ve sdruženém studiu k plánu maior přináleží učitelská propedeutika (ped
 - [Studijí plán minor][OB2 minor] (IT je druhý obor)
 
 
-[OKB1 detail]: https://is.cuni.cz/studium/prijimacky/index.php?do=detail_obor&id_obor=24418
-[OPB1 detail]: https://is.cuni.cz/studium/prijimacky/index.php?do=detail_obor&id_obor=24191
+[OKB1 detail]: https://is.cuni.cz/studium/prijimacky/index.php?do=detail_obor&id_obor=28385
+[OPB1 detail]: https://is.cuni.cz/studium/prijimacky/index.php?do=detail_obor&id_obor=28536
 [OB1 plan]: https://is.cuni.cz/studium/predmety/index.php?do=prohl&fak=11410&oborplan=OB1IT20&rocnik=&graficky=1&b=Zobrazit
 
 [OB2 detail]: https://is.cuni.cz/studium/prijimacky/index.php?do=obory&fakulta=11410&druh=B&obor1=0114RA140004&obor2=&jazyk=&delka=&dvouobor=1&iscedkod=&zobraz=Zobrazit+16+polo%C5%BEek

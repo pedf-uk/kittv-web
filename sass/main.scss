@@ -166,6 +166,8 @@ header {
 		.floating.visible {
 			visibility: visible;
 			opacity: 1;
+			height: auto;
+			transition: all .2s ease-out;
 		}
 
 		.buttons {
@@ -185,11 +187,13 @@ header {
 			top: 100%;
 			right: 0;
 			width: 100%;
-			padding: 2em 1em;
+			height: 0;
+			overflow: hidden;
+			padding: 0 1em 1em 1em;
 			background-color: #fff;
 			z-index: 1;
 			opacity: 0;
-			transition: all .2s ease-out;
+			transition: none;
 
 			ul {
 				display: flex;

@@ -4,7 +4,7 @@ weight = 2
 
 [extra]
 nav_right = true
-icon = "ri-door-open-line"
+icon = "ri-door-closed-line"
 +++
 
 ## PRAVIDLA PRO PRÁCI v počítačových učebnách katedry informačních technologií a technické výchovy PedF UK

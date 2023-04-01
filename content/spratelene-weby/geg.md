@@ -1,6 +1,6 @@
 +++
 title = "GEG ČR"
-weight = 10
+weight = 3
 
 [extra]
 logo = "geg.svg"

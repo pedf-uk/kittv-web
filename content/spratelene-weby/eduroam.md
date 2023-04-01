@@ -1,6 +1,6 @@
 +++
 title = "Eduroam"
-weight = 3
+weight = 11
 
 [extra]
 logo = "eduroam.svg"

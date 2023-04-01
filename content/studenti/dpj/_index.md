@@ -1,8 +1,13 @@
 +++
 title = "Důsledky podvodného jednání" 
+weight=3
 
 [extra]
 heading = ""
+nav_right = true
+nav_title_right = "Důsledky podvodného jednání"
+icon = "ri-copyright-line"
+color = "#8FBCBB"
 +++
 
 ## Upozornění pro studující na katedře ITTV Pedagogické fakulty UK v Praze na důsledky nedodržování a nerespektování právních a etických norem při plnění studijních povinností

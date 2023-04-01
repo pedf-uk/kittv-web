@@ -1,6 +1,6 @@
 +++
 title = "Kolbaba"
-weight = 2
+weight = 10
 
 [extra]
 logo = "kolbaba.svg"
