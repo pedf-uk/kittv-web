@@ -4,7 +4,7 @@ weight = 2
 
 [extra]
 group = "vedeni"
-color = "#B48EAD"
+color = "#896c84"
 role = "Zástupce vedoucího katedry"
 email = "josef.prochazka@pedf.cuni.cz"
 phone = "+420 221 900 327"
