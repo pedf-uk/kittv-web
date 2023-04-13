@@ -70,7 +70,7 @@
 {% macro breadcrumbs(page) %}
 	<div class="breadcrumbs">
 		<div class="wrap">
-			<a href="{{ config.base_url }}" class="home"><i class="ri-home-4-line"></i></a>
+			<a href="{{ config.base_url }}" class="home" title="Domů"><i class="ri-home-4-line"></i></a>
 			<ul>
 				{% for ancestor in page.ancestors %}
 					{% if loop.first %}{% continue %}{% endif %}
