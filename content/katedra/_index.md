@@ -2,7 +2,7 @@
 title = "Katedra"
 
 [extra]
-color = "#B48EAD"
+color = "#896c84"
 nav_title_left = "O katedře"
 nav_title_right = "Důležité informace"
 heading = "Katedra informačních technologií a technické výchovy (KITTV)"
