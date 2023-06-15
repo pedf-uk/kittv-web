@@ -36,5 +36,5 @@ icon = "ri-file-copy-2-line"
 [temataBP]: https://drive.google.com/file/d/1vljhOgeIRvbM6r-G599LlN8tMl6641GT/view?usp=sharing
 [temataDP]: https://drive.google.com/file/d/1keiAuGfH2gK3_j1FwLKNbtvjB5wbSraU/view?usp=sharing
 
-[zadaniBP]: https://bit.do/bprace
-[zadaniDP]: https://bit.do/dprace
+[zadaniBP]: https://docs.google.com/document/d/1zUd8Fd8zs9QbpQyQUNdSoGRu0X71BoVxUSrusBtAMPY/edit?usp=sharing
+[zadaniDP]: https://docs.google.com/document/d/1sCDJAsQ-gRdmGQY6K-8QvKtUBuBJTEg5cuaJ-h-JSAY/edit?usp=sharing
