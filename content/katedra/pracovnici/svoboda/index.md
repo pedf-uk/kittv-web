@@ -1,5 +1,5 @@
 +++
-title = "Filip Svoboda"
+title = "Bc. Filip Svoboda"
 weight = 0
 
 [extra]
