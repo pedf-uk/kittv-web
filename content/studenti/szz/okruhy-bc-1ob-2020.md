@@ -49,7 +49,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     optočlen),vícevrstvé spínací součástky (diak, tyristor, triak).
 
 ### Okruh II: Počítačové sítě a operační systémy
-1.  **INTERNETWORKING A ETHERNET** -- internetworking -- propojovací
+7.  **INTERNETWORKING A ETHERNET** -- internetworking -- propojovací
     prvky, propustnost sítě, přenosová média a síťové rozvody; standard
     Ethernet 802.3 (10/100/1000 Mbit); standard IEEE 802.11 (a/b/g/n);
     802.x - druhy a typy rámců, techniky směrování, přístupové metody;
@@ -82,7 +82,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     Administrace uživatelů.
 
 ### Okruh III: Zpracování dat a informací prostředky ICT
-22. **INFORMATIKA A INFORMATIZACE** -- informace jako pojem; zpráva,
+11. **INFORMATIKA A INFORMATIZACE** -- informace jako pojem; zpráva,
     informace, data; přenos informace a entropie; komprese a uchování
     dat - komprese textových, video a audio dat; samoopravné kódy.
 23. **TEORIE KONEČNÝCH AUTOMATŮ** - konečný automat a jeho definice;
@@ -106,7 +106,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
 
 ### Okruh I: Algoritmizace a programování
 
-19. **ALGORITMUS** - vlastnosti, resp. požadavky na algoritmus, základní
+1. **ALGORITMUS** - vlastnosti, resp. požadavky na algoritmus, základní
     algoritmické konstrukce - charakteristika a princip, způsoby
     vyjádření algoritmu (diagramy, ...), program, programové konstrukce
     (vztah k algoritmickým konstrukcím); pojmy syntax a sémantika;
@@ -124,7 +124,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     seznam, zásobník, strom);
 
  ### Okruh II: Vývojové prostředky a prostředí   
-3.  **MULTIMEDIA, PROSTOROVÉ ZOBRAZENÍ, ROZŠÍŘENÁ REALITA** -- základní
+4.  **MULTIMEDIA, PROSTOROVÉ ZOBRAZENÍ, ROZŠÍŘENÁ REALITA** -- základní
     pojmy: multimédia, grafika, video, zvuk; princip zvuku a videa;
     charakteristika složek multimediálních systémů; druhy a vlastnosti
     multimédií a jejich uplatnění: zdroje multimediálních dat, forma
@@ -138,7 +138,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     vlastnosti audiovisuálního díla
 
 ### Okruh III: Databázové a informační systémy 
-14. **DATABÁZE** - databázové systémy, datové modely a struktury --
+6. **DATABÁZE** - databázové systémy, datové modely a struktury --
     popis klíčových přístupů ke zpracování dat v historickém přehledu;
     datové struktury -- výčet a příklady výskytu; datové modely a jejich
     aspekty; modelování databáze -- význam a postup; konceptuální a
@@ -152,7 +152,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     přístup do DB, úrovně omezení.\
 
 ### Okruh IV: Webové technologie
-16. **TVORBA WWW STRÁNEK** -- technologie pro tvorbu www stránek a
+8. **TVORBA WWW STRÁNEK** -- technologie pro tvorbu www stránek a
     jejich možnosti; validační W3C standardy; jazyk (X)HTML -- struktura
     a syntaxe kódu, zápis parametrů; struktura www dokumentu --
     strukturální značky; formátování obsahu www stránek; interaktivní
@@ -171,7 +171,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
 
 ## Oblast 3 - Nezařazené okruhy
 
-12. **ZVUK** - Zvuk a jeho fyzikální vlastnosti (vlnění, intenzita,
+11. **ZVUK** - Zvuk a jeho fyzikální vlastnosti (vlnění, intenzita,
     výkon, kmitočtové a prostorové charakteristiky); hudební vlastnosti
     zvuku (tón, kmitočtové vlastnosti, harmonické signály a jejich
     skládání); vnímání zvuku člověkem (sluch, subjektivní vjem, působení
