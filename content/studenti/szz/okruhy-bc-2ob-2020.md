@@ -7,9 +7,11 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
 
 ## dvouoborové studium
 
-*Platné od 1. 1. 2020*
+*Platné od 1. 9. 2023*
 
-### Okruh I: Technické vybavení počítačů
+## Oblast 1 - Informační a komunikační technologie
+
+### Technické vybavení počítačů
 1.  **ARCHITEKTURA A KONSTRUKCE POČÍTAČŮ** -- základní pojmy, druhy
     výpočetních systémů, přehled, vývoj a historie; von Neumannovo
     schéma výpočetního systému x Harvardská architektura (porovnání,
@@ -27,7 +29,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     funkce, vlastnosti, principy, konstrukce, možnosti zařízení vstupu a
     výstupu; rozhraní, zapojení, kabeláž, konektory, napájení/nabíjení;
     konkrétní zařízení.
-### Okruh II: Počítačové sítě a operační systémy
+### Počítačové sítě a operační systémy
 4.  **TAXONOMIE POČÍTAČOVÝCH SÍTÍ A DATOVÁ KOMUNIKACE** -- definice
     základních pojmů; rozdělení datových sítí; topologie sítí -- využití
     a vlastnosti; referenční model OSI/OSI, síťová architektura TCP/IP
@@ -65,7 +67,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     vstupu/výstupu; uživatelé a práva v unixovém prostředí, související
     příkazy; filtry; editor vi; scripty v Unixu. Nastavení sítě.
     Administrace uživatelů.
-### Okruh III: Zpracování dat a informací prostředky ICT
+### Zpracování dat a informací prostředky ICT
 10. **INFORMATIKA A INFORMATIZACE** -- informace jako pojem; zpráva,
     informace, data; přenos informace a entropie; komprese a uchování
     dat -- komprese textových, video a audio dat; samoopravné kódy.
@@ -73,18 +75,11 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     Moorův a Mealyho automat; strukturální a funkční podobnost automatu;
     redukce automatu; Karnaughova mapa; abstraktní model počítače - von
     Neumannovo schéma, Turinguv stroj.
-5.  **MULTIMEDIA** -- základní pojmy: multimédia, grafika, video, zvuk;
-    princip zvuku a videa; charakteristika složek multimediálních
-    systémů; druhy a vlastnosti multimédií a jejich uplatnění: zdroje
-    multimediálních dat, forma prezentace multimediálních dat; základní
-    formáty, jejich dělení, jejich specifikace a historický vývoj;
-    principy a druhy komprese audio a video signálu
-6.  **TVORBA A ZPRACOVÁNÍ MULTIMEDIÍ** -- technické a programové
-    vybavení pro tvorbu a zpracování multimediálních aplikací; editace
-    digitálního videa, formáty videa z hlediska použití; vlastnosti
-    audiovisuálního díla
-### Okruh IV: Algoritmizace a programování
-14. **ALGORITMUS** - vlastnosti, resp. požadavky na algoritmus, základní
+
+## Oblast 2 - Programování a aplikace výpočetních systémů
+
+### Algoritmizace a programování
+1. **ALGORITMUS** - vlastnosti, resp. požadavky na algoritmus, základní
     algoritmické konstrukce - charakteristika a princip, způsoby
     vyjádření algoritmu (diagramy, ...), program, programové konstrukce
     (vztah k algoritmickým konstrukcím); pojmy syntax a sémantika;
@@ -100,8 +95,8 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     konstruktor, metoda, vlastnosti, přístupová práva, dědičnost);
     význam dědičnosti; polymorfizmus; Základní datové struktury (fronta,
     seznam, zásobník, strom);
-### Okruh V: Databázové a informační systémy
-17. **DATABÁZE** - databázové systémy, datové modely a struktury --
+### Databázové a informační systémy
+4. **DATABÁZE** - databázové systémy, datové modely a struktury --
     popis klíčových přístupů ke zpracování dat v historickém přehledu;
     datové struktury -- výčet a příklady výskytu; datové modely a jejich
     aspekty; modelování databáze -- význam a postup; konceptuální a
@@ -114,8 +109,8 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     ovládání a princip databázových transakcí; nastavení práv pro
     přístup do DB, úrovně omezení.
 
-### Okruh VI: Webové technologie
-19. **TVORBA WWW STRÁNEK** -- technologie pro tvorbu www stránek a
+### Webové technologie
+6. **TVORBA WWW STRÁNEK** -- technologie pro tvorbu www stránek a
     jejich možnosti; validační W3C standardy; jazyk (X)HTML -- struktura
     a syntaxe kódu, zápis parametrů; struktura www dokumentu --
     strukturální značky; formátování obsahu www stránek; interaktivní
@@ -134,10 +129,8 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     způsoby připojení aplikace k databázi; proces zpracování SQL dotazu;
     zabezpečení aplikace.
 
-
-
-## Nezařazené okruhy
-22. **TEORETICKÉ ZÁKLADY POČÍTAČOVÉ GRAFIKY** -- vývoj a směry
+ ### Počítačová grafika a multimédia
+9. **TEORETICKÉ ZÁKLADY POČÍTAČOVÉ GRAFIKY** -- vývoj a směry
     zpracování grafických informací na počítači; vlastnosti a vnímání
     světla zrakem, vnímání jasu, vnímání barev, barevné prostory,
     chromatický diagram, způsoby vyjádření odstínu barvy, barevné
@@ -156,4 +149,13 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     pro tvorbu a zpracování grafiky; získávání grafických dat;
     světlocitlivé snímací prvky; skenery; monitory, projektory; tisk a
     tiskárny.
-
+5.  **MULTIMEDIA** -- základní pojmy: multimédia, grafika, video, zvuk;
+    princip zvuku a videa; charakteristika složek multimediálních
+    systémů; druhy a vlastnosti multimédií a jejich uplatnění: zdroje
+    multimediálních dat, forma prezentace multimediálních dat; základní
+    formáty, jejich dělení, jejich specifikace a historický vývoj;
+    principy a druhy komprese audio a video signálu
+6.  **TVORBA A ZPRACOVÁNÍ MULTIMEDIÍ** -- technické a programové
+    vybavení pro tvorbu a zpracování multimediálních aplikací; editace
+    digitálního videa, formáty videa z hlediska použití; vlastnosti
+    audiovisuálního díla
