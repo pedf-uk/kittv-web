@@ -95,11 +95,24 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     číslicovými signály, převodníky; logické obvody kombinační a
     sekvenční; typy kombinačních a sekvenčních logických obvodů,
     příklady užití KLO a SLO; klopné obvody.
-24. **UMĚLÁ INTELIGENCE A EVOLUČNÍ TECHNIKY** -- neuronové sítě, neuron,
+11. **UMĚLÁ INTELIGENCE A EVOLUČNÍ TECHNIKY** -- neuronové sítě, neuron,
     perceptron; učící algoritmy. Genetické algoritmy - populace, gen,
     chromozom, křížení, mutace, výběrové metody. Aplikace neuronových
     sítí a evolučních technik - optimalizační, predikční a klasifikační
-    úlohy.
+    úlohy.  
+11. **ZVUK** - Zvuk a jeho fyzikální vlastnosti (vlnění, intenzita,
+    výkon, kmitočtové a prostorové charakteristiky); hudební vlastnosti
+    zvuku (tón, kmitočtové vlastnosti, harmonické signály a jejich
+    skládání); vnímání zvuku člověkem (sluch, subjektivní vjem, působení
+    zvuku); elektrické zpracování zvukového signálu (přenosy, útlum,
+    filtry, zesilovače, korekční a výkonové zesilovače); zpracování
+    signálu na PC (A/D a D/A převodníky, zvuková karta); zvuková a
+    hudební data (zvukové formáty, signály a průběhy, šum, měření zvuku,
+    grafická znázornění, decibely); technická zařízení a prvky,
+    vlastnosti a použití (elektroakustický řetězec a jeho prvky,
+    propojování zařízení, poslechové prostředí); zpracování zvuku na
+    počítači (zvukové editory, filtry, efekty, příklady aplikací pro
+    práci se zvukem).
 
 
 ## Oblast 2 - Programování a aplikace výpočetních systémů
@@ -171,19 +184,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
 
 ## Oblast 3 - Nezařazené okruhy
 
-11. **ZVUK** - Zvuk a jeho fyzikální vlastnosti (vlnění, intenzita,
-    výkon, kmitočtové a prostorové charakteristiky); hudební vlastnosti
-    zvuku (tón, kmitočtové vlastnosti, harmonické signály a jejich
-    skládání); vnímání zvuku člověkem (sluch, subjektivní vjem, působení
-    zvuku); elektrické zpracování zvukového signálu (přenosy, útlum,
-    filtry, zesilovače, korekční a výkonové zesilovače); zpracování
-    signálu na PC (A/D a D/A převodníky, zvuková karta); zvuková a
-    hudební data (zvukové formáty, signály a průběhy, šum, měření zvuku,
-    grafická znázornění, decibely); technická zařízení a prvky,
-    vlastnosti a použití (elektroakustický řetězec a jeho prvky,
-    propojování zařízení, poslechové prostředí); zpracování zvuku na
-    počítači (zvukové editory, filtry, efekty, příklady aplikací pro
-    práci se zvukem).
+
 13. **KYBERNETIKA** - Vývoj kybernetiky a její vymezení, členění (obory
     teoretické a aplikované, technická kybernetika, souvislosti s
     pedagogikou -- systémová a kybernetická pedagogika, informatika);

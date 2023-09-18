@@ -26,7 +26,7 @@ icon = "ri-file-copy-2-line"
 - [Formulář pro zadání bakalářské práce][zadaniBP]
 - [Formulář pro zadání diplomové práce][zadaniDP]
 
-
+ 
 [opad202202]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/opad_c._22022_podrobnosti_pro_vypisovani_zaverecnych_praci_ve_sdruzenem_studiu_pro_studenty.pdf
 [opad202038]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/opad_k_podrobnostem_zaverecne_prace_2020.pdf
 [opad202038p1]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_1_bakalarska_prace.docx
