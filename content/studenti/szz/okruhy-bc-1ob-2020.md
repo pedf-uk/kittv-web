@@ -7,11 +7,11 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
 
 ## jednooborové studium
 
-*Platné od 1. 1. 2020*
+*Platné od 1. 9. 2023*
 
 ## Oblast 1 - Informační a komunikační technologie
 
-### Okruh I: Technické vybavení počítačů, elektronika a elektrotechnika
+### Technické vybavení počítačů, elektronika a elektrotechnika
 1. **ARCHITEKTURA A KONSTRUKCE POČÍTAČŮ** -- základní pojmy, druhy
     výpočetních systémů, přehled, vývoj a historie; von Neumannovo
     schéma výpočetního systému x Harvardská architektura (porovnání,
@@ -48,7 +48,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     polovodičové součástky a jejich specifika (Zenerova dioda, LED,
     optočlen),vícevrstvé spínací součástky (diak, tyristor, triak).
 
-### Okruh II: Počítačové sítě a operační systémy
+### Počítačové sítě a operační systémy
 7.  **INTERNETWORKING A ETHERNET** -- internetworking -- propojovací
     prvky, propustnost sítě, přenosová média a síťové rozvody; standard
     Ethernet 802.3 (10/100/1000 Mbit); standard IEEE 802.11 (a/b/g/n);
@@ -81,7 +81,7 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     příkazy; filtry; editor vi; scripty v Unixu. Nastavení sítě.
     Administrace uživatelů.
 
-### Okruh III: Zpracování dat a informací prostředky ICT
+### Zpracování dat a informací prostředky ICT
 11. **INFORMATIKA A INFORMATIZACE** -- informace jako pojem; zpráva,
     informace, data; přenos informace a entropie; komprese a uchování
     dat - komprese textových, video a audio dat; samoopravné kódy.
@@ -100,24 +100,10 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     chromozom, křížení, mutace, výběrové metody. Aplikace neuronových
     sítí a evolučních technik - optimalizační, predikční a klasifikační
     úlohy.  
-11. **ZVUK** - Zvuk a jeho fyzikální vlastnosti (vlnění, intenzita,
-    výkon, kmitočtové a prostorové charakteristiky); hudební vlastnosti
-    zvuku (tón, kmitočtové vlastnosti, harmonické signály a jejich
-    skládání); vnímání zvuku člověkem (sluch, subjektivní vjem, působení
-    zvuku); elektrické zpracování zvukového signálu (přenosy, útlum,
-    filtry, zesilovače, korekční a výkonové zesilovače); zpracování
-    signálu na PC (A/D a D/A převodníky, zvuková karta); zvuková a
-    hudební data (zvukové formáty, signály a průběhy, šum, měření zvuku,
-    grafická znázornění, decibely); technická zařízení a prvky,
-    vlastnosti a použití (elektroakustický řetězec a jeho prvky,
-    propojování zařízení, poslechové prostředí); zpracování zvuku na
-    počítači (zvukové editory, filtry, efekty, příklady aplikací pro
-    práci se zvukem).
-
 
 ## Oblast 2 - Programování a aplikace výpočetních systémů
 
-### Okruh I: Algoritmizace a programování
+### Algoritmizace a programování
 
 1. **ALGORITMUS** - vlastnosti, resp. požadavky na algoritmus, základní
     algoritmické konstrukce - charakteristika a princip, způsoby
@@ -136,70 +122,8 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
     význam dědičnosti; polymorfizmus; Základní datové struktury (fronta,
     seznam, zásobník, strom);
 
- ### Okruh II: Vývojové prostředky a prostředí   
-4.  **MULTIMEDIA, PROSTOROVÉ ZOBRAZENÍ, ROZŠÍŘENÁ REALITA** -- základní
-    pojmy: multimédia, grafika, video, zvuk; princip zvuku a videa;
-    charakteristika složek multimediálních systémů; druhy a vlastnosti
-    multimédií a jejich uplatnění: zdroje multimediálních dat, forma
-    prezentace multimediálních dat; základní formáty, jejich dělení,
-    jejich specifikace a historický vývoj; principy a druhy komprese
-    audio a video signálu; typy a způsoby zpracování a prezentace
-    virtuální a rozšířené reality
-4.  **TVORBA A ZPRACOVÁNÍ MULTIMEDIÍ** -- technické a programové
-    vybavení pro tvorbu a zpracování multimediálních aplikací; editace
-    digitálního videa, formáty videa z hlediska použití; tvorba a
-    vlastnosti audiovisuálního díla
-
-### Okruh III: Databázové a informační systémy 
-6. **DATABÁZE** - databázové systémy, datové modely a struktury --
-    popis klíčových přístupů ke zpracování dat v historickém přehledu;
-    datové struktury -- výčet a příklady výskytu; datové modely a jejich
-    aspekty; modelování databáze -- význam a postup; konceptuální a
-    fyzické schéma databáze; kardinalita a parcialita vztahů;
-    normalizace databáze -- účel normalizace, normální formy;\
-15. **SQL** -- skupiny příkazů DDL, DML, DCL; příklady klíčových příkazů
-    pro záznam, změnu a odstranění hodnot; dotazy pro vypsání struktury
-    a sady záznamů; spojování tabulek, agregační funkce a vestavěné
-    funkce; vytváření pohledů, procedur a funkcí; práce s trigerry;
-    ovládání a princip databázových transakcí; nastavení práv pro
-    přístup do DB, úrovně omezení.\
-
-### Okruh IV: Webové technologie
-8. **TVORBA WWW STRÁNEK** -- technologie pro tvorbu www stránek a
-    jejich možnosti; validační W3C standardy; jazyk (X)HTML -- struktura
-    a syntaxe kódu, zápis parametrů; struktura www dokumentu --
-    strukturální značky; formátování obsahu www stránek; interaktivní
-    komponenty HTML jazyka, metody přenosu dat; design WWW stránek --
-    kaskádové definice stylu; CSS selektory, CSS vlastnosti pro design a
-    pozice prvků, provázání se zdrojem stránky.
-17. **PROGRAMOVÁNÍ WWW NA STRANĚ KLIENTA** - možnosti programování www
-    aplikací na straně klienta, způsoby zápisu skriptu do www stránek,
-    syntaxe a vlastnosti jazyka JavaScript, události stránky a jejich
-    odchycení skriptem; objektová struktura stránky (DOM), vestavěné
-    objekty jazyka, vlastní objekty; JS knihovny a jejich specifika;
-    asynchronní metody přenosu dat (AJAX).
-18. **VÝVOJ WWW APLIKACÍ** - design a architektura www aplikací,
-    technická a funkční specifikace; verzovací systémy; jazyk UML;
-    šablonovací systémy a jejich principy
-
-## Oblast 3 - Nezařazené okruhy
-
-
-13. **KYBERNETIKA** - Vývoj kybernetiky a její vymezení, členění (obory
-    teoretické a aplikované, technická kybernetika, souvislosti s
-    pedagogikou -- systémová a kybernetická pedagogika, informatika);
-    základy teorie systémů (druhy systémů, systém a jeho složky,
-    systémová analýza, řízení, regulace); automatizované systémy a
-    řízení (řízení a druhy řízení, ovládání, regulace, vyšší formy
-    řízení -- optimální a adaptivní řízení, umělá inteligence,
-    programování a souvislosti mezi programováním a realizací logickými
-    obvody); UML; snímače, čidla a senzory, řešení pro automatizované
-    zpracování dat; užití jednočipových počítačů a mikrořadičů,
-    programovatelné logické automaty; souvislosti mezi automaty,
-    mikroprocesorem, logickými obvody a programovým řešením logické
-    struktury; robotika (inteligence a umělá inteligence, robotické
-    sestavy a prvky, robotické stavebnice);
-25. **TEORETICKÉ ZÁKLADY POČÍTAČOVÉ GRAFIKY** -- vývoj, význam a oblasti
+ ### Počítačová grafika a multimédia
+4. **TEORETICKÉ ZÁKLADY POČÍTAČOVÉ GRAFIKY** -- vývoj, význam a oblasti
     zpracování grafických informací na počítači; aplikace počítačové
     grafiky; zpracování grafické informace, specifika technického a
     programového vybavení pro zpracování grafiky; fyzikální a percepční
@@ -227,5 +151,78 @@ heading = "Okruhy ke státní bakalářské závěrečné zkoušce oboru Informa
 28. **TVORBA A ZPRACOVÁNÍ GRAFIKY** --  technické a programové vybavení
     pro tvorbu a zpracování grafiky; získávání grafických dat,
     světlocitlivé snímací prvky, skenery, digitální foto; programy pro
-    tvorbu a zpracování grafiky, monitory, projektory; tisk, tiskárny.
+    tvorbu a zpracování grafiky, monitory, projektory; tisk, tiskárny. 
+11. **ZVUK** - Zvuk a jeho fyzikální vlastnosti (vlnění, intenzita,
+    výkon, kmitočtové a prostorové charakteristiky); hudební vlastnosti
+    zvuku (tón, kmitočtové vlastnosti, harmonické signály a jejich
+    skládání); vnímání zvuku člověkem (sluch, subjektivní vjem, působení
+    zvuku); elektrické zpracování zvukového signálu (přenosy, útlum,
+    filtry, zesilovače, korekční a výkonové zesilovače); zpracování
+    signálu na PC (A/D a D/A převodníky, zvuková karta); zvuková a
+    hudební data (zvukové formáty, signály a průběhy, šum, měření zvuku,
+    grafická znázornění, decibely); technická zařízení a prvky,
+    vlastnosti a použití (elektroakustický řetězec a jeho prvky,
+    propojování zařízení, poslechové prostředí); zpracování zvuku na
+    počítači (zvukové editory, filtry, efekty, příklady aplikací pro
+    práci se zvukem).
+4.  **MULTIMEDIA, PROSTOROVÉ ZOBRAZENÍ, ROZŠÍŘENÁ REALITA** -- základní
+    pojmy: multimédia, grafika, video, zvuk; princip zvuku a videa;
+    charakteristika složek multimediálních systémů; druhy a vlastnosti
+    multimédií a jejich uplatnění: zdroje multimediálních dat, forma
+    prezentace multimediálních dat; základní formáty, jejich dělení,
+    jejich specifikace a historický vývoj; principy a druhy komprese
+    audio a video signálu; typy a způsoby zpracování a prezentace
+    virtuální a rozšířené reality
+4.  **TVORBA A ZPRACOVÁNÍ MULTIMEDIÍ** -- technické a programové
+    vybavení pro tvorbu a zpracování multimediálních aplikací; editace
+    digitálního videa, formáty videa z hlediska použití; tvorba a
+    vlastnosti audiovisuálního díla
 
+### Databázové a informační systémy 
+11. **DATABÁZE** - databázové systémy, datové modely a struktury --
+    popis klíčových přístupů ke zpracování dat v historickém přehledu;
+    datové struktury -- výčet a příklady výskytu; datové modely a jejich
+    aspekty; modelování databáze -- význam a postup; konceptuální a
+    fyzické schéma databáze; kardinalita a parcialita vztahů;
+    normalizace databáze -- účel normalizace, normální formy;\
+15. **SQL** -- skupiny příkazů DDL, DML, DCL; příklady klíčových příkazů
+    pro záznam, změnu a odstranění hodnot; dotazy pro vypsání struktury
+    a sady záznamů; spojování tabulek, agregační funkce a vestavěné
+    funkce; vytváření pohledů, procedur a funkcí; práce s trigerry;
+    ovládání a princip databázových transakcí; nastavení práv pro
+    přístup do DB, úrovně omezení.\
+
+### Webové technologie
+13. **TVORBA WWW STRÁNEK** -- technologie pro tvorbu www stránek a
+    jejich možnosti; validační W3C standardy; jazyk (X)HTML -- struktura
+    a syntaxe kódu, zápis parametrů; struktura www dokumentu --
+    strukturální značky; formátování obsahu www stránek; interaktivní
+    komponenty HTML jazyka, metody přenosu dat; design WWW stránek --
+    kaskádové definice stylu; CSS selektory, CSS vlastnosti pro design a
+    pozice prvků, provázání se zdrojem stránky.
+17. **PROGRAMOVÁNÍ WWW NA STRANĚ KLIENTA** - možnosti programování www
+    aplikací na straně klienta, způsoby zápisu skriptu do www stránek,
+    syntaxe a vlastnosti jazyka JavaScript, události stránky a jejich
+    odchycení skriptem; objektová struktura stránky (DOM), vestavěné
+    objekty jazyka, vlastní objekty; JS knihovny a jejich specifika;
+    asynchronní metody přenosu dat (AJAX).
+18. **VÝVOJ WWW APLIKACÍ** - design a architektura www aplikací,
+    technická a funkční specifikace; verzovací systémy; jazyk UML;
+    šablonovací systémy a jejich principy
+
+## Oblast 3 - Nezařazené okruhy
+
+13. **KYBERNETIKA** - Vývoj kybernetiky a její vymezení, členění (obory
+    teoretické a aplikované, technická kybernetika, souvislosti s
+    pedagogikou -- systémová a kybernetická pedagogika, informatika);
+    základy teorie systémů (druhy systémů, systém a jeho složky,
+    systémová analýza, řízení, regulace); automatizované systémy a
+    řízení (řízení a druhy řízení, ovládání, regulace, vyšší formy
+    řízení -- optimální a adaptivní řízení, umělá inteligence,
+    programování a souvislosti mezi programováním a realizací logickými
+    obvody); UML; snímače, čidla a senzory, řešení pro automatizované
+    zpracování dat; užití jednočipových počítačů a mikrořadičů,
+    programovatelné logické automaty; souvislosti mezi automaty,
+    mikroprocesorem, logickými obvody a programovým řešením logické
+    struktury; robotika (inteligence a umělá inteligence, robotické
+    sestavy a prvky, robotické stavebnice);
