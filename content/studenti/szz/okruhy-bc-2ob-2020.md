@@ -25,7 +25,7 @@ Student si u SZZ vylosuje z každé ze dvou oblastí po jedné otázce.
 8. **UNIX, LINUX** – základní charakteristika, vlastnosti, historie; Jádro operačního systému, jeho parametry a konfigurace; shell – druhy, nastavení; souborový systém, adresářová struktura, práce se soubory a adresáři; regulární výrazy; příkazy pro práci se soubory a adresáři; řetězení příkazů a přesměrování standardního vstupu/výstupu; uživatelé a práva v unixovém prostředí, související příkazy; filtry; editor vi; scripty v Unixu. Nastavení sítě. Administrace uživatelů.
 
 ## Zpracování dat a informací prostředky ICT
-9. **INFORMATIKA A INFORMATIZACE** – informace jako pojem; zpráva, informace, data; přenos informace a entropie; komprese (bezztrátová komprese, např. Huffmannovo kódování, RLE, LZW, LZ77, LZ78) a uchování dat; samoopravné kódy.
+9. **INFORMATIKA A INFORMATIZACE** – informace jako pojem; zpráva, informace, data; přenos informace a entropie; komprese (bezztrátová komprese, např. Huffmanovo kódování, RLE, LZW, LZ77, LZ78) a modely dat; samoopravné kódy.
 10. **TEORIE KONEČNÝCH AUTOMATŮ** - konečný automat a jeho definice; Moorův a Mealyho automat; strukturální a funkční podobnost automatu; redukce automatu; Karnaughova mapa; abstraktní model počítače - von Neumannovo schéma, Turingův stroj.
 
 
