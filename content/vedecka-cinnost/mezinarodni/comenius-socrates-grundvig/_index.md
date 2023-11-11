@@ -4,6 +4,16 @@ title = "COMENIUS, SOCRATES a GRUNDTVIG"
 [extra]
 heading = "Mezinárodní projekty COMENIUS, SOCRATES a GRUNDTVIG"
 +++
+### 2022 - 2025 [Projekt FERTILE](fertile.pdf)
+**Erasmus KA2, 2021-1-EL01-KA220-HED-000023361**
+
+Název projektu: **Artful Educational Robotics to promote Computational Thinking in a Blended Learning context (FERTILE)**  
+Koordinátor: University of West Attica, Řecko  
+Partneři: Universidad Rey Juan Carlos (ES), Universidad de Valladolid (ES), Univerzita Komenského v Bratislave (SK)  
+Kontakt za KITTV, PedF UK: PhDr. Petra Vaňková, Ph.D.  
+Webové stránky projektu: <https://fertile-project.eu/>
+ 
+
 ### 2014 - 2016 [Projekt DIYLab](diylab)
 **LLP Multilateral, 543177-LLP-1-2013-1-ES-KA3-KA3MP**
 
