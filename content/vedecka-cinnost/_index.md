@@ -44,6 +44,7 @@ Vědeckovýzkumné projekty a granty řešené na katedře se dotýkají předev
  -   [5. rámcový program EU](mezinarodni/5rp-eu)       
  -   [6. rámcový program EU](mezinarodni/6rp-eu)       
  -   [COMENIUS, SOCRATES, GRUNDTVIG](mezinarodni/comenius-socrates-grundvig/) 
+ -   [ERASMUS](mezinarodni/erasmus/) 
  -   [EU IST Call 4](mezinarodni/fp6-ist)        
  -   [SITES](mezinarodni/sites)   
  -   [TEMPUS](mezinarodni/tempus)  
