@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block styles %}
-	<link rel="stylesheet" href="{{ get_url(path="fancybox/jquery.fancybox.min.css") }}">
+	<link rel="stylesheet" href="{{ get_url(path="fancybox/fancybox.css") }}">
 {% endblock styles %}
 
 {% block extra %}
@@ -23,6 +23,6 @@
 {% endblock content %}
 
 {% block javascript %}
-	<script src="{{ get_url(path="lib/jquery-3.6.0.min.js") }}"></script>
-	<script src="{{ get_url(path="fancybox/jquery.fancybox.min.js") }}"></script>
+	<script src="{{ get_url(path="fancybox/fancybox.js") }}"></script>
+	<script>Fancybox.bind("[data-fancybox]", {});</script>
 {% endblock %}
