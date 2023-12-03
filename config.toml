@@ -8,9 +8,13 @@ build_search_index = false
 
 feed_filename = "atom.xml"
 
+
 [markdown]
 
 smart_punctuation = true
+
+external_links_target_blank = true
+external_links_no_follow = true
 external_links_no_referrer = true
 
 

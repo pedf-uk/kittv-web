@@ -19,44 +19,6 @@ Pro testování a vývoji na lokálním web serveru stačí spustit `zola serve`
 
 Pro vygenerování statického obsahu (pro nasazení na web server) je třeba spustit `zola build`. Výsledný obsah je uložen do složky `public`.
 
-## Deployment
-
-Z tohoto repozitáře (master branch) je nastaven automatický deployment na webserver. V tuto chvíli neprobíhá kontrola kódu a spoléhá se na to, že commitnutý kód je validní.
-
-Repozitář má nastaven *post-receive* hook:
-
-```sh
-#!/bin/sh
-
-nohup ash -c ' \
-    eval "$(ssh-agent -s)" && \
-    ssh-add -t 60 ~/.ssh/id_repository && \
-    ssh gitea@it-new.pedf.cuni.cz "/home/gitea/deployment.sh" && \
-    trap "ssh-agent -k" EXIT \
-' > /dev/null 2>&1 &
-
-echo "Automatic deployment started."
-```
-
-Ten na serveru spouští skript `deployment.sh`:
-
-```sh
-#!/bin/sh
-
-eval "$(ssh-agent -s)" && \
-ssh-add -t 60 ~/.ssh/id_deploy && \
-git clone gitea@git.microlab.space:kittv/web.git kittv-web && \
-zola -r ~/kittv-web/ build && \
-rsync -r ~/kittv-web/public/* /home/www/web-kittv/ && \
-trap "ssh-agent -k" EXIT
-
-date >> ~/deployment_log.txt
-
-rm -rf ~/kittv-web
-```
-
-Přístup do repozitáře je ověřován pomocí tzv. *deploy keys*, tedy SSH klíčem.
-
 ## Dokumentace
 
 - [Zola](https://www.getzola.org/documentation/) (generátor)
