@@ -15,7 +15,7 @@ Plný plán IT studia doplněný o pedagogicko-psychologický základ a povinně
 
 - [Popis oboru v prezenční formě][OPB1 detail]
 - [Popis oboru v kombinované formě][OKB1 detail]
-- [Studijí plán jednooborového studia][OB1 plan]
+- [Studijní plán jednooborového studia][OB1 plan]
 
 ### Sdružené (dvouoborové) studium
 
