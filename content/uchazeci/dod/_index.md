@@ -7,8 +7,6 @@ nav_right = true
 icon = "ri-door-open-line"
 +++
 
-- Den otevřených dveří proběhl v tomto roce ve dnech: **13. 12. 2023**
-- Pro příští akad. rok budou termíny upřesněny.
-
+- Den otevřených dveří je v tomto roce plánován ve dnech: **13. 12. 2023** a **30. 01. 2024**
 - [Prezentace](https://docs.google.com/presentation/d/e/2PACX-1vQMDLtf_XN8emciddhSo7eoBKSSz7yNJhBobO7to1H3FkatpIrK2-UZWU7kx5DqdqxNPh9HacC-RRKC/pub?start=false&loop=false&delayms=3000) možností studia IT na naší katedře
- - [Obecné informace k přijímacímu řízení](https://pedf.cuni.cz/PEDF-1478.html) naleznete na webu fakulty.
+- [Obecné informace k přijímacímu řízení](https://pedf.cuni.cz/PEDF-1478.html) naleznete na webu fakulty.
