@@ -15,6 +15,7 @@ icon = "ri-file-copy-2-line"
 - [Příloha č. 1][opad202038p1] - Šablona bakalářská práce
 - [Příloha č. 2][opad202038p2] - Šablona diplomová práce
 - [Příloha č. 3][opad202038p3] - Šablona rigorózní práce
+- [latex-thesis-template][latex-thesis-template] - Šablona závěrečné práce pro systém LaTeX
 
 ## Vypsaná témata závěrečných prací
 
@@ -32,6 +33,7 @@ icon = "ri-file-copy-2-line"
 [opad202038p1]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_1_bakalarska_prace.docx
 [opad202038p2]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_2_diplomova_prace.docx
 [opad202038p3]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_3_rigorozni_prace.docx
+[latex-thesis-template]: https://github.com/pedf-uk/latex-thesis-template
 
 [temataBP]: https://drive.google.com/file/d/1ptFoV92DooGiOzV3Tm1NbLMD8ZK_Rw1a/view?usp=sharing
 [temataDP]: https://drive.google.com/file/d/1keiAuGfH2gK3_j1FwLKNbtvjB5wbSraU/view?usp=sharing
