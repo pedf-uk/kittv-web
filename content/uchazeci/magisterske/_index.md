@@ -28,7 +28,7 @@ Přijímací zkouška má 2 části:
 Podrobné informace naleznete na webu fakulty v sekci [Uchazeči][uchazeci] / [Navazující magisterské studium][nmgr]
 
 [karolinka]: https://pedf.cuni.cz/PEDF-216.html
-[test]: https://pedf.cuni.cz/PEDF-1495-version1-it_nmgr.pdf
+[test]: /uchazeci/magisterske/ITNMgr_modelove_zadani.pdf
 [jednoobor]: https://is.cuni.cz/studium/prijimacky/index.php?do=detail_obor&id_obor=28951
 [dvouobor]: https://pedf.cuni.cz/PEDF-1186.html
 [programy]: https://pedf.cuni.cz/PEDF-1117.html
