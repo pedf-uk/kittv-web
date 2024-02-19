@@ -34,7 +34,7 @@ icon = "ri-file-copy-2-line"
 [opad202038p3]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_3_rigorozni_prace.docx
 
 [temataBP]: https://drive.google.com/file/d/1ptFoV92DooGiOzV3Tm1NbLMD8ZK_Rw1a/view?usp=sharing
-[temataDP]: https://drive.google.com/file/d/1keiAuGfH2gK3_j1FwLKNbtvjB5wbSraU/view?usp=sharing
+[temataDP]: https://drive.google.com/file/d/1ms8le5hQtJ2QAwHNyBiLkInGnQMQQHxZ/view?usp=sharing
 
 [zadaniBP]: https://docs.google.com/document/d/1zUd8Fd8zs9QbpQyQUNdSoGRu0X71BoVxUSrusBtAMPY/edit?usp=sharing
 [zadaniDP]: https://docs.google.com/document/d/1sCDJAsQ-gRdmGQY6K-8QvKtUBuBJTEg5cuaJ-h-JSAY/edit?usp=sharing
