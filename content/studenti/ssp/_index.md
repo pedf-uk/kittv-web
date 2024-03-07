@@ -1,5 +1,5 @@
 +++
-title = "Studenti se speciálními potřebami" 
+title = "Studenti se specifickými potřebami" 
 weight=4
 
 [extra]
