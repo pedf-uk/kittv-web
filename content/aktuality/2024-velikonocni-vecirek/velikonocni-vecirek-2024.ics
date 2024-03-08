@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:Velikonoční večírek KITTV
+DTSTART;TZID=Europe/Prague:20240321T180000
+DTEND;TZID=Europe/Prague:20240321T220000
+DTSTAMP:20240308T153253Z
+UID:1709911973860-VelikonočníVečírekKITTV
+DESCRIPTION:Přijďte se pobavit na Velikonoční večírek KITTV - již tradičně v https://dcmanta.cz/cafebarmanta.html
+LOCATION:Diving club manta - Kořenského 5\, Praha 5\, Smíchov
+ORGANIZER;CN=Igor Vujovič:mailto:igor.vujovic@student.pedf.cuni.cz
+STATUS:CONFIRMED
+PRIORITY:5
+END:VEVENT
+END:VCALENDAR
