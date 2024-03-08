@@ -44,5 +44,6 @@ nav_footer = [
 	{path = "/katedra/sidlo-pracoviste/", name = "Sídlo pracoviště"},
 	{path = "/katedra/pracovnici/", name = "Pracovníci"},
 	{path = "/studenti/ssp/", name = "Studenti se spec. potřebami"},
+	{path = "https://cunicz.sharepoint.com/sites/PedF-Int", name = "Intranet"},
 	{path = "/pristupnost/", name = "Prohlášení o přístupnosti"},
 ]
