@@ -3,8 +3,8 @@ title = "Outlook"
 weight = 10
 
 [extra]
-logo = "kolbaba.svg"
-color = "#88C0D0"
+logo = "outlook.svg"
+color = "#0078d4"
 link = "https://posta.pedf.cuni.cz/"
 +++
 
