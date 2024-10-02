@@ -6,6 +6,9 @@ nav_right = true
 icon = "ri-file-copy-2-line"
 +++
 
+*Upozorňujeme studující, že v souvislosti se zpracováním závěrečné práce je třeba se seznámit s příslušnými předpisy, jejichž aktuální znění je dostupné na stránkách fakulty. Na stránkách fakulty jsou kromě aktuálních předpisů (včetně Opatření děkana) obvykle dostupné i aktuální doporučené šablony pro bakalářské, diplomové a další typy prací.*
+
+<!--
 ## Opatření děkana a náležitosti závěrečných prací
 
 [Opatření děkana č. 2/2022][opad202202] Podrobnosti pro vypisování závěrečných prací ve sdruženém studiu pro studenty Pedagogické fakulty Univerzity Karlovy
@@ -16,6 +19,7 @@ icon = "ri-file-copy-2-line"
 - [Příloha č. 2][opad202038p2] - Šablona diplomová práce
 - [Příloha č. 3][opad202038p3] - Šablona rigorózní práce
 - [latex-thesis-template][latex-thesis-template] - Šablona závěrečné práce pro systém LaTeX
+-->
 
 ## Vypsaná témata závěrečných prací
 
