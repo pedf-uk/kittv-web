@@ -10,7 +10,7 @@ icon = "ri-shield-cross-line"
 color = "#8FBCBB"
 +++
 
-Kontaktní osobou pro studenty se specifickými potřebami na katedře ITTV
+Koordinátorkou podpory pro studenty se specifickými potřebami na katedře ITTV
 je **[PaedDr. Eva Battistová][battistova]**.
 
 - [Informace PedF UK pro studenty se specifickými potřebami, aktuality](https://pedf.cuni.cz/PEDF-217.html)
