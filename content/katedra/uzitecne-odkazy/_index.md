@@ -32,6 +32,7 @@ icon = "ri-file-paper-2-line"
 
 - [Centrální autentizační služba](https://ldapuser.cuni.cz/)
 - [Podpora elektronického vzdělávání](https://dl.cuni.cz/)
+- [AI na UK](https://ai.cuni.cz/)
 - [UK Point](https://ukpoint.cuni.cz/)
 - [Kdo je kdo (WhoIs)](https://is.cuni.cz/webapps/whois2)
 - [Portál elektronických zdrojů](https://cuni.primo.exlibrisgroup.com/discovery/search?vid=420CKIS_INST:DB&lang=cs)
