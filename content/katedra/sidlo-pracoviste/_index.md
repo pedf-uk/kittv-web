@@ -19,4 +19,4 @@ Chcete-li si ušetřit přestup kvůli jedné tramvajové zastávce, lze k nám 
 
 ## Mapa
 
-<iframe class="map" src="https://en.frame.mapy.cz/s/cejonacule" frameborder="0"></iframe>
+<iframe class="map" src="https://frame.mapy.cz/zakladni?source=firm&id=420595&x=14.4203651&y=50.0798736&z=17" frameborder="0"></iframe>
