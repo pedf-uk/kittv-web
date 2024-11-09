@@ -24,6 +24,7 @@ icon = "ri-file-paper-2-line"
 - [Vydavatelství](https://vydavatelstvi.pedf.cuni.cz/)
 - [Ohlašování akcí](https://akce.pedf.cuni.cz/)
 - [Nabídky práce](https://www.facebook.com/groups/1588495108069916)
+- [PedInfo](https://pages.pedf.cuni.cz/pedinfo/)
 - [Bistro Café Therapy](https://www.facebook.com/BistroCafeTherapy)
 
 
