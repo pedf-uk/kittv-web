@@ -11,4 +11,4 @@ Dovolujeme si Vás pozvat na přednášku profesora Ivana Kalaše z Univerzity K
 
 Téma – jak vyučovat informatiku ve školách - je velice aktuální zejména v době, kdy do škol zavádíme v souvislosti s revizemi RVP povinný předmět Informatiku. Nenechte si ujít vzácnou příležitost setkat se s prof. RNDr. Ivanem Kalašem, PhD., autorem řady učebnic a knih o informatice a digitálních technologiích ve vzdělávání.
 
-[Pozvánka](pozvanka-ivan_kalas)
+[Pozvánka](pozvanka-ivan_kalas.pdf)
