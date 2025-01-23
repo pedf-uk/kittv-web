@@ -2,12 +2,12 @@
 title = "Den otevřených dveří"
 weight = 2
 [extra]
-heading = "Dny otevřených dveří v roce 2023/2024"
+heading = "Dny otevřených dveří v roce 2024/2025"
 nav_right = true
 icon = "ri-door-open-line"
 +++
 
-- Den otevřených dveří je v tomto roce plánován ve dnech: **13. 12. 2023** a **30. 01. 2024**
+- Den otevřených dveří je v akademickém roce plánován dne: **28. 1. 2025**
 - [Prezentace] možností studia IT na naší katedře
 - [Obecné informace k přijímacímu řízení][Pedfweb] naleznete na webu fakulty.
 
