@@ -6,7 +6,7 @@ nav_right = true
 icon = "ri-file-copy-2-line"
 +++
 
-*Upozorňujeme studující, že v souvislosti se zpracováním závěrečné práce je třeba se seznámit s příslušnými předpisy, jejichž aktuální znění je dostupné na stránkách fakulty. Na stránkách fakulty jsou kromě aktuálních předpisů (včetně Opatření děkana) obvykle dostupné i aktuální doporučené šablony pro bakalářské, diplomové a další typy prací. **V otázce výběru Vaší závěrečné práce prosíme postupujte podle [těchto instrukcí][instrukceZP].***
+*Upozorňujeme studující, že vv souvislosti se zpracováním závěrečné práce je třeba se seznámit s příslušnými předpisy, jejichž aktuální znění je dostupné na stránkách fakulty. Na stránkách fakulty jsou kromě aktuálních předpisů (včetně Opatření děkana) obvykle dostupné i aktuální doporučené šablony pro bakalářské, diplomové a další typy prací. **V otázce výběru Vaší závěrečné práce prosíme postupujte podle [těchto instrukcí][instrukceZP].***
 
 <!--
 ## Opatření děkana a náležitosti závěrečných prací
