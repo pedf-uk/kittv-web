@@ -13,6 +13,7 @@ icon = "ri-file-paper-2-line"
 
 - [Úřední deska](https://pedf.cuni.cz/PEDF-71.html)
 - [Studijní oddělení](https://pedf.cuni.cz/PEDF-220.html)
+- [Studium na PedF](https://pages.pedf.cuni.cz/kdykdeco/)
 - [Středisko informačních technologií](https://sit.pedf.cuni.cz/)
 - [Knihovna/studovna](http://knihovna.pedf.cuni.cz/)
 - [Cloudové úložiště](https://owncloud.cesnet.cz/)
