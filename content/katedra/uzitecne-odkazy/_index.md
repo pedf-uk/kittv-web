@@ -41,6 +41,7 @@ icon = "ri-file-paper-2-line"
 - [Portál elektronických zdrojů](https://cuni.primo.exlibrisgroup.com/discovery/search?vid=420CKIS_INST:DB&lang=cs)
 - [Koleje a menzy](https://kam.cuni.cz/)
 - [Webové aplikace UK (Erasmus, Ubytovací a sociální stipendia, GAUK)](https://is.cuni.cz/webapps/)
+- [Bezpečnost na UK](https://bezpecnostni.cuni.cz/)
 - [Studentské spolky](https://cuni.cz/UK-8518.html)
 - [Forum (magazín UK)](https://www.ukforum.cz/)  
 - [Klub Alumni (absolventi)](https://cuni.cz/UK-12758.html)
