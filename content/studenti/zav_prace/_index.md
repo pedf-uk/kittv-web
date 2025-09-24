@@ -41,7 +41,6 @@ icon = "ri-file-copy-2-line"
 
 [temataBP]: https://drive.google.com/file/d/1NicBlJp_QBzFBiJDffK4sfB8vXPSSUB-/view
 [temataDP]: https://drive.google.com/file/d/1SOQXWOTt_Veb2Mrpddb6JmvAtj2GxUfN/view
-
 [zadaniBP]: https://docs.google.com/document/d/1zUd8Fd8zs9QbpQyQUNdSoGRu0X71BoVxUSrusBtAMPY/edit?usp=sharing
 [zadaniDP]: https://docs.google.com/document/d/1sCDJAsQ-gRdmGQY6K-8QvKtUBuBJTEg5cuaJ-h-JSAY/edit?usp=sharing
 [instrukceZP]: https://docs.google.com/document/d/198_hpSWFWnQbUPz5G_7JfrGOEdi3ZBtAyP4imh9P9vY/edit?usp=sharing
