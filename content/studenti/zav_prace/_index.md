@@ -39,8 +39,8 @@ icon = "ri-file-copy-2-line"
 [opad202038p3]: https://wwwmod.pedf.cuni.cz/udeska/files/opatreni_dekana/priloha_c_3_rigorozni_prace.docx
 [latex-thesis-template]: https://github.com/pedf-uk/latex-thesis-template
 
-[temataBP]: https://drive.google.com/file/d/1NicBlJp_QBzFBiJDffK4sfB8vXPSSUB-/view
-[temataDP]: https://drive.google.com/file/d/1SOQXWOTt_Veb2Mrpddb6JmvAtj2GxUfN/view
+[temataBP]: https://drive.google.com/file/d/1eJnY2-tL1xIWZEOHNueiU36lVUAkGnN2/view
+[temataDP]: https://drive.google.com/file/d/1KskyoW_KJW28sfm5jfXOZ7qWZELvxqNX/view
 [zadaniBP]: https://docs.google.com/document/d/1zUd8Fd8zs9QbpQyQUNdSoGRu0X71BoVxUSrusBtAMPY/edit?usp=sharing
 [zadaniDP]: https://docs.google.com/document/d/1sCDJAsQ-gRdmGQY6K-8QvKtUBuBJTEg5cuaJ-h-JSAY/edit?usp=sharing
 [instrukceZP]: https://docs.google.com/document/d/198_hpSWFWnQbUPz5G_7JfrGOEdi3ZBtAyP4imh9P9vY/edit?usp=sharing
