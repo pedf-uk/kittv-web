@@ -1,5 +1,5 @@
 +++
-title = "PhDr. Martin Beneš"
+title = "PhDr. Martin Beneš, Ph.D."
 weight = 0
 
 [extra]
