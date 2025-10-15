@@ -248,3 +248,11 @@
 		{% endfor %}
 	</div>
 {% endmacro %}
+
+{% macro thesis_library_list() %}
+	{% for page in section.pages %}
+		<a href="{{ page.extra.pdf }}" target="_blank">
+			{{ page.title }}, {{ page.extra.author }}, {{ page.date | date(format="%d.%m.%Y") }}
+		</a>
+	{% endfor %}
+{% endmacro %}
