@@ -1,10 +1,10 @@
 .articles {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 1em;
+	gap: 2em;
 }
 
-.articles a {
+.articles a.article {
 	text-decoration: none;
 	color: inherit;
 	font-weight: inherit;
@@ -18,5 +18,9 @@
 		font-weight: bold;
 		padding: 1em 0 .75em 0;
 		line-height: 1;
+	}
+
+	&.hidden {
+		display: none;
 	}
 }
