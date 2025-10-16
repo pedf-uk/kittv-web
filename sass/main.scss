@@ -517,10 +517,16 @@ main {
 		font-size: .9rem;
 		font-weight: bold;
 		color: inherit;
+		cursor: pointer;
+		user-select: none;
 
 		&:hover {
 			@include shadow;
 			text-decoration: none;
+		}
+
+		&.selected {
+			@include top-border(red);
 		}
 
 		&>i {
