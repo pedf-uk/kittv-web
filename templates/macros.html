@@ -251,7 +251,7 @@
 
 {% macro thesis_library_list() %}
 	{% for page in section.pages %}
-		<a href="{{ page.permalink }}" data-title="{{ page.title | lower }}" data-author="{{ page.extra.author | lower }}" class="article">
+	<a href="{{ page.permalink }}" data-title="{{ page.title | lower }}" data-author="{{ page.extra.author | lower }}" data-category="{{ page.extra.category }}" class="article">
 			{% for asset in page.assets -%}
 				{%- if asset is matching("[preview.](jpg|png)$") -%}
 					{% set image = resize_image(path=asset, width=800, height=300, op="fill") %}
