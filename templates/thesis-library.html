@@ -1,18 +1,35 @@
 {% extends "base.html" %}
 
+{% block styles %}
+<link rel="stylesheet" href="{{ get_url(path="thesis-library.css") | safe }}" type="text/css">
+{% endblock %}
+
 {% block extra %}
 	{{ macro::breadcrumbs(page=section) }}
 {% endblock %}
 
 {% block content %}
-	<main class="fullwidth">
+	<main>
 		<section class="centering">
 			<h1>{% if section.extra.heading %}
 				{{ section.extra.heading }}
 			{% else %}
 				{{ section.title }}
 			{% endif %}</h1>
+		</section>
+		<section class="filters centering">
+			<form>
+				<input type="search" placeholder="Hledat">
+				<input type="reset" value="">
+			</form>
+			<div class="button" data-category="bakalarska">Bakalářské</div>
+			<div class="button" data-category="diplomova">Diplomové</div>
+		</section>
+		<section class="articles">
 			{{ macro::thesis_library_list() }}
 		</section>
 	</main>
 {% endblock content %}
+{% block javascript %}
+	<script src="{{ get_url(path="/js/thesis-library-search.js") }}"></script>
+{% endblock %}
