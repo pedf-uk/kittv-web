@@ -260,7 +260,7 @@
 			{%- endfor %}
 			<div class="content">
 				<div class="title">{{ page.title }}</div>
-				<div class="meta"><strong>{{ page.extra.author }}</strong>, {{ page.date | date(format="%d.%m.%Y") }}</div>
+				<div class="meta"><strong>{{ page.extra.author }}</strong>, {% if page.extra.rok %}{{ page.extra.rok }}{% else %}{{ page.date | date(format="%Y") }}{% endif %}</div>
 				{{ page.summary | safe }}
 			</div>
 		</a>
