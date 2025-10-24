@@ -260,7 +260,7 @@
 			{%- endfor %}
 			<div class="content">
 				<div class="title">{{ page.title }}</div>
-				<div class="meta"><strong>{{ page.extra.author }}</strong>, {% if page.extra.year %}{{ page.extra.year }}{% else %}{{ page.date | date(format="%Y") }}{% endif %}</div>
+				<div class="meta">{% if page.extra.year %}{{ page.extra.year }}{% else %}{{ page.date | date(format="%Y") }}{% endif %}&nbsp;·&nbsp;<strong>{{ page.extra.author }}</strong></div>
 				{{ page.summary | safe }}
 			</div>
 		</a>
