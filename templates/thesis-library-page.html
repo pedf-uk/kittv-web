@@ -17,7 +17,7 @@
 			<div class="meta">
 				<ul>
 					<li><i class="ri-user-line"></i> <strong>{{ page.extra.author }}</strong></li>
-					<li><i class="ri-calendar-line"></i> {% if page.extra.rok %}{{ page.extra.rok }}{% else %}{{ page.date | date(format="%-d. %-m. %Y") }}{% endif %}</li>
+					<li><i class="ri-calendar-line"></i> {% if page.extra.year %}{{ page.extra.year }}{% else %}{{ page.date | date(format="%-d. %-m. %Y") }}{% endif %}</li>
 					{%- if page.extra.pdf -%}
 					<li><i class="ri-file-pdf-2-line"></i> <a href="{{ page.extra.pdf }}" target="_blank" rel="noopener nofollow noreferrer">Text práce</a></li>
 					{%- endif %}
