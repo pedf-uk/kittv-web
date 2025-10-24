@@ -6,24 +6,26 @@
 
 {% block content %}
 	<main class="narrow">
-		<div class="header">
-			{% for asset in page.assets -%}
-				{%- if asset is matching("[preview.](jpg|png)$") -%}
-					{% set image = resize_image(path=asset, width=800, height=300, op="fill") %}
-					<img src="{{ image.url }}" alt="preview">
-				{%- endif %}
-			{%- endfor %}
-			<h1>{{ page.title }}</h1>
-			<div class="meta">
-				<ul>
-					<li><i class="ri-user-line"></i> <strong>{{ page.extra.author }}</strong></li>
-					<li><i class="ri-calendar-line"></i> {% if page.extra.year %}{{ page.extra.year }}{% else %}{{ page.date | date(format="%-d. %-m. %Y") }}{% endif %}</li>
-					{%- if page.extra.pdf -%}
-					<li><i class="ri-file-pdf-2-line"></i> <a href="{{ page.extra.pdf }}" target="_blank" rel="noopener nofollow noreferrer">Text práce</a></li>
+		<section>
+			<div class="header">
+				{% for asset in page.assets -%}
+					{%- if asset is matching("[preview.](jpg|png)$") -%}
+						{% set image = resize_image(path=asset, width=800, height=300, op="fill") %}
+						<img src="{{ image.url }}" alt="preview">
 					{%- endif %}
-				</ul>
+				{%- endfor %}
+				<h1>{{ page.title }}</h1>
+				<div class="meta">
+					<ul>
+						<li><i class="ri-user-line"></i> <strong>{{ page.extra.author }}</strong></li>
+						<li><i class="ri-calendar-line"></i> {% if page.extra.year %}{{ page.extra.year }}{% else %}{{ page.date | date(format="%-d. %-m. %Y") }}{% endif %}</li>
+						{%- if page.extra.pdf -%}
+						<li><i class="ri-file-pdf-2-line"></i> <a href="{{ page.extra.pdf }}" target="_blank" rel="noopener nofollow noreferrer">Text práce</a></li>
+						{%- endif %}
+					</ul>
+				</div>
 			</div>
-		</div>
-		{{ page.content | safe }}
+			{{ page.content | safe }}
+		</section>
 	</main>
 {% endblock content %}

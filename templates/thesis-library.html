@@ -20,11 +20,13 @@
 		<section class="filters centering">
 			<form>
 				<input type="search" placeholder="Hledat">
-				<input type="reset" value="">
+				<input type="reset" value=" ">
 			</form>
-			<div class="button" data-category="seminarni">Seminární</div>
-			<div class="button" data-category="bakalarska">Bakalářské</div>
-			<div class="button" data-category="diplomova">Diplomové</div>
+			<div class="buttons">
+				<div class="button" data-category="seminarni">Seminární</div>
+				<div class="button" data-category="bakalarska">Bakalářské</div>
+				<div class="button" data-category="diplomova">Diplomové</div>
+			</div>
 		</section>
 		<section class="articles">
 			{{ macro::thesis_library_list() }}

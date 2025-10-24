@@ -521,13 +521,13 @@ main {
 		cursor: pointer;
 		user-select: none;
 
-		&:hover {
+		&:hover, &.selected {
 			@include shadow;
 			text-decoration: none;
 		}
 
 		&.selected {
-			@include top-border(red);
+			@include top-border(#54739a);
 		}
 
 		&>i {
