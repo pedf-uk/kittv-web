@@ -70,7 +70,10 @@
 
 	.buttons {
 		display: flex;
-		gap: 1em;
+
+		.button {
+			padding: 1rem;
+		}
 	}
 }
 
