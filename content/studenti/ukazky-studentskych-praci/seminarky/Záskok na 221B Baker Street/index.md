@@ -7,7 +7,7 @@ year = 2016
 category = "seminarni"
 author = "Anna Lhoťanová"
 pdf = ""
-tags = ["Multimédia","web"]
+tags = ["multimédia","web"]
 +++
 
 Hra, webová aplikace Záskok na 221B Baker Street je inspirována anglickou deskovou hrou 221b Baker Street od společnosti Gibsons, Sutton, Surrey, SM1 4AF.

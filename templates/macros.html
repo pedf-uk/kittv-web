@@ -262,6 +262,13 @@
 				<div class="title">{{ page.title }}</div>
 				<div class="meta">{% if page.extra.year %}{{ page.extra.year }}{% else %}{{ page.date | date(format="%Y") }}{% endif %}&nbsp;·&nbsp;<strong>{{ page.extra.author }}</strong></div>
 				{{ page.summary | safe }}
+				{% if page.extra.tags %}
+					<div class="tags">
+						{% for tag in page.extra.tags %}
+							<span>{{ tag }}</span>
+						{% endfor %}
+					</div>
+				{% endif %}
 			</div>
 		</a>
 	{% endfor %}
