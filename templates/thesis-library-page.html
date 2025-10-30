@@ -46,14 +46,13 @@
 				<h2>Galerie</h2>
 				<div class="gallery">
 					{% for asset in page.assets %}
-						{% if asset is matching("(?i)gallery/.+[.](jpg|jpeg|png|webp|mp4|mov|webm)") %}
-							{% if asset is matching("(?i)(mp4|mov|webm)") %}
+						{% if asset is matching("(?i)gallery/.+[.](jpg|jpeg|png|webp|mp4|webm)") %}
+							{% if asset is matching("(?i)(mp4|webm)") %}
 								{% set image = resize_image(path="static/placeholder-video.jpg", width=300, height=200, op="fill") %}
-								<a data-fancybox="{{ page.title }}" href="{{ get_url(path=asset) }}" data-type="html5video"><img src="{{ image.url }}" alt="{{ asset }}"></a>
 							{% else %}
 								{% set image = resize_image(path=asset, width=300, height=200, op="fill") %}
-								<a data-fancybox="{{ page.title }}" href="{{ get_url(path=asset) }}"><img src="{{ image.url }}" alt="{{ asset }}"></a>
 							{% endif %}
+							<a data-fancybox="{{ page.title }}" href="{{ get_url(path=asset) }}"><img src="{{ image.url }}" alt="{{ asset }}"></a>
 						{% endif %}
 					{% endfor %}
 				</div>

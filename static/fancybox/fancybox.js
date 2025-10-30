@@ -1,1 +1,1 @@
-fancybox-5.0.33.js
+fancybox-6.1.2.umd.js
