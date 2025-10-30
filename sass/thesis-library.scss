@@ -62,3 +62,18 @@
 		gap: 1em;
 	}
 }
+
+.tags {
+  display: flex;
+  justify-content: flex-end;
+  gap: .5rem;
+
+  span {
+    font-size: .75em;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: .25em .5em;
+    background-color: #444;
+    color: #fff;
+  }
+}
