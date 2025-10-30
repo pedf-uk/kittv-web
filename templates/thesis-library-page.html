@@ -16,7 +16,7 @@
 		<section>
 			<div class="header">
 				{% for asset in page.assets -%}
-					{%- if asset is matching("[preview.](jpg|png)$") -%}
+					{%- if asset is matching("/preview\.(png|jpg)$") -%}
 						{% set image = resize_image(path=asset, width=800, height=300, op="fill") %}
 						<img src="{{ image.url }}" alt="preview">
 					{%- endif %}
