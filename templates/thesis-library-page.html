@@ -1,5 +1,12 @@
 {% extends "thesis-library.html" %}
 
+{% block styles %}
+	<link rel="stylesheet" href="{{ get_url(path="thesis-library.css") }}" type="text/css">
+	{% if page.extra.gallery %}
+		<link rel="stylesheet" href="{{ get_url(path="fancybox/fancybox.css") }}">
+	{% endif %}
+{% endblock %}
+
 {% block extra %}
 	{{ macro::breadcrumbs(page=page) }}
 {% endblock %}
@@ -34,5 +41,30 @@
 			</div>
 			{{ page.content | safe }}
 		</section>
+		{% if page.extra.gallery %}
+			<section>
+				<h2>Galerie</h2>
+				<div class="gallery">
+					{% for asset in page.assets %}
+						{% if asset is matching("(?i)gallery/.+[.](jpg|jpeg|png|webp|mp4|mov|webm)") %}
+							{% if asset is matching("(?i)(mp4|mov|webm)") %}
+								{% set image = resize_image(path="static/placeholder-video.jpg", width=300, height=200, op="fill") %}
+								<a data-fancybox="{{ page.title }}" href="{{ get_url(path=asset) }}" data-type="html5video"><img src="{{ image.url }}" alt="{{ asset }}"></a>
+							{% else %}
+								{% set image = resize_image(path=asset, width=300, height=200, op="fill") %}
+								<a data-fancybox="{{ page.title }}" href="{{ get_url(path=asset) }}"><img src="{{ image.url }}" alt="{{ asset }}"></a>
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+				</div>
+			</section>
+		{% endif %}
 	</main>
 {% endblock content %}
+
+{% block javascript %}
+		{% if page.extra.gallery %}
+			<script src="{{ get_url(path="fancybox/fancybox.js") }}"></script>
+			<script>Fancybox.bind("[data-fancybox]", {});</script>
+		{% endif %}
+{% endblock %}
