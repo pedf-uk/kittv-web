@@ -8,9 +8,16 @@
 	text-decoration: none;
 	color: inherit;
 	font-weight: inherit;
+	border: 1px solid #d8dee9;
 
 	&:hover {
 		text-decoration: none;
+	}
+
+	.content {
+		padding: 0 1em 1em 1em;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.title {
@@ -64,16 +71,17 @@
 }
 
 .tags {
-  display: flex;
-  justify-content: flex-end;
-  gap: .5rem;
+	display: flex;
+	justify-content: flex-end;
+	gap: .5rem;
+	align-self: flex-end;
 
-  span {
-    font-size: .75em;
-    font-weight: bold;
-    text-transform: capitalize;
-    padding: .25em .5em;
-    background-color: #444;
-    color: #fff;
-  }
+	span {
+		font-size: .75em;
+		font-weight: bold;
+		text-transform: capitalize;
+		padding: .25em .5em;
+		background-color: #444;
+		color: #fff;
+	}
 }
