@@ -2,6 +2,10 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 2em;
+
+	@media screen and (max-width: 640px){
+		grid-template-columns: 1fr;
+	}
 }
 
 .articles a.article {
