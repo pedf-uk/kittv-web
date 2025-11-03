@@ -33,6 +33,7 @@ icon = "ri-file-paper-2-line"
 
 ### Univerzita
 
+- [Mobilní aplikace UK](https://cuni.cz/UK-15177.html)
 - [Centrální autentizační služba](https://ldapuser.cuni.cz/)
 - [Podpora elektronického vzdělávání](https://dl.cuni.cz/)
 - [AI na UK](https://ai.cuni.cz/)
