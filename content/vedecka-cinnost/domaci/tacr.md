@@ -11,7 +11,7 @@ heading = "Technologická agentura ČR"
   Aplikační garant: Vládní výbor pro osoby se zdravotním postižením; Asociace krajů ČR  
   Hlavní řešitel: [KSP, Pedagogická fakulta Jihočeské Univerzity](https://www.pf.jcu.cz/cz/fakulta/katedry/katedra-specialni-pedagogiky) - Mgr. Olga Malinovská, Ph.D.
 
-  Řešitelé za PedF UK: PhDr. Josef Procházka, Ph.D Ing. Jaroslav Novák, Ph.D.  
-  Web projektu: [https://projekty.pf.jcu.cz/pvict/](https://projekty.pf.jcu.cz/pvict/)
+  Řešitelé za PedF UK: PhDr. Josef Procházka, Ph.D; Ing. Jaroslav Novák, Ph.D.  
+  Web projektu: [https://projekty.pf.jcu.cz/pvict/](https://projekty.pf.jcu.cz/pvict/)  
   Podpora projektu: [Projekty KITTV](https://kit.pedf.cuni.cz/)
       
