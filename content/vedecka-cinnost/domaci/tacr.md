@@ -14,6 +14,4 @@ heading = "Technologická agentura ČR"
   Řešitelé za PedF UK: PhDr. Josef Procházka, Ph.D Ing. Jaroslav Novák, Ph.D.  
   Web projektu: [https://projekty.pf.jcu.cz/pvict/](https://projekty.pf.jcu.cz/pvict/)
   Podpora projektu: [Projekty KITTV](https://kit.pedf.cuni.cz/)
-  
-        
-
+      
