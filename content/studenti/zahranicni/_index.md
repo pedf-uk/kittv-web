@@ -10,47 +10,15 @@ icon = "ri-earth-line"
 color = "#8FBCBB"
 +++
 
-Katedra informačních technologií a technické výchovy (KITTV) PedF UK
-Praha spolupracuje na výměně studentů s mnoha zahraničními partnery.
+Katedra informačních technologií a technické výchovy (KITTV) PedF UK spolupracuje na výměně studentů s mnoha zahraničními partnery.
 Nejbohatší taková spolupráce je z důvodů minimální jazykové bariéry
 navázána se Slovenskem, ale existuje mnoho dalších aktivit. Oficielní
 dohody o výměně studentů byly uzavřeny též s Holandskem, Řeckem,
 Tureckem a další se připravují. Studenti vyjíždějí a jsou recipročně
 přijímáni dokonce i z tak vzdálených zemí, jako je např. Mexiko. Přehled
-hlavních programů, v jejichž rámci se zahraniční spolupráce realizuje,
-následuje:
+hlavních programů, v jejichž rámci se zahraniční spolupráce realizuje:
 
-## Socrates Erasmus 
-**od 2.ročníku do ukončení studia** 
-
-Obsahem je realizace části studia na zahraniční škole. Minimální délka pobytu 3 měsíce. 
-Studenta vysílá příslušná katedra na základě dohody s cílovou organizací. Součástí je vždy 
-podrobný studijní plán s měřitelnými a kontrolovatelnými výsledky. 
-
-Bližší podrobnosti na stránkách agentury Socrates - [http://socrates.cz/](http://socrates.cz/).
-
-[Portál Erasmus UK](https://is.cuni.cz/webapps/)
-
-Katedra KITTV přijímá pouze zahraniční studenty schopné absolvovat výuku v českém jazyce. 
-Vyjimku tvoří doktorandi s individuálním učebním plánem, kteří mohou výuku absolvovat v angličtině, němčině či španělštině. 
-
-## Socrates Comenius 2.2B 
-**od 3.ročníku do 1 roku po ukončení studia** 
- 
-Asistentský pobyt na cizí škole 
-za účelem zdokonalení se ve 
-znalosti cizích jazyků. Program 
-určen výhradně budoucím učitelům, 
-kteří budou cizí jazyk učit přímo 
-nebo v něm budou učit jiný 
-předmět. Délka pobytu 3 -- 8 
-měsíců. Žádost se podává 
-prostřednictvím Oddělení pro 
-zahraniční styky (potvrzuje 
-rektor). Schvaluje a bližší 
-podrobnosti podá agentura 
-Socrates - [http://socrates.cz/](http://web.socrates.cz/) 
-
+Aktuální informace ohledně mobilit nejen v rámci programu Erasmus+ naleznete na stránkách fakulty <https://pedf.cuni.cz/PEDF-2653.html>
 
 ## Mezi-univerzitní dohody 
 **omezení dáno konkrétní dohodou**

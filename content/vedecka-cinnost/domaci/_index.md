@@ -9,6 +9,7 @@ color = "#8FBCBB"
 +++
 ### Projekty a granty
  - [GAČR](gacr) - Grantová agentura České republiky
+ - [TAČR](tacr) - Technologická agentura ČR
  - [GAUK](gauk) - Grantová agentura UK
  - [FRVŠ](frvs) - Fond rozvoje vysokých škol
  - [ESF](../esf/) -  Evropské strukturální a investiční fondy
