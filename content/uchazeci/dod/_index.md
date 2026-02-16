@@ -16,7 +16,7 @@ icon = "ri-door-open-line"
 - [Instagram] chcinapedak
 - [Web pro uchazeče][studuj] studuj.pedf.cuni.cz
 
-[Prezentace]: https://docs.google.com/presentation/d/e/2PACX-1vQMDLtf_XN8emciddhSo7eoBKSSz7yNJhBobO7to1H3FkatpIrK2-UZWU7kx5DqdqxNPh9HacC-RRKC/pub?start=false&loop=false&delayms=3000
+[Prezentace]: https://docs.google.com/presentation/d/e/2PACX-1vRO6DwhYf142fiPfNquAXiDOWAHhoJ6drZZAaQWNv9F3lpHurtOdzumsdv30SUzeXXeWcvir7u6SFDU/pub?start=false&loop=false&delayms=3000
 [PedFweb]: https://pedf.cuni.cz/PEDF-1478.html
 [Facebook]: https://www.facebook.com/groups/516745596696847/ 
 [Instagram]: https://www.instagram.com/chcinapedak/
