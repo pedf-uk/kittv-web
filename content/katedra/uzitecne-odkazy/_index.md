@@ -56,5 +56,6 @@ icon = "ri-file-paper-2-line"
 ### Jiné
 
 - [Spomocník - digitální technologie ve vzdělávání](https://spomocnik.rvp.cz/)
+- [Česká digitální knihovna](https://ceskadigitalniknihovna.cz/)
 
 </div></div>
