@@ -6,11 +6,9 @@ on:
       - master
 
 env:
-  ZOLA_VERSION: '0.22.1'
   HOST: ${{ vars.HOST }}
   HOST_DIR: ${{ vars.HOST_DIR }}
   SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
-  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 
 jobs:
   build:
@@ -20,7 +18,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Build site with Zola
-        uses: docker://ghcr.io/getzola/zola:v${ZOLA_VERSION}
+        uses: docker://ghcr.io/getzola/zola:v0.22.1
         with:
           args: build
 
@@ -44,7 +42,7 @@ jobs:
       - name: Set up SSH
         uses: webfactory/ssh-agent@v0.9.1
         with:
-          ssh-private-key: ${SSH_PRIVATE_KEY}
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Deploy via rsync
         run: |
