@@ -6,7 +6,7 @@ id = 24
 year = 2026
 category = "bakalarska"
 author = "Ryba Adam"
-pdf = "https://is.cuni.cz/studium/dipl_uc/index.php?id=7202da4a3518b51b6e9c109f4c3756f4&tid=&do=main&doo=detail&did=294396"
+pdf = "https://dspace.cuni.cz/handle/20.500.11956/213175"
 tags = ["Kyberbezpečnost","Vulnerability"]
 +++
 
