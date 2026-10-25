@@ -5,7 +5,7 @@ weight = 10
 [extra]
 logo = "outlook.svg"
 color = "#0078d4"
-link = "https://posta.pedf.cuni.cz/"
+link = "https://outlook.office.com/mail/"
 +++
 
 Fakultní poštovní server pro zaměstnance i studenty naší fakulty.
