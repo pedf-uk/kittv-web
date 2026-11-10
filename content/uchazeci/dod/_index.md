@@ -7,7 +7,7 @@ nav_right = true
 icon = "ri-door-open-line"
 +++
 
-- Nejbližší den otevřených dveří se bude konat ve dnech: **15. 12. 2026** a **27. 01. 2027**<br>
+- Nejbližší dny otevřených dveří se budou konat ve dnech: **15. 12. 2026** a **27. 01. 2027**<br>
     [Aktuální harmodogram dne][PedFDDO] sledujte na webu fakulty 
 - [Prezentace] možností studia IT na naší katedře
 - [Obecné informace k přijímacímu řízení][Pedfweb] naleznete na webu fakulty.
