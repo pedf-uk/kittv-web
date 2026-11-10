@@ -4,6 +4,7 @@ weight = 0
 
 [extra]
 group = "ucitele"
+role = "Osoba oprávněná k podpisu inter-institucionálních smluv Erasmus+ za fakultu"
 email = "miroslava.cernochova@pedf.cuni.cz"
 phone = "+420 221 900 238"
 sis = "02778"
