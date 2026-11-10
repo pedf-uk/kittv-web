@@ -3,7 +3,7 @@ title = "Studenti KITTV uspěli na prestižních studentských soutěžích"
 date = 2026-06-26
 
 [extra]
-expiration = 2026-10-01
+expiration = 2026-12-01
 +++
 
 Studenti Katedry informačních technologií a technické výchovy Pedagogické fakulty zaznamenali na konci akademického roku 2025/2026 významné úspěchy na dvou odborných soutěžích zaměřených na didaktiku informatiky a technické vzdělávání.
