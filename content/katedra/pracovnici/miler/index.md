@@ -3,7 +3,7 @@ title = "Mgr. Emil Miler"
 weight = 0
 
 [extra]
-group = "ucitele"
+group = "externisti"
 role = "Externí spolupracovník"
 email = "emil.miler@pedf.cuni.cz"
 homepage = "https://em.0x45.cz"

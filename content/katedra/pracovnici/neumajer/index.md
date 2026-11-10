@@ -3,7 +3,7 @@ title = "PhDr. Ondřej Neumajer, Ph.D."
 weight = 0
 
 [extra]
-group = "ucitele"
+group = "externisti"
 homepage = "https://ondrej.neumajer.cz"
 role = "Externí spolupracovník"
 email = "ondrej.neumajer@pedf.cuni.cz"

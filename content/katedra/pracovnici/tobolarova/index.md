@@ -3,7 +3,7 @@ title = "Ing. Petra Tobolářová"
 weight = 0
 
 [extra]
-group = "ucitele"
+group = "externisti"
 role = "Externí spolupracovník"
 email = "petra.tobolarova@pedf.cuni.cz"
 phone = "+420 221 900 350"
