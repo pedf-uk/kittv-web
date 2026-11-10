@@ -16,5 +16,5 @@ Bakalářská práce se zabývá nejčastějšími hrozbami pro webové aplikace
 
 Bakalářská práce se zabývá nejčastějšími hrozbami pro webové aplikace a metodami jejich prevence. Teoretická část analyzuje útoky jako SQL Injection či XSS z pohledu triády CIA a identifikuje kritické chyby v návrhu aplikací. Praktickým výstupem je autorská výuková aplikace, která běží čistě na straně klienta a simuluje chování PHP backendu, čímž názorně demonstruje jak zranitelná místa, tak jejich zabezpečení. Práce dále vyhodnocuje didaktický přínos této aplikace pro výuku informatiky na středních školách.
 
-- [výstup 1](https://kraken.pedf.cuni.cz/~rybaad/security-lab/)
-- [výstup 2](https://github.com/Rybson77/security-lab)
+- [Security Lab ](https://kraken.pedf.cuni.cz/~rybaad/security-lab/)
+- [Zdrojové soubory na github](https://github.com/Rybson77/security-lab)

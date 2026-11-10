@@ -16,4 +16,4 @@ Aplikace pro podporu výuky algoritmizace, která umožňuje vytvářet vlastní
 
 Aplikace pro podporu výuky algoritmizace, která umožňuje vytvářet vlastní úlohy, pracovat se sadami zadání a sledovat postup studentů při řešení úloh v reálném čase. Zjisti víc!
 
-- [výstup 1](https://kodeon.pedf.cuni.cz/)
+- [Aplikace Kodeon](https://kodeon.pedf.cuni.cz/)
