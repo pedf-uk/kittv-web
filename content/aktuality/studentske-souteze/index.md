@@ -1,5 +1,5 @@
 +++
-title = "Studenti KITTV uspěli na prestižních studentských soutěžích"
+title = "Úspěchy našich studentů"
 date = 2026-06-26
 
 [extra]
