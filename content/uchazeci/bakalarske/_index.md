@@ -30,16 +30,17 @@ Sdružené studium IT je možno studovat **pouze v prezenční formě** v kombin
  - Výchovou ke zdraví
  - Ruským jazykem
 
-Studijní plán lze u všech kombinací zvolit ve formě **maior** *(IT je hlavní studijní plán)* nebo **minor** *(IT je přidružený studijní plán)*. 
-Ve sdruženém studiu k plánu maior přináleží učitelská propedeutika (pedagogicko-psychologická příprava, oborová didaktika, společný základ). V programu maior také studenti zpracovávají bakalářskou práci.
+Studijní kombinace jsou vypsány ve formě **maior** *(IT je hlavní studijní plán)* nebo **minor** *(IT je přidružený studijní plán)*. 
+Ve sdruženém studiu k plánu maior přináleží učitelská propedeutika (pedagogicko-psychologická příprava, oborová didaktika, společný základ). V programu maior také studenti zpracovávají bakalářskou práci. *Během studia lze požádat o změnu hlavního oboru*.
 
 - [Popis oboru dle zvolené kombinace][OB2 detail]
 - [Studijí plán maior][OB2 maior] (IT je hlavní obor)
 - [Studijí plán minor][OB2 minor] (IT je druhý obor)
 
 
-[OKB1 detail]: https://is.cuni.cz/studium/prijimacky/index.php?do=detail_obor&id_obor=28385
-[OPB1 detail]: https://is.cuni.cz/studium/prijimacky/index.php?do=detail_obor&id_obor=28536
+
+[OKB1 detail]: https://is.cuni.cz/studium/prijimacky/index.php?do=detail_obor&id_obor=36519
+[OPB1 detail]: https://is.cuni.cz/studium/prijimacky/index.php?do=detail_obor&id_obor=36561
 [OB1 plan]: https://is.cuni.cz/studium/predmety/index.php?do=prohl&fak=11410&oborplan=OB1IT20&rocnik=&graficky=1&b=Zobrazit
 
 [OB2 detail]: https://is.cuni.cz/studium/prijimacky/index.php?do=obory&fakulta=11410&druh=B&obor1=0114RA140004&obor2=&jazyk=&delka=&dvouobor=1&iscedkod=&zobraz=Zobrazit+16+polo%C5%BEek
