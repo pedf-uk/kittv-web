@@ -90,8 +90,12 @@
 			{% continue %}
 		{% endif %}
 		<article>
-			<div class="title">
-				<a href="{{ post.permalink }}">{{ post.title }}</a>
+			<div class="title"> 
+			<a href="{% if post.extra.link %}
+				{{ post.extra.link }}
+			{% else %}
+				{{ post.permalink }}
+			{% endif %}">{{ post.title }}</a>
 			</div>
 			{% if post.summary %}
 				{{ post.summary | safe }}
