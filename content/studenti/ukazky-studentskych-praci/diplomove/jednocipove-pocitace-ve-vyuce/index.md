@@ -3,8 +3,8 @@ title = "Jednočipové počítače ve výuce"
 date = "2024-12-02"
 [extra]
 category = "diplomova"
-author = "Emil Miler"
-pdf = "https://dspace.cuni.cz/bitstream/handle/20.500.11956/196503/120496276.pdf"
+author = "Miler Emil"
+pdf = "https://dspace.cuni.cz/handle/20.500.11956/196503"
 tags = ["hardware","linux","elektro"]
 gallery = true
 +++

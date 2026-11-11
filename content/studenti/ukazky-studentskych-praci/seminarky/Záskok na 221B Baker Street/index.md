@@ -5,7 +5,7 @@ date = "2016-01-01"
 id = 12
 year = 2016
 category = "seminarni"
-author = "Anna Lhoťanová"
+author = "Lhoťanová Anna"
 pdf = ""
 tags = ["multimédia","web"]
 +++

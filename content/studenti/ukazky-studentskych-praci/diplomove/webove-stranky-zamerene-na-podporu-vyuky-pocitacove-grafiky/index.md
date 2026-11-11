@@ -3,8 +3,8 @@ title = "Webové stránky zaměřené na podporu výuky počítačové grafiky"
 date = "2016-09-12"
 [extra]
 category = "diplomova"
-author = "Radek Vinický"
-pdf = "https://dspace.cuni.cz/bitstream/handle/20.500.11956/76349/BPTX_2014_1_11410_0_415260_0_162476.pdf"
+author = "Vinický Radek"
+pdf = "https://dspace.cuni.cz/handle/20.500.11956/76349"
 tags = ["grafika","web"]
 +++
 

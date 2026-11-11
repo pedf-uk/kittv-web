@@ -5,7 +5,7 @@ date = "2022-01-01"
 id = 11
 year = 2022
 category = "bakalarska"
-author = "Stanislav Zdych"
+author = "Zdych Stanislav"
 pdf = "https://dspace.cuni.cz/handle/20.500.11956/172935"
 tags = ["Multimédia","VR","aplikace"]
 +++
