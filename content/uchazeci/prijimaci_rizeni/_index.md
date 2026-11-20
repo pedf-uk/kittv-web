@@ -11,7 +11,15 @@ icon = "ri-calendar-todo-line"
 - [Souhrnné informace pro uchazeče o studium](@/uchazeci/_index.md), 
     - [bakalářské studium](@/uchazeci/bakalarske/_index.md) 
     - [navazující Magisterské studium](@/uchazeci/magisterske/_index.md)
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTbLKn0OvmVt7lJBZg33HIo7ffnm6TFhWoHuAVpN70xXIUbpkkz8IvooWFEDpuk7qZZpAceiOooZgw9/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<div style="position:relative; padding-bottom:56.25%; height:0;">
+<iframe 
+        src="https://docs.google.com/presentation/d/e/2PACX-1vTbLKn0OvmVt7lJBZg33HIo7ffnm6TFhWoHuAVpN70xXIUbpkkz8IvooWFEDpuk7qZZpAceiOooZgw9/pubembed?start=false&loop=false&delayms=3000" 
+        style="position:absolute; width:100%; height:100%; left:0; top:0;"
+        frameborder="0" 
+        allowfullscreen mozallowfullscreen webkitallowfullscreen>
+</iframe>
+</div>
 
 ## Termíny, podmínky a studijní plány
 
@@ -35,8 +43,4 @@ Aktuální termíny a podmínky přijímacího řízení, podrobné plány jedno
 ## Den otevřených dveří
 
 Pedagogická fakulta zároveň pořádá několikrát v roce (typicky v prosinci a lednu) [dny otevřených dveří](https://pedf.cuni.cz/PEDF-1281.html), na kterých se lze dozvědět mnoho zajímavých informací. [Prezentaci a další užitečné odkazy](/uchazeci/dod/) lze rovněž najít na webu katedry.
-
-
-
-
 
