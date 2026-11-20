@@ -11,8 +11,10 @@ tags = ["multimédia","VR","aplikace"]
 gallery = true
 +++
 
-Výuka počítačového hardwaru jako hra, ve které je potřeba řešit úkoly, hledat kódy a postupně odemykat další místnosti. V rámci bakalářské práce vznikla aplikace ve virtuální realitě, která propojuje principy únikových her s možnostmi moderních technologií. Jejím hlavním přínosem je možnost přizpůsobit herní scénář konkrétním výukovým cílům, a to bez nutnosti zasahovat do zdrojového kódu. Učitel tak může připravit vlastní herní průchod s úlohami zaměřenými například na sestavování komponent, jejich správné rozřazování nebo hledání číselných kódů. Aplikace byla vytvořena v herním enginu Unity a je funkční jak na PC VR, tak na samostatném headsetu (např. Meta Quest 3).
+Výuka počítačového hardwaru jako hra, ve které je potřeba řešit úkoly, hledat kódy a postupně odemykat další místnosti.
 
 <!-- more -->
+
+V rámci bakalářské práce vznikla aplikace ve virtuální realitě, která propojuje principy únikových her s možnostmi moderních technologií. Jejím hlavním přínosem je možnost přizpůsobit herní scénář konkrétním výukovým cílům, a to bez nutnosti zasahovat do zdrojového kódu. Učitel tak může připravit vlastní herní průchod s úlohami zaměřenými například na sestavování komponent, jejich správné rozřazování nebo hledání číselných kódů. Aplikace byla vytvořena v herním enginu Unity a je funkční jak na PC VR, tak na samostatném headsetu (např. Meta Quest 3).
 
 - [Aplikace ke stažení](https://drive.google.com/drive/folders/1sMSQVNbbUm1cNYuujYv1NeNHpmzJ6lnu)

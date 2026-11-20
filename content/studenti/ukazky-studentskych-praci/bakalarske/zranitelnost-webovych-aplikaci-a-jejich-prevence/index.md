@@ -11,7 +11,7 @@ tags = ["Kyberbezpečnost","Vulnerability"]
 gallery = true
 +++
 
-Bakalářská práce se zabývá nejčastějšími hrozbami pro webové aplikace a metodami jejich prevence. Teoretická část analyzuje útoky jako SQL Injection či XSS z pohledu triády CIA a identifikuje kritické chyby v návrhu aplikací. Praktickým výstupem je autorská výuková aplikace, která běží čistě na straně klienta a simuluje chování PHP backendu, čímž názorně demonstruje jak zranitelná místa, tak jejich zabezpečení. Práce dále vyhodnocuje didaktický přínos této aplikace pro výuku informatiky na středních školách.
+Práce se zabývá nejčastějšími hrozbami pro webové aplikace a metodami jejich prevence. Analyzuje útoky jako SQL Injection či XSS z pohledu triády CIA a identifikuje kritické chyby v návrhu aplikací. Praktickým výstupem je autorská výuková aplikace, která běží čistě na straně klienta a simuluje chování PHP backendu.
 
 <!-- more -->
 

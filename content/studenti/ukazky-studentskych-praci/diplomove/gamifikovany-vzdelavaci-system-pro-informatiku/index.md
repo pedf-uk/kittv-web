@@ -11,7 +11,7 @@ tags = ["gamifikace","hodnocení","didaktika"]
 gallery = true
 +++
 
-V rámci diplomové práce vznikl návrh komplexního gamifikovaného systému Thovtia (GVS), který nabízí prostor pro formativní hodnocení pomocí zkušenostních bodů, úrovní, odznaků a žebříčků. Zjednodušený prototyp tohoto systému autor úspěšně využil ve výuce informatiky na ZŠ, čímž se podpořilo aktivnější zapojení žáků do výuky a snížení jejich obavy z chyb.
+Vznikl návrh komplexního gamifikovaného systému Thovtia (GVS), který nabízí prostor pro formativní hodnocení pomocí zkušenostních bodů, úrovní, odznaků a žebříčků.
 
 <!-- more -->
 
