@@ -14,4 +14,4 @@ Ondřej Pfrogner vytvořil ukázky aplikací ve SCRATCH, které souvisejí s fyz
 
 <!-- more -->
 
-- [Programy SCRATCH](programy-pro-Scratch.zip)
+- [Programy SCRATCH](https://drive.google.com/file/d/1xQ84DwPLSnh1t9ipbKNubaIijeVjTq6z/view)
